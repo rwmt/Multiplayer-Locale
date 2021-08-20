@@ -89,7 +89,7 @@
   <MpLanDesc1>Udostępnij grę do sieci LAN</MpLanDesc1>
   <MpLanDesc2>Powiązany adres LAN: {0}</MpLanDesc2>
   <MpArbiterDesc>Dodatkowa instancja działająca w tle która pomaga przy synchronizacji gry</MpArbiterDesc>
-  <MpAsyncTime>Async time</MpAsyncTime>
+  <MpAsyncTime>Czas asynchroniczny</MpAsyncTime>
   <MpAsyncTimeDesc>Oddzielne kontrolowanie czasu dla każdej mapy na planecie</MpAsyncTimeDesc>
   <MpExperimentalFeature>Funkcja eksperymentalna</MpExperimentalFeature>
   
@@ -111,17 +111,17 @@
   <MpPlayingRimWorld>Grają w RimWorld</MpPlayingRimWorld>
   <MpNotInMultiplayer>Nie połączony do gry wieloosobowej</MpNotInMultiplayer>
   
-  <MpPauseOnAutosave>Pause on Autosave</MpPauseOnAutosave>
-  <MpAppendNameToAutosave>Append Name to Autosave</MpAppendNameToAutosave>
-  <MpPauseAutosaveCounter>Pause autosave counter</MpPauseAutosaveCounter>
-  <MpPauseAutosaveCounterDesc>Pauses the counter along with the game preventing autosaving while time is paused.</MpPauseAutosaveCounterDesc>
+  <MpPauseOnAutosave>Wstrzymaj przy automatycznym zapisie</MpPauseOnAutosave>
+  <MpAppendNameToAutosave>Dołącz nazwę do autozapisu</MpAppendNameToAutosave>
+  <MpPauseAutosaveCounter>Wstrzymaj licznik autozapisu</MpPauseAutosaveCounter>
+  <MpPauseAutosaveCounterDesc>Wstrzymuje licznik wraz z grą, zapobiegając autozapisowi, gdy czas jest wstrzymany.</MpPauseAutosaveCounterDesc>
   <MpLan>LAN</MpLan>
   <MpDirect>Bezpośrednio</MpDirect>
   <MpSteam>Steam</MpSteam>
   <MpHostTab>Hostuj</MpHostTab>
   
-  <MpMultiplayer>Multiplayer</MpMultiplayer>
-  <MpSingleplayer>Singleplayer</MpSingleplayer>
+  <MpMultiplayer>Tryb wieloosobowy</MpMultiplayer>
+  <MpSingleplayer>Jeden gracz</MpSingleplayer>
   
   <MpNotAvailable>Nie dostępne w grze multiplayer.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Rozmowa z innymi frakcjami jest obecnie nie dostępna w trybie multiplayer.</MpCallingFactionNotAvailable>
