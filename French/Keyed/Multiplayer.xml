@@ -146,5 +146,8 @@
   <MpAggressiveTicking>Tick agressif</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Rattrape le retard sur le serveur au prix de quelques FPS.</MpAggressiveTickingDesc>
   <MpMultiplayerCompatibility>Compatibilité MP</MpMultiplayerCompatibility>
+
+  <MpAutosaveOnDesync>Pause et enregistrement automatique lors de la désynchronisation</MpAutosaveOnDesync>
+  <MpAutosaveOnDesyncDesc>Si l'un des joueurs se désynchronise, le jeu sera mis en pause et enregistré automatiquement. Cela devrait permettre de rejoindre plus facilement le jeu sans avoir à simuler le jeu, et pourrait être utile si l'hôte ne peut pas sauvegarder le jeu lui-même.</MpAutosaveOnDesyncDesc>
   
 </LanguageData>
