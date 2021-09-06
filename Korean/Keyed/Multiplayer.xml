@@ -15,8 +15,16 @@
 
   <MpWrongDefs>모드 불일치</MpWrongDefs>
   <MpWrongDefsInfo>설치된 모드와 버전이 서버와 동일한지 확인해주세요.</MpWrongDefsInfo>
+  <MpWrongModConfigs>모드 설정 불일치</MpWrongModConfigs>
+  <MpWrongModConfigsInfo>서버와 모드 설정이 다릅니다. 최고의 결과를 위해 동기화하세요.</MpWrongModConfigsInfo>
   <MpModList>모드 목록</MpModList>
+  <MpSyncModsAndConfigs>모드와 설정 동기화</MpSyncModsAndConfigs>
+  <MpSyncMods>모드 동기화</MpSyncMods>
+  <MpSyncModConfigs>모드 설정 동기화</MpSyncModConfigs>
+  <MpSyncModConfigsDesc>Forces clients to download the same mod configs as the host; reduces desyncs</MpSyncModConfigsDesc>
   <MpSeeModList>모드 목록 보기</MpSeeModList>
+  <MpDownloadingWorkshopMods>창작마당에서 모드 다운로드중</MpDownloadingWorkshopMods>
+  <MpRestoreLastConfigs>이전 설정 복구</MpRestoreLastConfigs>
 
   <MpServerClosed>서버가 닫혔습니다</MpServerClosed>
   <MpServerFull>서버가 다 찼습니다</MpServerFull>
@@ -40,6 +48,8 @@
 
   <MpHostServer>서버 열기</MpHostServer>
   <MpSaveReplay>퀵세이브</MpSaveReplay>
+  <MpFullSave>풀세이브</MpFullSave>
+  <MpFullSaveDesc>풀세이브는 저장이 더 오래걸리지만 더 빨리 불러옵니다. 서버만 사용할 수 있습니다.</MpFullSaveDesc>
 
   <MpConvert>싱글플레이로 변환</MpConvert>
   <MpConverting>변환하는 중</MpConverting>
@@ -77,6 +87,7 @@
 
   <MpDesynced>게임 연결이 끊겼습니다.</MpDesynced>
   <MpTryResync>다시 연결하기</MpTryResync>
+  <MpTryRehost>서버 다시 열기</MpTryRehost>
 
   <MpSaveReplayAs>퀵세이브 이름</MpSaveReplayAs>
   <MpWillOverwrite>덮어쓰기</MpWillOverwrite>
@@ -88,9 +99,12 @@
   <MpAutosaveMinutes>분 마다</MpAutosaveMinutes>
   <MpLanDesc1>로컬 네트워크에 서버를 엽니다.</MpLanDesc1>
   <MpLanDesc2>현재 LAN 주소: {0}</MpLanDesc2>
+  <MpRunArbiter>관찰자 사용</MpRunArbiter>
   <MpArbiterDesc>접속을 유지해주는 게임 내 시스템입니다.</MpArbiterDesc>
-  <MpAsyncTime>Async time</MpAsyncTime>
+  <MpAsyncTime>비동기 시간</MpAsyncTime>
   <MpAsyncTimeDesc>시간을 맵과 행성마다 각각 따로 조절합니다.</MpAsyncTimeDesc>
+  <MpLogDesyncTraces>접속 오류 기록하기</MpLogDesyncTraces>
+  <MpLogDesyncTracesDesc>접속 오류를 해결하기 위해 스택을 추가로 기록합니다. 성능에 영향을 줄 수 있습니다.</MpLogDesyncTracesDesc>
   <MpExperimentalFeature>실험실</MpExperimentalFeature>
 
   <MpHostButton>열기</MpHostButton>
@@ -112,10 +126,12 @@
   <MpNotInMultiplayer>멀티중 아님</MpNotInMultiplayer>
 
   <MpPauseOnAutosave>자동저장 후 일시정지</MpPauseOnAutosave>
-  <MpAppendNameToAutosave>Append Name to Autosave</MpAppendNameToAutosave>
-  <MpPauseAutosaveCounter>Pause autosave counter</MpPauseAutosaveCounter>
-  <MpPauseAutosaveCounterDesc>Pauses the counter along with the game preventing autosaving while time is paused.</MpPauseAutosaveCounterDesc>
-  <MpPauseOnAutosave>자동저장 시 일시정지</MpPauseOnAutosave> 
+  <MpAppendNameToAutosave>자동저장에 이름 덧붙이기</MpAppendNameToAutosave>
+  <MpPauseAutosaveCounter>자동저장 멈추기</MpPauseAutosaveCounter>
+  <MpPauseAutosaveCounterDesc>일시정지중 자동저장을 멈춥니다.</MpPauseAutosaveCounterDesc>
+  <MpShowModCompatibility>모드 호환성 보기</MpShowModCompatibility>
+  <MpShowModCompatibilityDesc>모드 관리창에서 4단계의 커뮤니티 호환점수를 표시합니다</MpShowModCompatibilityDesc>
+
   <MpLan>LAN</MpLan>
   <MpDirect>직접 연결</MpDirect>
   <MpSteam>스팀</MpSteam>
@@ -129,5 +145,9 @@
 
   <MpAggressiveTicking>강제 동기화</MpAggressiveTicking>
   <MpAggressiveTickingDesc>프레임 손실을 무시하고 서버 동기화를 최우선시합니다.</MpAggressiveTickingDesc>
+  <MpMultiplayerCompatibility>멀티 호환성</MpMultiplayerCompatibility>
+
+  <MpAutosaveOnDesync>접속이 끊기면 일시정지후 자동저장</MpAutosaveOnDesync>
+  <MpAutosaveOnDesyncDesc>아무 플레이어가 접속이 끊기면 일시정지후 자동저장합니다. 재접속시 게임 시뮬레이션을 하지 않도록 돕습니다. 서버장이 직접 저장할 수 없을 때 유용합니다.</MpAutosaveOnDesyncDesc>
 
 </LanguageData>
