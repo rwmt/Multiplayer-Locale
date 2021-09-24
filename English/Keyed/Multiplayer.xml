@@ -31,6 +31,7 @@
   <MpWrongMultiplayerVersionInfo>The server is hosted on Multiplayer {0} (protocol {1}).</MpWrongMultiplayerVersionInfo>
   <MpServerClosed>Server closed</MpServerClosed>
   <MpServerFull>Server is full</MpServerFull>
+  <MpDisconnectServerStarting>Server is starting</MpDisconnectServerStarting>
   <MpKicked>You've been kicked</MpKicked>
   <MpDisconnected>Disconnected</MpDisconnected>
   <MpDisconnectedWithInfo>Disconnected ({0})</MpDisconnectedWithInfo>
@@ -109,6 +110,7 @@
   <MpSteamConnectingTo>Connecting to a game hosted by {0}</MpSteamConnectingTo>
   <MpSteamConnectingWaiting>Waiting for host to accept</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Waiting for game data</MpWaitingForGameData>
+  <MpInvalidAddress>Invalid address</MpInvalidAddress>
 
   <!-- Desynced -->
   <MpDesynced>The game state has desynced.</MpDesynced>
@@ -119,8 +121,7 @@
   <!-- Hosting -->
   <MpHostIngame>Host from this game</MpHostIngame>
   <MpHostSavefile>Host from a savefile</MpHostSavefile>
-  <MpInvalidPort>Invalid port</MpInvalidPort>
-  <MpInvalidAddress>Invalid address</MpInvalidAddress>
+  <MpInvalidEndpoint>Invalid endpoint: {0}</MpInvalidEndpoint>
   <MpInvalidGameName>Invalid game name</MpInvalidGameName>
   <MpGameName>Game name</MpGameName>
   <MpMaxPlayers>Max players</MpMaxPlayers>
