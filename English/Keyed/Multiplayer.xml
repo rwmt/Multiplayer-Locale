@@ -28,7 +28,9 @@
 
   <!-- Disconnected -->
   <MpWrongProtocol>Wrong protocol version</MpWrongProtocol>
-  <MpWrongMultiplayerVersionInfo>The server is hosted on Multiplayer {0} (protocol {1}).</MpWrongMultiplayerVersionInfo>
+  <MpWrongMultiplayerVersionInfo>The server is hosted on Multiplayer {0} (protocol {1}). Your version: {2}</MpWrongMultiplayerVersionInfo>
+  <MpWrongVersionUpdateInfo>Update the mod (resubscribe if on Steam).</MpWrongVersionUpdateInfo>
+  <MpWrongVersionUpdateInfoHost>The host should update the mod (resubscribe if on Steam).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>Server closed</MpServerClosed>
   <MpServerFull>Server is full</MpServerFull>
   <MpDisconnectServerStarting>Server is starting</MpDisconnectServerStarting>
@@ -242,8 +244,10 @@
   <MpMismatchTreeMissing>Missing</MpMismatchTreeMissing>
   <MpMismatchTreeAdded>Added</MpMismatchTreeAdded>
   <MpMismatchTreeModified>Modified</MpMismatchTreeModified>
-  <MpMismatchFilesInfo1>Mod file differences need to be resolved manually or ignored. They are usually caused by differing versions of mods or files being left behind after an update.</MpMismatchFilesInfo1>
-  <MpMismatchFilesInfo2>You should try to update/reinstall the offending mods. If the differences persist even after that the host might have to do the same.</MpMismatchFilesInfo2>
+  <MpMismatchFilesInfo>Mod file differences need to be resolved manually or ignored. They are usually caused by differing versions of mods or files being left behind after an update.</MpMismatchFilesInfo>
+  <MpMismatchFilesInfoMods>You should try to update/reinstall the offending mods (or resubscribe if on Steam).</MpMismatchFilesInfoMods>
+  <MpMismatchFilesInfoCore>To resolve issues with Core and expansion files, remove their folders and revalidate game file integrity (safe to do so, user data is stored elsewhere). Hover over the topmost folders to see their paths.</MpMismatchFilesInfoCore>
+  <MpMismatchFilesInfoHost>The differences might originate on the host side and they might have to repeat the above steps.</MpMismatchFilesInfoHost>
   <MpMismatchFileShowPath>Hold shift to show the folder path.</MpMismatchFileShowPath>
   <MpMismatchFileOpenPath>Shift + click to open the folder.</MpMismatchFileOpenPath>
   <MpMismatchNodeExpand>Click to expand/collapse.</MpMismatchNodeExpand>
