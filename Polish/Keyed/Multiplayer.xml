@@ -58,7 +58,7 @@
   <MpChatSend>Wyślij</MpChatSend>
   <MpSteamAcceptTitle>Akceptuj graczy Steam</MpSteamAcceptTitle>
   <MpSteamAcceptDesc>Kliknij aby zaakceptować</MpSteamAcceptDesc>
-  <MpSteamAccepted>Grazc został zaakceptowany</MpSteamAccepted>
+  <MpSteamAccepted>Gracz został zaakceptowany</MpSteamAccepted>
 
   <!-- Ingame ESC screen -->
   <MpHostServer>Hostuj serwer</MpHostServer>
