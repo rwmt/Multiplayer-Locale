@@ -11,7 +11,7 @@
 
   <!-- Ingame -->
   <MpSimulating>Symulacja</MpSimulating>
-  <MpSimulatingServer>Symulowanie serwera</MpSimulatingServer>
+  <MpSimulatingServer>Symulacja gry</MpSimulatingServer>
   <MpLoading>Ładowanie</MpLoading>
   <MpSaving>Zapisywanie</MpSaving>
   <MpCreatingJoinPoint>Tworzenie punktu dołączenia.</MpCreatingJoinPoint>
