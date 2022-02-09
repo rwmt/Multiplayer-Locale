@@ -88,6 +88,9 @@
   <MpPingLocButtonSetting>Ping location button</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>Jump to ping button</MpJumpToPingButtonSetting>
   <MpShowMainMenuAnimation>Show main menu animation</MpShowMainMenuAnimation>
+  <MpSettingsPageGeneral>General settings</MpSettingsPageGeneral>
+  <MpSettingsPageColor>Player colors</MpSettingsPageColor>
+  <MpResetColors>Reset the colors</MpResetColors>
   
   <!-- Ping alert -->
   <MpAlertPing>Multiplayer ping</MpAlertPing>
