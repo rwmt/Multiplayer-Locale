@@ -1,150 +1,278 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <MpSimulating>模拟中</MpSimulating>
-  <MpSimulatingServer>服务器在模拟中</MpSimulatingServer>
-  <MpLoading>加载中</MpLoading>
-  <MpSaving>保存中</MpSaving>
-  
-  <MpInvalidPort>端口无效</MpInvalidPort>
-  <MpInvalidAddress>地址无效</MpInvalidAddress>
-  <MpInvalidGameName>游戏名无效</MpInvalidGameName>
-  
-  <MpWrongProtocol>protocol版本不对</MpWrongProtocol>
-  <MpWrongMultiplayerVersionInfo>这个服务器运行在 {0} (protocol {1}).</MpWrongMultiplayerVersionInfo>
-  
-  <MpWrongDefs>插件定义有问题</MpWrongDefs>
-  <MpWrongDefsInfo>确定你安装的插件，它们的版本和服务器的版本一致</MpWrongDefsInfo>
-  <MpWrongModConfigs>插件配置不匹配</MpWrongModConfigs>
-  <MpWrongModConfigsInfo>你的插件与主机不一致，最好同步它们。</MpWrongModConfigsInfo>
-  <MpModList>插件表</MpModList>
-  <MpSyncModsAndConfigs>同步插件 &amp; 配置</MpSyncModsAndConfigs>
-  <MpSyncMods>同步插件</MpSyncMods>
-  <MpSyncModConfigs>同步插件配置</MpSyncModConfigs>
-  <MpSyncModConfigsDesc>强制客户端下载与主机相同的插件配置；减少同步次数</MpSyncModConfigsDesc>
-  <MpSeeModList>看插件表</MpSeeModList>
-  <MpDownloadingWorkshopMods>下载工坊插件</MpDownloadingWorkshopMods>
-  <MpRestoreLastConfigs>恢复最后一次配置</MpRestoreLastConfigs>
-  
-  <MpServerClosed>服务器关了</MpServerClosed>
-  <MpServerFull>服务器满了</MpServerFull>
-  <MpKicked>你被踢了</MpKicked>
+    <!-- Main menu -->
+  <MpMultiplayerButton>多人游戏</MpMultiplayerButton>
+  <MpLoadingError1>多人游戏载入时发生错误。</MpLoadingError1>
+  <MpLoadingError2>可能导致游戏失去同步。</MpLoadingError2>
+  <MpLoadingError3>这可能是由于此版本的多人游戏模组不适用于您的RimWorld版本。</MpLoadingError3>
+  <MpLoadingError4>请升级或降级您的多人游戏模组或RimWorld。</MpLoadingError4>
+  <MpLoadingError5>注意：游戏可能刚刚更新，还没有新版本的多人游戏模组。</MpLoadingError5>
 
-  <MpInvalidUsernameAlreadyPlaying>用户名已经在玩中</MpInvalidUsernameAlreadyPlaying>
-  <MpInvalidUsernameChars>用户名有非法字</MpInvalidUsernameChars>
-  <MpInvalidUsernameLength>用户名长度出错</MpInvalidUsernameLength>
-  <MpChangeUsernameInfo>在插件设置里面， 你可以改用户名</MpChangeUsernameInfo>
-  
+  <!-- Ingame -->
+  <MpSimulating>模拟中</MpSimulating>
+  <MpSimulatingServer>正在模拟服务器</MpSimulatingServer>
+  <MpLoading>载入中</MpLoading>
+  <MpSaving>保存中</MpSaving>
+  <MpCreatingJoinPoint>创建加入点中</MpCreatingJoinPoint>
+  <MpServerCloseConfirmationNoTime>您确定要关闭服务器吗？</MpServerCloseConfirmationNoTime>
+  <MpServerCloseConfirmationTime>您确定要关闭服务器吗？最近一次保存在 {0} 之前。</MpServerCloseConfirmationTime>
+  <MpTraderLeavesIn>{0} 后离开</MpTraderLeavesIn>
+  <MpNotAvailable>在多人游戏中无效。</MpNotAvailable>
+  <MpCallingFactionNotAvailable>目前在多人游戏中不能呼叫其他派系。</MpCallingFactionNotAvailable>
+
+  <!-- Ticks behind indicator -->
+  <MpTicksBehind>您落后了 {0} 游戏刻。</MpTicksBehind>
+  <MpLowerGameSpeed>请试试降低游戏速度。</MpLowerGameSpeed>
+  <MpForceCatchUp>点击此处以强制同步。</MpForceCatchUp>
+
+  <!-- Disconnected -->
+  <MpWrongProtocol>协议版本错误</MpWrongProtocol>
+  <MpWrongMultiplayerVersionInfo>服务器的多人游戏版本为 {0} （协议版本为 {1}） 您的版本为{2}。</MpWrongMultiplayerVersionInfo>
+  <MpWrongVersionUpdateInfo>请更新模组（在Steam中重新订阅）。</MpWrongVersionUpdateInfo>
+  <MpWrongVersionUpdateInfoHost>主机需要更新模组（在Steam中重新订阅）。</MpWrongVersionUpdateInfoHost>
+  <MpServerClosed>服务器已关闭</MpServerClosed>
+  <MpServerFull>服务器已满</MpServerFull>
+  <MpDisconnectServerStarting>服务器还在启动</MpDisconnectServerStarting>
+  <MpKicked>您被踢出游戏</MpKicked>
+  <MpDisconnected>失去连接</MpDisconnected>
+  <MpDisconnectedWithInfo>失去连接（{0}）</MpDisconnectedWithInfo>
+  <MpSteamTimedOut>连接超时</MpSteamTimedOut>
+  <MpSteamGenericError>连接错误</MpSteamGenericError>
+  <MpPacketErrorLocal>本地数据包读取错误。有关更多信息，请参阅日志。</MpPacketErrorLocal>
+  <MpPacketErrorRemote>远端数据包读取错误。有关更多信息，请参阅主机日志。</MpPacketErrorRemote>
+  <MpConnectionFailed>连接失败</MpConnectionFailed>
+  <MpConnectionFailedWithInfo>连接失败（{0}）</MpConnectionFailedWithInfo>
+  <MpInvalidUsernameAlreadyPlaying>用户名已在游戏中</MpInvalidUsernameAlreadyPlaying>
+  <MpInvalidUsernameChars>用户名中含有无效字符</MpInvalidUsernameChars>
+  <MpInvalidUsernameLength>用户名长度无效</MpInvalidUsernameLength>
+  <MpChangeUsernameInfo>您可在模组设置中修改用户名</MpChangeUsernameInfo>
+  <MpConnectAsUsername>以 {0} 用户名连接</MpConnectAsUsername>
+
+  <!-- Chat -->
+  <MpChatButton>聊天</MpChatButton>
+  <MpChatHotkeyInfo>聊天热键：</MpChatHotkeyInfo>
   <MpPlayerConnected>{0} 加入了</MpPlayerConnected>
   <MpPlayerDisconnected>{0} 离开了</MpPlayerDisconnected>
-  
-  <MpReplayOutdated>(旧版本)</MpReplayOutdated>
-  <MpReplayOutdatedDesc1>这次重播使用协议版本 {0}, 但是你用的是 {1} 版本.</MpReplayOutdatedDesc1>
-  <MpReplayOutdatedDesc2>重播可能会失败.</MpReplayOutdatedDesc2>
-  <MpReplayOutdatedDesc3>不支持的插件能在发布历史里面看.</MpReplayOutdatedDesc3>
-  <MpReplayOutdatedDesc4>本文件有多余信息， 开服务端应该没问题.</MpReplayOutdatedDesc4>
-  
-  <MpServerCloseConfirmation>真的想关服务器么？ 没保存的数据会消失。</MpServerCloseConfirmation>
-  
-  <MpHostServer>开始服务端</MpHostServer>
-  <MpSaveReplay>保存重播</MpSaveReplay>
-  <MpFullSave>完全保存</MpFullSave>
-  <MpFullSaveDesc>完全保存可以更快地加载，但是保存得更慢，并且仅对主机可用</MpFullSaveDesc>
-  
-  <MpConvert>转换到单人游戏</MpConvert>
-  <MpConverting>转化中</MpConverting>
-  
-  <MpUsername>用户名</MpUsername>
-  <MpShowPlayerCursors>显示用户指标</MpShowPlayerCursors>
-  <MpAutoAcceptSteam>自动接收 Steam</MpAutoAcceptSteam>
-  <MpAutoAcceptSteamDesc>自动接受任何 Steam 链接的请求.</MpAutoAcceptSteamDesc>
-  <MpTransparentChat>透明的聊天</MpTransparentChat>
-  
-  <MpAutosaveSlots>自动保存的表</MpAutosaveSlots>
-  <MpAutosaveSlotsDesc>保存多少自动保存.</MpAutosaveSlotsDesc>
-  
-  <MpTraderLeavesIn>{0} 后离开</MpTraderLeavesIn>
-  
-  <MpChatButton>聊天</MpChatButton>
-  <MpTradingButton>交易</MpTradingButton>
-  
-  <MpChatPlayers>玩家 ({0}):</MpChatPlayers>
-  <MpSend>发送</MpSend>
+  <MpChatPlayers>玩家（{0}）：</MpChatPlayers>
+  <MpChatSend>发送</MpChatSend>
   <MpSteamAcceptTitle>接受Steam玩家</MpSteamAcceptTitle>
-  <MpSteamAcceptDesc>按这里接受</MpSteamAcceptDesc>
-  <MpSteamAccepted>用户被接受了</MpSteamAccepted>
-  
-  <MpConnectingTo>链接到 {0}:{1}</MpConnectingTo>
-  <MpConnected>链接成功.</MpConnected>
-  <MpDownloading>下载中 ({0}%)</MpDownloading>
-  
-  <MpSteamConnectingTo>连接到 {0}的游戏</MpSteamConnectingTo>
-  <MpSteamConnectingWaiting>等服务端的主人接受中</MpSteamConnectingWaiting>
-  
-  <MpTicksBehind>你落后了 {0} 游戏刻.</MpTicksBehind>
-  <MpLowerGameSpeed>试试减速.</MpLowerGameSpeed>
-  <MpForceCatchUp>点这里来和服务器手动同步</MpForceCatchUp>
-  
-  <MpDesynced>游戏不同步了 desynced.</MpDesynced>
-  <MpTryResync>试试从新同步</MpTryResync>
-  <MpTryRehost>重新开服</MpTryRehost>
-  
-  <MpSaveReplayAs>保存重播为</MpSaveReplayAs>
-  <MpWillOverwrite>会覆盖</MpWillOverwrite>
-  <MpReplaySaved>重播保存了</MpReplaySaved>
-  
-  <MpGameName>游戏名</MpGameName>
-  <MpMaxPlayers>最多玩家</MpMaxPlayers>
-  <MpAutosaveEvery>自动保存每</MpAutosaveEvery>
-  <MpAutosaveDays>天</MpAutosaveDays>
-  <MpLanDesc1>播放游戏到本地网络</MpLanDesc1>
-  <MpLanDesc2>本地地址: {0}</MpLanDesc2>
-  <MpRunArbiter>运行仲裁器</MpRunArbiter>
-  <MpArbiterDesc>一个背景游戏实例，帮助不同步检测/解决。不支持在没有仲裁器的情况下运行。</MpArbiterDesc>
-  <MpAsyncTime>异步时间</MpAsyncTime>
-  <MpAsyncTimeDesc>每个地图和地区都有分开的时间控制</MpAsyncTimeDesc>
-  <MpLogDesyncTraces>记录不同步跟踪</MpLogDesyncTraces>
-  <MpLogDesyncTracesDesc>记录额外的堆栈跟踪以解决同步问题；可能会影响性能</MpLogDesyncTracesDesc>
-  <MpExperimentalFeature>测试功能</MpExperimentalFeature>
-  
-  <MpHostButton>开始服务端</MpHostButton>
-  <MpWatchReplay>看重播</MpWatchReplay>
-  <MpNothingSelected>无选择</MpNothingSelected>
-  <MpNoSaves>多人游戏必须从保存文件开始启动</MpNoSaves>
-  
-  <MpHostIngame>从这个游戏开始服务端</MpHostIngame>
-  <MpHostReplay>从重播文件开始服务端</MpHostReplay>
-  <MpHostSavefile>从保存文件开始服务端</MpHostSavefile>
-  
-  <MpJoinButton>加入</MpJoinButton>
-  <MpConnectButton>链接中</MpConnectButton>
-  <MpLanSearching>寻找中</MpLanSearching>
-  
-  <MpNotConnectedToSteam>没链接到Steam</MpNotConnectedToSteam>
-  <MpNoFriendsPlaying>现在没朋友在玩RimWorld</MpNoFriendsPlaying>
-  <MpPlayingRimWorld>玩RimWorld</MpPlayingRimWorld>
-  <MpNotInMultiplayer>不在多人游戏中</MpNotInMultiplayer>
-  
-  <MpPauseOnAutosave>自动保存时暂停</MpPauseOnAutosave>
-  <MpAppendNameToAutosave>将名称附加到自动保存</MpAppendNameToAutosave>
-  <MpPauseAutosaveCounter>暂停自动保存计数器</MpPauseAutosaveCounter>
-  <MpPauseAutosaveCounterDesc>与游戏一起暂停计数器，防止在暂停时间时自动保存。</MpPauseAutosaveCounterDesc>
-  <MpShowModCompatibility>显示插件兼容性</MpShowModCompatibility>
-  <MpShowModCompatibilityDesc>开启在插件管理器中显示 [4] 来自社区的插件兼容性列表。</MpShowModCompatibilityDesc>
+  <MpSteamAcceptDesc>点击以接受玩家</MpSteamAcceptDesc>
+  <MpSteamAccepted>玩家已接受</MpSteamAccepted>
 
-  <MpLan>LAN本地</MpLan>
-  <MpDirect>Direct直连</MpDirect>
+  <!-- Ingame ESC screen -->
+  <MpHostServer>主持服务器</MpHostServer>
+  <MpConvertToSp>转换至单人游戏</MpConvertToSp>
+  <MpConvertToSpWarnHost>您确定要转换至单人游戏吗？这将关闭服务器。</MpConvertToSpWarnHost>
+  <MpConvertToSpWarn>您确定要转换至单人游戏吗？您将离开服务器。</MpConvertToSpWarn>
+  <MpConvertingToSp>转换中</MpConvertingToSp>
+  <MpSaveGameAs>保存为</MpSaveGameAs>
+  <MpWillOverwrite>文件已存在，将覆盖文件。</MpWillOverwrite>
+  <MpGameSaved>游戏已保存为 {0}</MpGameSaved>
+  <MpGameSaveFailed>无法保存游戏。有关更多信息，请参阅日志。</MpGameSaveFailed>
+
+  <!-- Settings -->
+  <MpUsernameSetting>用户名</MpUsernameSetting>
+  <MpShowPlayerCursors>显示玩家光标</MpShowPlayerCursors>
+  <MpAutoAcceptSteam>自动接受Steam请求</MpAutoAcceptSteam>
+  <MpAutoAcceptSteamDesc>自动接受来自Steam的连接请求</MpAutoAcceptSteamDesc>
+  <MpTransparentChat>聊天窗口透明</MpTransparentChat>
+  <MpAutosaveSlots>自动保存槽位</MpAutosaveSlots>
+  <MpAutosaveSlotsDesc>保留的自动保存数目</MpAutosaveSlotsDesc>
+  <MpAggressiveTicking>主动同步</MpAggressiveTicking>
+  <MpAggressiveTickingDesc>落后时自动尝试与服务器同步。可能导致帧率下降。</MpAggressiveTickingDesc>
+  <MpAppendNameToAutosave>在自动存档后附加名称</MpAppendNameToAutosave>
+  <MpShowModCompat>显示来自社区的模组兼容信息</MpShowModCompat>
+  <MpShowModCompatDesc>允许下载并显示来自社区的模组兼容信息。</MpShowModCompatDesc>
+  <MpEnablePingsSetting>允许标记地点</MpEnablePingsSetting>
+  <MpPingLocButtonSetting>标记地点按钮</MpPingLocButtonSetting>
+  <MpJumpToPingButtonSetting>跳转至标记按钮</MpJumpToPingButtonSetting>
+  <MpShowMainMenuAnimation>显示主菜单动画</MpShowMainMenuAnimation>
+  
+  <!-- Ping alert -->
+  <MpAlertPing>多人游戏标记</MpAlertPing>
+  <MpAlertPingDesc1>点击 {0} 来将镜头聚焦到标记位置。</MpAlertPingDesc1>
+  <MpAlertPingDesc2>Shift + 单击以忽略</MpAlertPingDesc2>
+
+  <!-- Pausing sessions -->
+  <MpDialogsButton>对话</MpDialogsButton>
+  <MpTradingSession>交易</MpTradingSession>
+  <MpRitualSession>仪式准备</MpRitualSession>
+  <MpTransportLoadingSession>装载运输仓</MpTransportLoadingSession>
+  <MpCaravanFormingSession>组件远征队</MpCaravanFormingSession>
+  <MpCaravanSplittingSession>分离远征队</MpCaravanSplittingSession>
+  <MpAnotherRitualInProgress>另一场仪式准备正在进行中</MpAnotherRitualInProgress>
+
+  <!-- Connecting -->
+  <MpConnecting>正在连接</MpConnecting>
+  <MpConnectingTo>正在连接至 {0}:{1}</MpConnectingTo>
+  <MpConnected>已连接</MpConnected>
+  <MpJoining>加入中</MpJoining>
+  <MpDownloading>下载中（{0}%）</MpDownloading>
+  <MpSteamConnectingTo>连接至 {0} 主持的游戏</MpSteamConnectingTo>
+  <MpSteamConnectingWaiting>等待主机接受</MpSteamConnectingWaiting>
+  <MpWaitingForGameData>等待游戏数据</MpWaitingForGameData>
+  <MpInvalidAddress>地址无效</MpInvalidAddress>
+
+  <!-- Desynced -->
+  <MpDesynced>游戏状态已失去同步</MpDesynced>
+  <MpTryResync>请重新同步</MpTryResync>
+  <MpOpenDesyncFolder>打开信息文件夹</MpOpenDesyncFolder>
+  <MpDesyncedWaiting>等待主机的数据</MpDesyncedWaiting>
+
+  <!-- Hosting -->
+  <MpHostIngame>以这场游戏主持多人游戏</MpHostIngame>
+  <MpHostSavefile>从存档主持多人游戏</MpHostSavefile>
+  <MpInvalidEndpoint>无效的结束点：{0}</MpInvalidEndpoint>
+  <MpInvalidGameName>游戏名无效</MpInvalidGameName>
+  <MpGameName>游戏名</MpGameName>
+  <MpMaxPlayers>最大玩家数</MpMaxPlayers>
+  <MpAutosaveIntervalMinutes>自动保存间隔（分钟）</MpAutosaveIntervalMinutes>
+  <MpAutosaveIntervalDays>自动保存间隔（天）</MpAutosaveIntervalDays>
+  <MpAutosaveIntervalDesc1>自动保存的间隔</MpAutosaveIntervalDesc1>
+  <MpAutosaveIntervalDesc2>点击以在游戏日和分钟之间切换</MpAutosaveIntervalDesc2>
+  <MpAutosaveIntervalDesc3>正常速度下一天约为16.6分钟（快速5.5分钟，极快2.7分钟）</MpAutosaveIntervalDesc3>
+  <MpLanDesc1>向本地网络广播服务器</MpLanDesc1>
+  <MpLanDesc2>解析的LAN地址：{0}</MpLanDesc2>
+  <MpRunArbiter>运行仲裁者</MpRunArbiter>
+  <MpArbiterDesc>仲裁者是后台运行的游戏实例，用来协助解决失去同步的问题。</MpArbiterDesc>
+  <MpAsyncTime>时间异步</MpAsyncTime>
+  <MpAsyncTimeDesc>为每张地图/星球分别控制时间</MpAsyncTimeDesc>
+  <MpHostingDevMode>开发者模式</MpHostingDevMode>
+  <MpHostingDevModeDesc1>启用RimWorld的开发者工具</MpHostingDevModeDesc1>
+  <MpHostingDevModeDesc2>注意：不是所有开发者工具都可用，且不对其提供支持。</MpHostingDevModeDesc2>
+  <MpHostingDevModeHostOnly>仅主机</MpHostingDevModeHostOnly>
+  <MpHostingDevModeEveryone>所有人</MpHostingDevModeEveryone>
+  <MpLogDesyncTraces>失去同步记录</MpLogDesyncTraces>
+  <MpLogDesyncTracesDesc1>为解决失去同步记录额外的堆栈追踪</MpLogDesyncTracesDesc1>
+  <MpLogDesyncTracesDesc2>在32位和ARM（Apple Silicon）处理器上不可用。</MpLogDesyncTracesDesc2>
+  <MpExperimentalFeature>实验性特性</MpExperimentalFeature>
+  <MpSyncConfigs>同步配置</MpSyncConfigs>
+  <MpSyncConfigsDesc1>加入的玩家可以下载您的模组配置文件</MpSyncConfigsDesc1>
+  <MpSyncConfigsDesc2>启用此项来减少失去同步。</MpSyncConfigsDesc2>
+  <MpSyncConfigsDesc3>注意有些模组的配置文件可能包含敏感信息（如API Token）</MpSyncConfigsDesc3>
+  <MpAutoJoinPoints>自动加入点</MpAutoJoinPoints>
+  <MpAutoJoinPointsDesc1>自动创建加入点</MpAutoJoinPointsDesc1>
+  <MpAutoJoinPointsDesc2>创建加入点比保存更慢，但不需要玩家模拟游戏，从而显著加快了加入速度。</MpAutoJoinPointsDesc2>
+  <MpAutoJoinPointsDesc3>您始终可以通过在聊天中键入 /joinpoint 来手动创建加入点。</MpAutoJoinPointsDesc3>
+  <MpAutoJoinPointsJoin>加入时</MpAutoJoinPointsJoin>
+  <MpAutoJoinPointsDesync>失去同步时</MpAutoJoinPointsDesync>
+  <MpAutoJoinPointsAutosave>自动保存时</MpAutoJoinPointsAutosave>
+
+  <!-- Server browser info buttons -->
+  <MpWebsiteButton>网址</MpWebsiteButton>
+  <MpDiscordButton>Discord</MpDiscordButton>
+  <MpLinkButtonDesc>点击以打开：</MpLinkButtonDesc>
+  <MpCompatibilityButton>兼容性</MpCompatibilityButton>
+  <MpCompatibilityButtonDesc1>打开模组兼容性窗口</MpCompatibilityButtonDesc1>
+  <MpCompatibilityButtonDesc2>也可以在模组列表中查看</MpCompatibilityButtonDesc2>
+  <MpActiveConfigsButton>启用的配置</MpActiveConfigsButton>
+  <MpActiveConfigsButtonDesc1>该RimWorld实例是由游戏 {0} 中的配置文件启动的。</MpActiveConfigsButtonDesc1>
+  <MpActiveConfigsButtonDesc2>重新启动来恢复您的配置。</MpActiveConfigsButtonDesc2>
+
+  <!-- Server browser tabs -->
+  <MpLan>局域网</MpLan>
+  <MpDirect>直接连接</MpDirect>
   <MpSteam>Steam</MpSteam>
-  <MpHostTab>Host开服务端</MpHostTab>
+  <MpHostTab>主持</MpHostTab>
+
+  <!-- Server browser LAN and Direct tabs -->
+  <MpJoinButton>加入</MpJoinButton>
+  <MpConnectButton>连接</MpConnectButton>
+  <MpLanSearching>搜索中</MpLanSearching>
+
+  <!-- Server browser Steam tab -->
+  <MpNotConnectedToSteam>未连接至Steam</MpNotConnectedToSteam>
+  <MpNoFriendsPlaying>没有好友正在玩RimWorld</MpNoFriendsPlaying>
+  <MpPlayingRimWorld>正在玩RimWorld</MpPlayingRimWorld>
+  <MpNotInMultiplayer>不在多人游戏中</MpNotInMultiplayer>
+
+  <!-- Save list -->
+  <MpMultiplayerSaves>多人游戏</MpMultiplayerSaves>
+  <MpSingleplayerSaves>单人游戏</MpSingleplayerSaves>
+  <MpSaveOutdated>（旧版本）</MpSaveOutdated>
+  <MpSaveOutdatedDesc>存档的RimWorld版本为 {0} 而您运行的版本为 {1}。</MpSaveOutdatedDesc>
+  <MpHostButton>主持</MpHostButton>
+  <MpWatchReplay>观看</MpWatchReplay>
+  <MpNothingSelected>未选中</MpNothingSelected>
+  <MpNoSaves>多人游戏只能从已有的存档开始</MpNoSaves>
+  <MpSeeModList>查看模组列表</MpSeeModList>
+  <MpOpenSaveFolder>打开文件夹</MpOpenSaveFolder>
+  <MpContinueAnyway>仍然继续</MpContinueAnyway>
+  <MpFileRenameButton>重命名</MpFileRenameButton>
+  <MpFileRename>重命名为</MpFileRename>
   
-  <MpMultiplayer>多人游戏</MpMultiplayer>
-  <MpSingleplayer>单人游戏</MpSingleplayer>
-  
-  <MpNotAvailable>多人游戏不支持</MpNotAvailable>
-  <MpCallingFactionNotAvailable>多人游戏不支持呼叫别的帮派</MpCallingFactionNotAvailable>
-  
-  <MpAggressiveTicking>加速秒表</MpAggressiveTicking>
-  <MpAggressiveTickingDesc>试着和服务器同步（会减FPS）</MpAggressiveTickingDesc>
-  <MpMultiplayerCompatibility>多人游戏兼容性</MpMultiplayerCompatibility>
+  <!-- Mismatch screen -->
+  <MpDataMismatch>数据不匹配</MpDataMismatch>
+  <MpConnectAnyway>仍然连接</MpConnectAnyway>
+  <MpFixAndRestart>修复并重启</MpFixAndRestart>
+  <MpMismatchQuit>退出</MpMismatchQuit>
+  <MpMismatchDefsDiff>模组数据定义不同。加入前其必须一致。</MpMismatchDefsDiff>
+  <MpRestartNeeded>需要重启游戏才能使模组列表、文件和配置更改生效。</MpRestartNeeded>
+  <MpApplyConfigs>应用服务器的配置</MpApplyConfigs>
+  <MpApplyConfigsTip>配置的应用是临时的，并持续到下一次游戏重新开始。您的任何文件都不会被覆盖。</MpApplyConfigsTip>
+  <MpApplyModList>应用服务器的模组列表</MpApplyModList>
+  <MpApplyModListTip>您当前的模组列表将被覆盖。</MpApplyModListTip>
+  <MpMismatchGeneral>总结</MpMismatchGeneral>
+  <MpMismatchModList>模组列表</MpMismatchModList>
+  <MpMismatchFiles>文件</MpMismatchFiles>
+  <MpMismatchConfigs>配置</MpMismatchConfigs>
+  <MpMismatchServerSide>服务端</MpMismatchServerSide>
+  <MpMismatchClientSide>客户端</MpMismatchClientSide>
+  <MpMismatchSeeTabs>有关详细信息，请参阅相应的选项卡。</MpMismatchSeeTabs>
+  <MpMismatchRwVersion>RimWorld版本</MpMismatchRwVersion>
+  <MpMismatchMpVersion>多人游戏模组版本</MpMismatchMpVersion>
+  <MpMismatchRestart>重启</MpMismatchRestart>
+  <MpMismatchRestartDesc>游戏加载完成后，您将重新连接。</MpMismatchRestartDesc>
+  <MpMismatchBack>返回</MpMismatchBack>
+  <MpMismatchServerMods>服务器模组</MpMismatchServerMods>
+  <MpMismatchLocalMods>启用的模组</MpMismatchLocalMods>
+  <MpMismatchModListRefresh>刷新</MpMismatchModListRefresh>
+  <MpMismatchNotInstalled>尚未安装：{0}</MpMismatchNotInstalled>
+  <MpMismatchModListsMismatch>模组列表不匹配。需要重启游戏。</MpMismatchModListsMismatch>
+  <MpMismatchWrongOrder>模组匹配，但其顺序不匹配。需要重启游戏。</MpMismatchWrongOrder>
+  <MpMismatchModListsMatch>模组列表匹配</MpMismatchModListsMatch>
+  <MpMismatchSubscribe>订阅缺失的模组</MpMismatchSubscribe>
+  <MpMismatchSubscribeMsg>订阅了{0}个模组。后台下载中...</MpMismatchSubscribeMsg>
+  <MpMismatchSubscribeNoSteam>未连接到 Steam。必须手动安装缺失的模组。</MpMismatchSubscribeNoSteam>
+  <MpMismatchSubscribeNoMissing>没有缺失的模组</MpMismatchSubscribeNoMissing>
+  <MpMismatchSubscribeDesc1>在 Steam 创意工坊上订阅缺失的模组。下载将在后台进行。</MpMismatchSubscribeDesc1>
+  <MpMismatchSubscribeDesc2>并非所有缺失的模组都在Steam上可用。其余的必须手动安装。</MpMismatchSubscribeDesc2>
+  <MpMismatchLocalFiles>本地文件</MpMismatchLocalFiles>
+  <MpMismatchLocalConfigs>本地配置</MpMismatchLocalConfigs>
+  <MpMismatchTreeRefresh>刷新</MpMismatchTreeRefresh>
+  <MpMismatchTreeMissing>确实</MpMismatchTreeMissing>
+  <MpMismatchTreeAdded>已加入</MpMismatchTreeAdded>
+  <MpMismatchTreeModified>已修改</MpMismatchTreeModified>
+  <MpMismatchFilesInfo>模组文件差异需要手动解决或忽略。其通常是由更新后遗留的不同版本的模组或文件引起的。</MpMismatchFilesInfo>
+  <MpMismatchFilesInfoMods>您应尝试更新或重新安装有问题的模组（或在 Steam 上重新订阅）。</MpMismatchFilesInfoMods>
+  <MpMismatchFilesInfoCore>要解决核心和扩展包文件的问题，请删除其文件夹并重新验证游戏文件的完整性（这样做是安全的，用户数据存储在其他地方）。将鼠标悬停在最上面的文件夹上以查看其路径。</MpMismatchFilesInfoCore>
+  <MpMismatchFilesInfoHost>差异可能源于主机端，主机端可能必须重复上述步骤。</MpMismatchFilesInfoHost>
+  <MpMismatchFileShowPath>按住Shift显示路径。</MpMismatchFileShowPath>
+  <MpMismatchFileOpenPath>Shift + 单击已打开文件夹。</MpMismatchFileOpenPath>
+  <MpMismatchNodeExpand>单击以展开/折叠。</MpMismatchNodeExpand>
+  <MpConfigSyncDisabled>主机禁用了配置同步</MpConfigSyncDisabled>
+  <MpFilesMatch>文件匹配</MpFilesMatch>
+  <MpConfigsMatch>配置匹配</MpConfigsMatch>
+
+  <!-- Mod compatibility window -->
+  <MpModCompatButton>多人游戏兼容性</MpModCompatButton>
+  <MpModCompatTitle>多人游戏模组兼容性</MpModCompatTitle>
+  <MpModCompatLoading>载入中</MpModCompatLoading>
+  <MpModCompatLoadingFailed>载入失败</MpModCompatLoadingFailed>
+  <MpModCompatActiveMods>已激活</MpModCompatActiveMods>
+  <MpModCompatInstalledMods>已安装</MpModCompatInstalledMods>
+  <MpModCompatOutdatedMods>版本过旧</MpModCompatOutdatedMods>
+  <MpModCompatHeaderModName>模组名称</MpModCompatHeaderModName>
+  <MpModCompatHeaderStatus>状态</MpModCompatHeaderStatus>
+  <MpModCompatHeaderNotes>评分</MpModCompatHeaderNotes>
+  <MpModCompatXmlOnlyDesc>仅有XML文件的模组只提供数据而不提供逻辑，因此总是兼容的，尽管它们可能依赖不兼容的模组。</MpModCompatXmlOnlyDesc>
+  <MpModCompatScore4>一切正常</MpModCompatScore4>
+  <MpModCompatScore3>大部分正常，一些次要功能不正常</MpModCompatScore3>
+  <MpModCompatScore2>部分正常，一些主要功能不正常</MpModCompatScore2>
+  <MpModCompatScore1>不正常</MpModCompatScore1>
+  <MpModCompatScoreUnk>未知；请在我们的 Discord 中向#mod-report报告。</MpModCompatScoreUnk>
+  <MpHideTranslationMods>隐藏翻译模组</MpHideTranslationMods>
+  <MpHideTranslationModsDesc>翻译模组总是兼容</MpHideTranslationModsDesc>
   
 </LanguageData>
