@@ -22,7 +22,7 @@
   <MpCallingFactionNotAvailable>Wywoływanie innych frakcji nie jest obecnie dostępne w trybie wieloosobowym.</MpCallingFactionNotAvailable>
 
   <!-- Ticks behind indicator -->
-  <MpTicksBehind>Jesteś {0} ticków za serwerem<</MpTicksBehind>
+  <MpTicksBehind>Jesteś {0} ticków za serwerem.</MpTicksBehind>
   <MpLowerGameSpeed>Rozważ obniżenie prędkości gry.</MpLowerGameSpeed>
   <MpForceCatchUp>Kliknij aby wymusić synchronizacje.</MpForceCatchUp>
 
@@ -39,7 +39,7 @@
   <MpDisconnectedWithInfo>Rozłączono ({0})</MpDisconnectedWithInfo>
   <MpSteamTimedOut>Przekroczono limit czasu połączenia</MpSteamTimedOut>
   <MpSteamGenericError>Błąd połączenia</MpSteamGenericError>
-  <MpPacketErrorLocal>Local packet read error. See the log for more info.</MpPacketErrorLocal>
+  <MpPacketErrorLocal>Bład lokalnych pakietów. Zobacz zawartość logu aby dowiedzieć się więcej.</MpPacketErrorLocal>
   <MpPacketErrorRemote>Błąd odczytu lokalnego pakietu. Zobacz dziennik, aby uzyskać więcej informacji.</MpPacketErrorRemote>
   <MpConnectionFailed>Połączenie nieudane</MpConnectionFailed>
   <MpConnectionFailedWithInfo>Połączenie nieudane ({0})</MpConnectionFailedWithInfo>
@@ -88,6 +88,10 @@
   <MpPingLocButtonSetting>Klawisz pingowania lokalizacji</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>Skozc do klawisza pingowania lokalizacji</MpJumpToPingButtonSetting>
   <MpShowMainMenuAnimation>Pokaż animację menu głównego</MpShowMainMenuAnimation>
+  <MpPlayerCursorTransparency>Przeźroczyste kursory graczy</MpPlayerCursorTransparency>
+  <MpSettingsPageGeneral>Ustawienia generalne</MpSettingsPageGeneral>
+  <MpSettingsPageColor>Kolory graczy</MpSettingsPageColor>
+  <MpResetColors>Zresetuj kolory</MpResetColors>
   
   <!-- Ping alert -->
   <MpAlertPing>Ping lokalizacji</MpAlertPing>
