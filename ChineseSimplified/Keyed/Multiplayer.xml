@@ -88,6 +88,10 @@
   <MpPingLocButtonSetting>标记地点按钮</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>跳转至标记按钮</MpJumpToPingButtonSetting>
   <MpShowMainMenuAnimation>显示主菜单动画</MpShowMainMenuAnimation>
+  <MpPlayerCursorTransparency>透明玩家光标</MpPlayerCursorTransparency>
+  <MpSettingsPageGeneral>通用设置</MpSettingsPageGeneral>
+  <MpSettingsPageColor>玩家颜色</MpSettingsPageColor>
+  <MpResetColors>重置颜色</MpResetColors>
   
   <!-- Ping alert -->
   <MpAlertPing>多人游戏标记</MpAlertPing>
