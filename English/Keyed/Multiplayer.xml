@@ -48,6 +48,7 @@
   <MpInvalidUsernameLength>Username has invalid length</MpInvalidUsernameLength>
   <MpChangeUsernameInfo>You can change your username in the mod settings.</MpChangeUsernameInfo>
   <MpConnectAsUsername>Connect as {0}</MpConnectAsUsername>
+  <MpBadGamePassword>Wrong game password</MpBadGamePassword>
 
   <!-- Chat -->
   <MpChatButton>Chat</MpChatButton>
@@ -117,6 +118,7 @@
   <MpSteamConnectingWaiting>Waiting for host to accept</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Waiting for game data</MpWaitingForGameData>
   <MpInvalidAddress>Invalid address</MpInvalidAddress>
+  <MpGamePassword>Game password</MpGamePassword>
 
   <!-- Desynced -->
   <MpDesynced>The game state has desynced.</MpDesynced>
@@ -125,17 +127,26 @@
   <MpDesyncedWaiting>Waiting for data from the host</MpDesyncedWaiting>
 
   <!-- Hosting -->
+  <MpHostTabConnecting>Connecting</MpHostTabConnecting>
+  <MpHostTabGameplay>Gameplay</MpHostTabGameplay>
+  <MpHostDirect>Direct</MpHostDirect>
+  <MpHostDirectDesc1>Listen for joining players on specified endpoints.</MpHostDirectDesc1>
+  <MpHostDirectDesc2>Usually, leaving this field 0.0.0.0 is enough (it means listen on all network interfaces). Note that you'll likely have to do port forwarding.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>To listen on multiple endpoints, separate them with ampersands. IPv6 addresses are supported.</MpHostDirectDesc3>
+  <MpHostDirectDesc4>When no port is provided, 30502 is used.</MpHostDirectDesc4>
   <MpHostIngame>Host from this game</MpHostIngame>
   <MpHostSavefile>Host from a savefile</MpHostSavefile>
   <MpInvalidEndpoint>Invalid endpoint: {0}</MpInvalidEndpoint>
   <MpInvalidGameName>Invalid game name</MpInvalidGameName>
   <MpGameName>Game name</MpGameName>
   <MpMaxPlayers>Max players</MpMaxPlayers>
-  <MpAutosaveIntervalMinutes>Autosave interval (minutes)</MpAutosaveIntervalMinutes>
-  <MpAutosaveIntervalDays>Autosave interval (days)</MpAutosaveIntervalDays>
-  <MpAutosaveIntervalDesc1>The interval between autosaves.</MpAutosaveIntervalDesc1>
-  <MpAutosaveIntervalDesc2>Click to switch the time unit between ingame days and realtime minutes.</MpAutosaveIntervalDesc2>
-  <MpAutosaveIntervalDesc3>A day on normal speed is about 16.6 minutes (fast: 5.5 minutes, superfast: 2.7 minutes)</MpAutosaveIntervalDesc3>
+  <MpAutosaves>Autosaves</MpAutosaves>
+  <MpAutosavesEvery>Every</MpAutosavesEvery>
+  <MpAutosavesMinutes>minutes</MpAutosavesMinutes>
+  <MpAutosavesDays>days</MpAutosavesDays>
+  <MpAutosavesDesc1>The interval between autosaves.</MpAutosavesDesc1>
+  <MpAutosavesDesc2>Click the unit to switch between ingame days and realtime minutes.</MpAutosavesDesc2>
+  <MpAutosavesDesc3>A day on normal speed is about 16.6 minutes (fast: 5.5 minutes, superfast: 2.7 minutes)</MpAutosavesDesc3>
   <MpLanDesc1>Broadcast the game to your local network.</MpLanDesc1>
   <MpLanDesc2>Resolved LAN address: {0}</MpLanDesc2>
   <MpRunArbiter>Run Arbiter</MpRunArbiter>
@@ -152,9 +163,9 @@
   <MpLogDesyncTracesDesc2>Does not work on 32 bit and ARM (Apple Silicon) processors.</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Experimental feature</MpExperimentalFeature>
   <MpSyncConfigs>Sync configs</MpSyncConfigs>
-  <MpSyncConfigsDesc1>Toggle whether joining players can download your mod configuration files.</MpSyncConfigsDesc1>
-  <MpSyncConfigsDesc2>Enabling this can reduce the number of desyncs.</MpSyncConfigsDesc2>
-  <MpSyncConfigsDesc3>Note that some mods' config files can contain sensitive information (like API tokens).</MpSyncConfigsDesc3>
+  <MpSyncConfigsDescNew1>Toggle whether joining players can download your mod configuration files.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew2>Enabling this can reduce the number of desyncs.</MpSyncConfigsDescNew2>
+  <MpSyncConfigsDescNew3>Note that some mods' config files can contain sensitive information (like Twitch API tokens used by streamer mods).</MpSyncConfigsDescNew3>
   <MpAutoJoinPoints>Auto join-points</MpAutoJoinPoints>
   <MpAutoJoinPointsDesc1>Toggle automatic creation of join-points.</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>Join-point creation is slower than saving but it speeds up joining significantly by not requiring players to simulate the game.</MpAutoJoinPointsDesc2>
@@ -162,6 +173,18 @@
   <MpAutoJoinPointsJoin>On join</MpAutoJoinPointsJoin>
   <MpAutoJoinPointsDesync>On desync</MpAutoJoinPointsDesync>
   <MpAutoJoinPointsAutosave>On autosave</MpAutoJoinPointsAutosave>
+  <MpHostGamePassword>Password</MpHostGamePassword>
+  <MpPauseOn>Pause on</MpPauseOn>
+  <MpPauseOnJoin>Join</MpPauseOnJoin>
+  <MpPauseOnDesync>Desync</MpPauseOnDesync>
+  <MpTimeControl>Time control</MpTimeControl>
+  <MpTimeControlEveryoneControls>Everyone controls</MpTimeControlEveryoneControls>
+  <MpTimeControlLowestWins>Lowest wins</MpTimeControlLowestWins>
+  <MpPauseOnLetter>Pause on letter</MpPauseOnLetter>
+  <MpPauseOnLetterNever>Never</MpPauseOnLetterNever>
+  <MpPauseOnLetterMajorThreat>Major threats</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterAnyThreat>Any threat</MpPauseOnLetterAnyThreat>
+  <MpPauseOnLetterAnyLetter>Any letter</MpPauseOnLetterAnyLetter>
 
   <!-- Server browser info buttons -->
   <MpWebsiteButton>Website</MpWebsiteButton>
