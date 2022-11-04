@@ -20,6 +20,9 @@
   <MpTraderLeavesIn>Leaves in {0}</MpTraderLeavesIn>
   <MpNotAvailable>Not available in multiplayer.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Calling other factions is currently not available in multiplayer.</MpCallingFactionNotAvailable>
+  <MpLowestWinsButtonsDesc1>Current time speed votes, lowest wins.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>Shift+Space to reset your vote.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>The host can Shift+Click here to reset all votes.</MpLowestWinsButtonsDesc3>
 
   <!-- Ticks behind indicator -->
   <MpTicksBehind>You are {0} ticks behind.</MpTicksBehind>
@@ -28,7 +31,7 @@
 
   <!-- Disconnected -->
   <MpWrongProtocol>Wrong protocol version</MpWrongProtocol>
-  <MpWrongMultiplayerVersionInfo>The server is hosted on Multiplayer {0} (protocol {1}). Your version: {2}</MpWrongMultiplayerVersionInfo>
+  <MpWrongMultiplayerVersionDesc>The server is hosted on Multiplayer {0} (protocol {1}). Your version: {2} (protocol {3})</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>Update the mod (resubscribe if on Steam).</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>The host should update the mod (resubscribe if on Steam).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>Server closed</MpServerClosed>
@@ -92,6 +95,7 @@
   <MpPlayerCursorTransparency>Transparent player cursors</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>General settings</MpSettingsPageGeneral>
   <MpSettingsPageColor>Player colors</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>Select what colors player get when they connect to a game you host. Affects, for example, player cursors.</MpSettingsPageColorDesc>
   <MpResetColors>Reset the colors</MpResetColors>
   
   <!-- Ping alert -->
@@ -138,6 +142,7 @@
   <MpHostSavefile>Host from a savefile</MpHostSavefile>
   <MpInvalidEndpoint>Invalid endpoint: {0}</MpInvalidEndpoint>
   <MpInvalidGameName>Invalid game name</MpInvalidGameName>
+  <MpInvalidGamePassword>Invalid game password</MpInvalidGamePassword>
   <MpGameName>Game name</MpGameName>
   <MpMaxPlayers>Max players</MpMaxPlayers>
   <MpAutosaves>Autosaves</MpAutosaves>
@@ -180,6 +185,7 @@
   <MpTimeControl>Time control</MpTimeControl>
   <MpTimeControlEveryoneControls>Everyone controls</MpTimeControlEveryoneControls>
   <MpTimeControlLowestWins>Lowest wins</MpTimeControlLowestWins>
+  <MpTimeControlHostOnly>Host only</MpTimeControlHostOnly>
   <MpPauseOnLetter>Pause on letter</MpPauseOnLetter>
   <MpPauseOnLetterNever>Never</MpPauseOnLetterNever>
   <MpPauseOnLetterMajorThreat>Major threats</MpPauseOnLetterMajorThreat>
