@@ -31,7 +31,7 @@
 
   <!-- Disconnected -->
   <MpWrongProtocol>Falsche Protokollversion</MpWrongProtocol>
-  <MpWrongMultiplayerVersionInfo>Der Server hostet Multiplayer {0} (Protokoll {1}). Deine Version: {2}</MpWrongMultiplayerVersionInfo>
+  <MpWrongMultiplayerVersionDesc>Der Server hostet Multiplayer {0} (Protokoll {1}). Deine Version: {2} (Protokoll {3})</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>Aktualisiere die Mod (Mod erneut abonnieren, falls auf Steam abonniert).</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>Der Host sollte die Mod aktualisieren (Mod erneut abonnieren, falls auf Steam abonniert).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>Server geschlossen</MpServerClosed>
