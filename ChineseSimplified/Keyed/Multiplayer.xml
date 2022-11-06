@@ -20,6 +20,9 @@
   <MpTraderLeavesIn>{0} 后离开</MpTraderLeavesIn>
   <MpNotAvailable>在多人游戏中无效。</MpNotAvailable>
   <MpCallingFactionNotAvailable>目前在多人游戏中不能呼叫其他派系。</MpCallingFactionNotAvailable>
+  <MpLowestWinsButtonsDesc1>当前游戏速度投票，较慢者获胜。</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>按 Shift+Space 重置您的投票。</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>主机可按Shift并单击此处重置所有投票。</MpLowestWinsButtonsDesc3>
 
   <!-- Ticks behind indicator -->
   <MpTicksBehind>您落后了 {0} 游戏刻。</MpTicksBehind>
@@ -28,7 +31,7 @@
 
   <!-- Disconnected -->
   <MpWrongProtocol>协议版本错误</MpWrongProtocol>
-  <MpWrongMultiplayerVersionInfo>服务器的多人游戏版本为 {0} （协议版本为 {1}） 您的版本为{2}。</MpWrongMultiplayerVersionInfo>
+  <MpWrongMultiplayerVersionDesc>服务器的多人游戏版本为 {0} （协议版本为 {1}） 您的版本为{2}。</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>请更新模组（在Steam中重新订阅）。</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>主机需要更新模组（在Steam中重新订阅）。</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>服务器已关闭</MpServerClosed>
@@ -48,6 +51,7 @@
   <MpInvalidUsernameLength>用户名长度无效</MpInvalidUsernameLength>
   <MpChangeUsernameInfo>您可在模组设置中修改用户名</MpChangeUsernameInfo>
   <MpConnectAsUsername>以 {0} 用户名连接</MpConnectAsUsername>
+  <MpBadGamePassword>游戏密码错误</MpBadGamePassword>
 
   <!-- Chat -->
   <MpChatButton>聊天</MpChatButton>
@@ -91,6 +95,7 @@
   <MpPlayerCursorTransparency>透明玩家光标</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>通用设置</MpSettingsPageGeneral>
   <MpSettingsPageColor>玩家颜色</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>选择其他玩家连接到您主持的游戏时的颜色。影响玩家光标等的颜色。</MpSettingsPageColorDesc>
   <MpResetColors>重置颜色</MpResetColors>
   
   <!-- Ping alert -->
@@ -117,6 +122,7 @@
   <MpSteamConnectingWaiting>等待主机接受</MpSteamConnectingWaiting>
   <MpWaitingForGameData>等待游戏数据</MpWaitingForGameData>
   <MpInvalidAddress>地址无效</MpInvalidAddress>
+  <MpGamePassword>游戏密码</MpGamePassword>
 
   <!-- Desynced -->
   <MpDesynced>游戏状态已失去同步</MpDesynced>
@@ -125,17 +131,27 @@
   <MpDesyncedWaiting>等待主机的数据</MpDesyncedWaiting>
 
   <!-- Hosting -->
+  <MpHostTabConnecting>连接设置</MpHostTabConnecting>
+  <MpHostTabGameplay>游戏性设置</MpHostTabGameplay>
+  <MpHostDirect>直接连接</MpHostDirect>
+  <MpHostDirectDesc1>在指定端点监听玩家加入请求。</MpHostDirectDesc1>
+  <MpHostDirectDesc2>通常来说，填写0.0.0.0即可（这表示监听所有网络接口）。注意您可能需要进行端口转发。</MpHostDirectDesc2>
+  <MpHostDirectDesc3>以“&amp;”符号分隔多个端点。支持IPv6地址。</MpHostDirectDesc3>
+  <MpHostDirectDesc4>未提供端口时使用30502端口。</MpHostDirectDesc4>
   <MpHostIngame>以这场游戏主持多人游戏</MpHostIngame>
   <MpHostSavefile>从存档主持多人游戏</MpHostSavefile>
   <MpInvalidEndpoint>无效的结束点：{0}</MpInvalidEndpoint>
   <MpInvalidGameName>游戏名无效</MpInvalidGameName>
+  <MpInvalidGamePassword>游戏密码无效</MpInvalidGamePassword>
   <MpGameName>游戏名</MpGameName>
   <MpMaxPlayers>最大玩家数</MpMaxPlayers>
-  <MpAutosaveIntervalMinutes>自动保存间隔（分钟）</MpAutosaveIntervalMinutes>
-  <MpAutosaveIntervalDays>自动保存间隔（天）</MpAutosaveIntervalDays>
-  <MpAutosaveIntervalDesc1>自动保存的间隔</MpAutosaveIntervalDesc1>
-  <MpAutosaveIntervalDesc2>点击以在游戏日和分钟之间切换</MpAutosaveIntervalDesc2>
-  <MpAutosaveIntervalDesc3>正常速度下一天约为16.6分钟（快速5.5分钟，极快2.7分钟）</MpAutosaveIntervalDesc3>
+  <MpAutosaves>自动保存</MpAutosaves>
+  <MpAutosavesEvery>每</MpAutosavesEvery>
+  <MpAutosavesMinutes>分钟</MpAutosavesMinutes>
+  <MpAutosavesDays>天</MpAutosavesDays>
+  <MpAutosavesDesc1>自动保存的间隔。</MpAutosavesDesc1>
+  <MpAutosavesDesc2>点击单位以在游戏日和分钟之间切换。</MpAutosavesDesc2>
+  <MpAutosavesDesc3>正常速度下一天约为16.6分钟（快速5.5分钟，极快2.7分钟）</MpAutosavesDesc3>
   <MpLanDesc1>向本地网络广播服务器</MpLanDesc1>
   <MpLanDesc2>解析的LAN地址：{0}</MpLanDesc2>
   <MpRunArbiter>运行仲裁者</MpRunArbiter>
@@ -152,9 +168,9 @@
   <MpLogDesyncTracesDesc2>在32位和ARM（Apple Silicon）处理器上不可用。</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>实验性特性</MpExperimentalFeature>
   <MpSyncConfigs>同步配置</MpSyncConfigs>
-  <MpSyncConfigsDesc1>加入的玩家可以下载您的模组配置文件</MpSyncConfigsDesc1>
-  <MpSyncConfigsDesc2>启用此项来减少失去同步。</MpSyncConfigsDesc2>
-  <MpSyncConfigsDesc3>注意有些模组的配置文件可能包含敏感信息（如API Token）</MpSyncConfigsDesc3>
+  <MpSyncConfigsDescNew1>加入的玩家可以下载您的模组配置文件</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew2>启用此项来减少失去同步。</MpSyncConfigsDescNew2>
+  <MpSyncConfigsDescNew3>注意有些模组的配置文件可能包含敏感信息（如API Token）</MpSyncConfigsDescNew3>
   <MpAutoJoinPoints>自动加入点</MpAutoJoinPoints>
   <MpAutoJoinPointsDesc1>自动创建加入点</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>创建加入点比保存更慢，但不需要玩家模拟游戏，从而显著加快了加入速度。</MpAutoJoinPointsDesc2>
@@ -162,6 +178,19 @@
   <MpAutoJoinPointsJoin>加入时</MpAutoJoinPointsJoin>
   <MpAutoJoinPointsDesync>失去同步时</MpAutoJoinPointsDesync>
   <MpAutoJoinPointsAutosave>自动保存时</MpAutoJoinPointsAutosave>
+  <MpHostGamePassword>密码</MpHostGamePassword>
+  <MpPauseOn>暂停</MpPauseOn>
+  <MpPauseOnJoin>加入时</MpPauseOnJoin>
+  <MpPauseOnDesync>失去同步时</MpPauseOnDesync>
+  <MpTimeControl>时间控制</MpTimeControl>
+  <MpTimeControlEveryoneControls>任何人控制</MpTimeControlEveryoneControls>
+  <MpTimeControlLowestWins>较慢者获胜</MpTimeControlLowestWins>
+  <MpTimeControlHostOnly>仅主机控制</MpTimeControlHostOnly>
+  <MpPauseOnLetter>通知时暂停</MpPauseOnLetter>
+  <MpPauseOnLetterNever>从不</MpPauseOnLetterNever>
+  <MpPauseOnLetterMajorThreat>重大威胁</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterAnyThreat>任何威胁</MpPauseOnLetterAnyThreat>
+  <MpPauseOnLetterAnyLetter>任何通知</MpPauseOnLetterAnyLetter>
 
   <!-- Server browser info buttons -->
   <MpWebsiteButton>网址</MpWebsiteButton>
