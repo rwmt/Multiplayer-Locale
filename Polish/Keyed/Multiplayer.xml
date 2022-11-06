@@ -20,6 +20,9 @@
   <MpTraderLeavesIn>Wyjście za {0}</MpTraderLeavesIn>
   <MpNotAvailable>Nie dostępne w multiplayerze.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Wywoływanie innych frakcji nie jest obecnie dostępne w trybie wieloosobowym.</MpCallingFactionNotAvailable>
+  <MpLowestWinsButtonsDesc1>Głosyowanie na prędkość gry. Najniższa wygrywa.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>Kliknij Shift+Space aby zresetiwać swój głos.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>Host może kliknąć Shift+Click aby zresetiwać wszystkie głosy.</MpLowestWinsButtonsDesc3>
 
   <!-- Ticks behind indicator -->
   <MpTicksBehind>Jesteś {0} ticków za serwerem.</MpTicksBehind>
@@ -28,7 +31,7 @@
 
   <!-- Disconnected -->
   <MpWrongProtocol>Błędna wersja protokołu</MpWrongProtocol>
-  <MpWrongMultiplayerVersionInfo>Serwer działa na wersji Multiplayer {0} (protokół {1}). Twoja wersja: {2}</MpWrongMultiplayerVersionInfo>
+  <MpWrongMultiplayerVersionDesc>Serwer działa na wersji Multiplayer {0} (protokół {1}). Twoja wersja: {2}</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>Zaktualizuj mod Multiplayer (resubskrybuj na Steam).</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>Host powinien zaakceptować mod Multiplayer (resubskrybuj na Steam).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>Serwer zamknięty</MpServerClosed>
@@ -48,6 +51,7 @@
   <MpInvalidUsernameLength>Nazwa użytkownika ma nieprawidłową ilośc znaków.</MpInvalidUsernameLength>
   <MpChangeUsernameInfo>Możesz zmienić swoją nazwę użytkownika w ustawieniach moda.</MpChangeUsernameInfo>
   <MpConnectAsUsername>Połączono jako {0}</MpConnectAsUsername>
+  <MpBadGamePassword>Wrong game password</MpBadGamePassword>
 
   <!-- Chat -->
   <MpChatButton>Czat</MpChatButton>
@@ -91,6 +95,7 @@
   <MpPlayerCursorTransparency>Przeźroczyste kursory graczy</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>Ustawienia generalne</MpSettingsPageGeneral>
   <MpSettingsPageColor>Kolory graczy</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>Wybierz jaki kolor będą mieć gracze którzy dołączą do gry którą hostujesz. Wpływa na przykład na kursory gracza.</MpSettingsPageColorDesc>
   <MpResetColors>Zresetuj kolory</MpResetColors>
   
   <!-- Ping alert -->
@@ -117,25 +122,36 @@
   <MpSteamConnectingWaiting>Oczekiwanie na akceptacje hosta</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Oczekiwanie na dane gry</MpWaitingForGameData>
   <MpInvalidAddress>Nieprawidłowy adres</MpInvalidAddress>
+  <MpGamePassword>Nieprawidłowe hasło</MpGamePassword>
 
   <!-- Desynced -->
   <MpDesynced>Gra została zdesynchronizowana.</MpDesynced>
   <MpTryResync>Próbuj zsynchronizować</MpTryResync>
   <MpOpenDesyncFolder>Otwórz folder informacji o desynchronizacji.</MpOpenDesyncFolder>
   <MpDesyncedWaiting>Czekam na dane od hosta</MpDesyncedWaiting>
+  <MpHostTabConnecting>Połączenie</MpHostTabConnecting>
+  <MpHostTabGameplay>Rozgrywka</MpHostTabGameplay>
+  <MpHostDirect>Bezpośrednie połączenie</MpHostDirect>
+  <MpHostDirectDesc1>Nasłuchuj dołączających graczy na określonych interfejsach.</MpHostDirectDesc1>
+  <MpHostDirectDesc2>Zazwyczaj ustawienie tego pola na 0.0.0.0 wystarczy (to oznacza nasłuchiwanie na wszystkich interfejsach). Zauważ, że prawdopodobnie będziesz musiał przekierować porty.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>Aby nasłuchiwać na wielu interfejsach, rozdziel je znakiem &#038;. Adresy IPv6 są wspierane.</MpHostDirectDesc3>
+  <MpHostDirectDesc4>Jeśli nie podano portu, używany jest 30502.</MpHostDirectDesc4>
 
   <!-- Hosting -->
   <MpHostIngame>Hostuje z tej gry</MpHostIngame>
   <MpHostSavefile>Hostuj z zapisu gry</MpHostSavefile>
   <MpInvalidEndpoint>Nieprawidłowy punkt końcowy: {0}</MpInvalidEndpoint>
   <MpInvalidGameName>Nieprawidłowa nazwa gry</MpInvalidGameName>
+  <MpInvalidGamePassword>Nieprawidłowe hasło</MpInvalidGamePassword>
   <MpGameName>Nazwa gry</MpGameName>
   <MpMaxPlayers>Maksymalna liczba graczy</MpMaxPlayers>
-  <MpAutosaveIntervalMinutes>Częstotliwość automatycznego zapisana (minuty)</MpAutosaveIntervalMinutes>
-  <MpAutosaveIntervalDays>Częstotliwość automatycznego zapisana (dni)</MpAutosaveIntervalDays>
-  <MpAutosaveIntervalDesc1>Czas między automatycznym zapisem.</MpAutosaveIntervalDesc1>
-  <MpAutosaveIntervalDesc2>Kliknij, aby przełączyć jednostkę czasu między dniami w grze a minutami czasu rzeczywistego.</MpAutosaveIntervalDesc2>
-  <MpAutosaveIntervalDesc3>Dzień na normalnej prędkości to około 16,6 minuty (szybko: 5,5 minuty, superszybko: 2,7 minuty)</MpAutosaveIntervalDesc3>
+  <MpAutosaves>Autozapis</MpAutosaves>
+  <MpAutosavesEvery>Co</MpAutosavesEvery>
+  <MpAutosavesMinutes>minut</MpAutosavesMinutes>
+  <MpAutosavesDays>dni</MpAutosavesDays>
+  <MpAutosavesDesc1>Częstotliwość automatycznego zapisu.</MpAutosavesDesc1>
+  <MpAutosavesDesc2>Kliknij na jednostkę, aby przełączyć między dniami w grze a minutami czasu rzeczywistego.</MpAutosavesDesc2>
+  <MpAutosavesDesc3>Dzień na normalnej prędkości to około 16,6 minuty (szybka: 5,5 minuty, superszybka: 2,7 minuty)</MpAutosavesDesc3>
   <MpLanDesc1>Przesyłaj grę do sieci lokalnej.</MpLanDesc1>
   <MpLanDesc2>Adres sieci LAN: {0}</MpLanDesc2>
   <MpRunArbiter>Uruchom Arbitra</MpRunArbiter>
@@ -152,9 +168,9 @@
   <MpLogDesyncTracesDesc2>Nie działa na procesorach 32-bitowych i ARM (Apple Silicon).</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Funkcje eksperymentalna</MpExperimentalFeature>
   <MpSyncConfigs>Synchronizuj konfiguracje</MpSyncConfigs>
-  <MpSyncConfigsDesc1>Przełącz, aby dołączający gracze mogli pobierać pliki konfiguracyjne modyfikacji.</MpSyncConfigsDesc1>
-  <MpSyncConfigsDesc2>Aktywowanie tego może zmniejszyć liczbę desynchronizacji.</MpSyncConfigsDesc2>
-  <MpSyncConfigsDesc3>Zauważ, że pliki konfiguracyjne niektórych modyfikacji mogą zawierać poufne informacje (takie jak tokeny API).</MpSyncConfigsDesc3>
+  <MpSyncConfigsDescNew1>Przełącz, aby dołączający gracze mogli pobierać pliki konfiguracyjne modyfikacji.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew2>Aktywowanie tego może zmniejszyć liczbę desynchronizacji.</MpSyncConfigsDescNew2>
+  <MpSyncConfigsDescNew3>Zauważ, że pliki konfiguracyjne niektórych modyfikacji mogą zawierać poufne informacje (takie jak tokeny API).</MpSyncConfigsDescNew3>
   <MpAutoJoinPoints>Automatyczne punkty łączenia</MpAutoJoinPoints>
   <MpAutoJoinPointsDesc1>Przełącza automatyczne punkty łączenia.</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>Tworzenie punktu łączenia jest wolniejsze niż zapisywanie, ale znacznie przyspiesza łączenie, ponieważ nie wymaga od graczy symulowania gry.</MpAutoJoinPointsDesc2>
@@ -162,6 +178,19 @@
   <MpAutoJoinPointsJoin>Przy dołączaniu</MpAutoJoinPointsJoin>
   <MpAutoJoinPointsDesync>Przy desynchronizacji</MpAutoJoinPointsDesync>
   <MpAutoJoinPointsAutosave>Przy autozapisie</MpAutoJoinPointsAutosave>
+  <MpHostGamePassword>Hasło</MpHostGamePassword>
+  <MpPauseOn>Pauzuj gdy</MpPauseOn>
+  <MpPauseOnJoin>Połączono</MpPauseOnJoin>
+  <MpPauseOnDesync>Desynchronizacja</MpPauseOnDesync>
+  <MpTimeControl>Zarządzanie czasem</MpTimeControl>
+  <MpTimeControlEveryoneControls>Wszyscy mogą kontrolować</MpTimeControlEveryoneControls>
+  <MpTimeControlLowestWins>Najniższa wygrywa</MpTimeControlLowestWins>
+  <MpTimeControlHostOnly>Tylko Host</MpTimeControlHostOnly>
+  <MpPauseOnLetter>Pauza na nową wiadomość</MpPauseOnLetter>
+  <MpPauseOnLetterNever>Nigdy</MpPauseOnLetterNever>
+  <MpPauseOnLetterMajorThreat>Najważniejsze zagrożenia</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterAnyThreat>Wszystkie zagrożenia</MpPauseOnLetterAnyThreat>
+  <MpPauseOnLetterAnyLetter>Wszystkie wiadomości</MpPauseOnLetterAnyLetter>
 
   <!-- Server browser info buttons -->
   <MpWebsiteButton>Strona WWW</MpWebsiteButton>
