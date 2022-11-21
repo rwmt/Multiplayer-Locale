@@ -6,7 +6,7 @@
   <MpLoadingError1>Multiplayer hatte einen Fehler beim Laden.</MpLoadingError1>
   <MpLoadingError2>Dies kann dazu führen, dass Spiele desynchronisieren.</MpLoadingError2>
   <MpLoadingError3>Das liegt wahrscheinlich daran, dass diese Version der Mod nicht für deine Version von RimWorld gemacht wurde.</MpLoadingError3>
-  <MpLoadingError4>Nutze die aktuellste oder eine ältere Version von Multiplayer bzw. RimWorld.</MpLoadingError4>
+  <MpLoadingError4>Nutze die aktuelle oder eine ältere Version von Multiplayer bzw. RimWorld.</MpLoadingError4>
   <MpLoadingError5>HINWEIS: Das Spiel könnte erst kürzlich aktualisiert worden sein und möglicherweise gibt es noch keine neue Version des Multiplayers.</MpLoadingError5>
   
   <!-- Ingame -->
@@ -132,11 +132,11 @@
 
   <!-- Hosting -->
   <MpHostTabConnecting>Verbindung</MpHostTabConnecting>
-  <MpHostTabGameplay>Spielfluss</MpHostTabGameplay>
+  <MpHostTabGameplay>Spielmechanik</MpHostTabGameplay>
   <MpHostDirect>Direkt</MpHostDirect>
-  <MpHostDirectDesc1>Warte auf beitrende Spieler von angegebenen Zieladressen.</MpHostDirectDesc1>
+  <MpHostDirectDesc1>Warte auf beitretende Spieler von angegebenen Zieladressen.</MpHostDirectDesc1>
   <MpHostDirectDesc2>Für gewöhnlich reicht es, das Feld auf 0.0.0.0 zu lassen (das bedeutet, dass alle Netzwerkschnittstellen erlaubt sind). Beachte, dass du wahrscheinlich Portweiterleitungen (Port Forwarding) einrichten musst.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>Um mehrere Zieladressen anzugeben, trenne diese mit kaufmännischen Unds ab. IPv6-Adressen werden unterstützt.</MpHostDirectDesc3>
+  <MpHostDirectDesc3>Um mehrere Zieladressen anzugeben, trenne diese mit Und-Zeichen ("&amp;") ab. IPv6-Adressen werden unterstützt.</MpHostDirectDesc3>
   <MpHostDirectDesc4>Wenn kein Port angegeben wird, wird 30502 genutzt.</MpHostDirectDesc4>
   <MpHostIngame>Dieses Spiel hosten</MpHostIngame>
   <MpHostSavefile>Einen Spielstand hosten</MpHostSavefile>
@@ -155,7 +155,7 @@
   <MpLanDesc1>Übertrage das Spiel im lokalen Netzwerk.</MpLanDesc1>
   <MpLanDesc2>Aufgelöste LAN-Adresse: {0}</MpLanDesc2>
   <MpRunArbiter>Benutze Arbiter</MpRunArbiter>
-  <MpArbiterDesc>Eine im Hintergrund arbeitende Spielinstanz, die hilft, Synchronosierungsprobleme zu beheben.</MpArbiterDesc>
+  <MpArbiterDesc>Eine im Hintergrund arbeitende Spielinstanz, die hilft, Synchronisierungsprobleme zu beheben.</MpArbiterDesc>
   <MpAsyncTime>Asynchrone Zeit</MpAsyncTime>
   <MpAsyncTimeDesc>Unterschiedliche Zeitkontrolle für jede Karte und den Planeten.</MpAsyncTimeDesc>
   <MpHostingDevMode>Entwicklermodus</MpHostingDevMode>
@@ -164,13 +164,13 @@
   <MpHostingDevModeHostOnly>Nur Host</MpHostingDevModeHostOnly>
   <MpHostingDevModeEveryone>Alle</MpHostingDevModeEveryone>
   <MpLogDesyncTraces>Desync-Protokollierung</MpLogDesyncTraces>
-  <MpLogDesyncTracesDesc1>Zusätzliche Stacktraces zur Behebung von Desynchronosierungsproblemen protokollieren.</MpLogDesyncTracesDesc1>
+  <MpLogDesyncTracesDesc1>Zusätzliche Stacktraces zur Behebung von Desynchronisierungsproblemen protokollieren.</MpLogDesyncTracesDesc1>
   <MpLogDesyncTracesDesc2>Funktioniert nicht auf 32-Bit und ARM (Apple Silicon) Prozessoren.</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Experimentelle Funktion</MpExperimentalFeature>
   <MpSyncConfigs>Synchronisiere Mod-Konfigurationen</MpSyncConfigs>
-  <MpSyncConfigsDescNew1>Schalte diese Option ein, wenn beitretende Spieler deine Mod-Konfigrationsdateien herunterladen dürfen.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew1>Schalte diese Option ein, wenn beitretende Spieler deine Mod-Konfigurationsdateien herunterladen dürfen.</MpSyncConfigsDescNew1>
   <MpSyncConfigsDescNew2>Eingeschaltet kann diese Option Desynchronisierungen reduzieren.</MpSyncConfigsDescNew2>
-  <MpSyncConfigsDescNew3>Beachte, dass manche Mod-Konfigrationsdateien sensible Informationen enthalten können (etwa Twitch-API-Tokens in Mods für Streamer).</MpSyncConfigsDescNew3>
+  <MpSyncConfigsDescNew3>Beachte, dass manche Mod-Konfigurationsdateien sensible Informationen enthalten können (etwa Twitch-API-Tokens in Mods für Streamer).</MpSyncConfigsDescNew3>
   <MpAutoJoinPoints>Auto-Beitrittspunkte</MpAutoJoinPoints>
   <MpAutoJoinPointsDesc1>Schaltet automatische Beitrittspunkte ein oder aus.</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>Die Erstellung von Beitrittspunkten ist langsamer als Speichern, aber steigert die Geschwindigkeit beim Beitritt des Spiels signifikant, weil beitretende Spieler das Spiel nicht simulieren müssen.</MpAutoJoinPointsDesc2>
@@ -186,11 +186,11 @@
   <MpTimeControlEveryoneControls>Jeder</MpTimeControlEveryoneControls>
   <MpTimeControlLowestWins>Niedrigste Zeiteinstellung gewinnt</MpTimeControlLowestWins>
   <MpTimeControlHostOnly>Nur Host</MpTimeControlHostOnly>
-  <MpPauseOnLetter>Pause durch</MpPauseOnLetter>
+  <MpPauseOnLetter>Pausieren bei Brief</MpPauseOnLetter>
   <MpPauseOnLetterNever>Nie</MpPauseOnLetterNever>
-  <MpPauseOnLetterMajorThreat>Große Bedrohung</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterMajorThreat>Große Bedrohungen</MpPauseOnLetterMajorThreat>
   <MpPauseOnLetterAnyThreat>Jede Bedrohung</MpPauseOnLetterAnyThreat>
-  <MpPauseOnLetterAnyLetter>Jede Nachricht</MpPauseOnLetterAnyLetter>
+  <MpPauseOnLetterAnyLetter>Jeder Brief</MpPauseOnLetterAnyLetter>
 
   <!-- Server browser info buttons -->
   <MpWebsiteButton>Webseite</MpWebsiteButton>
@@ -256,7 +256,7 @@
   <MpMismatchRwVersion>RimWorld-Version</MpMismatchRwVersion>
   <MpMismatchMpVersion>Multiplayer-Version</MpMismatchMpVersion>
   <MpMismatchRestart>Neustart</MpMismatchRestart>
-  <MpMismatchRestartDesc>Du wirst erneut verbunden, nachdem das Spiel zuende geladen hat.</MpMismatchRestartDesc>
+  <MpMismatchRestartDesc>Du wirst erneut verbunden, nachdem das Spiel zu Ende geladen hat.</MpMismatchRestartDesc>
   <MpMismatchBack>Zurück</MpMismatchBack>
   <MpMismatchServerMods>Server-Mods</MpMismatchServerMods>
   <MpMismatchLocalMods>Aktive Mods</MpMismatchLocalMods>
