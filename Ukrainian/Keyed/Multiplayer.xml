@@ -76,27 +76,27 @@
   <MpGameSaveFailed>Помилка збереження гри. Читайте журнал помилок для більш детальної інформації.</MpGameSaveFailed>
 
   <!-- Settings -->
-  <MpUsernameSetting>Username</MpUsernameSetting>
-  <MpShowPlayerCursors>Show player cursors</MpShowPlayerCursors>
-  <MpAutoAcceptSteam>Auto-accept Steam</MpAutoAcceptSteam>
-  <MpAutoAcceptSteamDesc>Automatically accept any incoming Steam connection requests.</MpAutoAcceptSteamDesc>
-  <MpTransparentChat>Transparent chat</MpTransparentChat>
-  <MpAutosaveSlots>Autosave slots</MpAutosaveSlots>
-  <MpAutosaveSlotsDesc>How many autosave files to keep.</MpAutosaveSlotsDesc>
-  <MpAggressiveTicking>Aggressive ticking</MpAggressiveTicking>
-  <MpAggressiveTickingDesc>Always try to automatically catch up with the server at the cost of FPS.</MpAggressiveTickingDesc>
-  <MpAppendNameToAutosave>Append name to autosave</MpAppendNameToAutosave>
-  <MpShowModCompat>Show crowd-sourced compat info</MpShowModCompat>
-  <MpShowModCompatDesc>Enables downloading and displaying of crowd-sourced mod compatibility info.</MpShowModCompatDesc>
-  <MpEnablePingsSetting>Enable location pings</MpEnablePingsSetting>
-  <MpPingLocButtonSetting>Ping location button</MpPingLocButtonSetting>
-  <MpJumpToPingButtonSetting>Jump to ping button</MpJumpToPingButtonSetting>
-  <MpShowMainMenuAnimation>Show main menu animation</MpShowMainMenuAnimation>
-  <MpPlayerCursorTransparency>Transparent player cursors</MpPlayerCursorTransparency>
-  <MpSettingsPageGeneral>General settings</MpSettingsPageGeneral>
-  <MpSettingsPageColor>Player colors</MpSettingsPageColor>
-  <MpSettingsPageColorDesc>Select what colors player get when they connect to a game you host. Affects, for example, player cursors.</MpSettingsPageColorDesc>
-  <MpResetColors>Reset the colors</MpResetColors>
+  <MpUsernameSetting>Ім'я користувача</MpUsernameSetting>
+  <MpShowPlayerCursors>Показувати курсор гравця</MpShowPlayerCursors>
+  <MpAutoAcceptSteam>Авто-приймання Steam</MpAutoAcceptSteam>
+  <MpAutoAcceptSteamDesc>Автоматично приймати всі вхідні запити від гравців Steam.</MpAutoAcceptSteamDesc>
+  <MpTransparentChat>Прозорий чат</MpTransparentChat>
+  <MpAutosaveSlots>Слоти автозбереження</MpAutosaveSlots>
+  <MpAutosaveSlotsDesc>Як багато файлів автозбереження зберігати.</MpAutosaveSlotsDesc>
+  <MpAggressiveTicking>Агресивні тіки</MpAggressiveTicking>
+  <MpAggressiveTickingDesc>Завжди намагатися наздогнати сервер ціною FPS.</MpAggressiveTickingDesc>
+  <MpAppendNameToAutosave>Додавати ім'я до автозбереження</MpAppendNameToAutosave>
+  <MpShowModCompat>Показувати сумісніть модів</MpShowModCompat>
+  <MpShowModCompatDesc>Активує завантаження та відображення сумісності модів.</MpShowModCompatDesc>
+  <MpEnablePingsSetting>Активувати мітки для локацій</MpEnablePingsSetting>
+  <MpPingLocButtonSetting>Кнопка міток локацій</MpPingLocButtonSetting>
+  <MpJumpToPingButtonSetting>Перейти до кнопки мітки локацій</MpJumpToPingButtonSetting>
+  <MpShowMainMenuAnimation>Показувати анімації в головному меню</MpShowMainMenuAnimation>
+  <MpPlayerCursorTransparency>Прозорість курсору гравця</MpPlayerCursorTransparency>
+  <MpSettingsPageGeneral>Загальні налаштування</MpSettingsPageGeneral>
+  <MpSettingsPageColor>Кольори гравців</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>Виберіть кольори гравців коли вони під'єднуються до гри, де ви хост. Це налаштування зачіпає, наприклад, курсори гравців.</MpSettingsPageColorDesc>
+  <MpResetColors>Скинути кольори</MpResetColors>
   
   <!-- Ping alert -->
   <MpAlertPing>Multiplayer ping</MpAlertPing>
