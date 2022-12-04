@@ -289,23 +289,23 @@
   <MpConfigsMatch>Конфігурації співпадають</MpConfigsMatch>
 
   <!-- Mod compatibility window -->
-  <MpModCompatButton>Multiplayer compatibility</MpModCompatButton>
-  <MpModCompatTitle>Multiplayer mod compatibility</MpModCompatTitle>
-  <MpModCompatLoading>Loading</MpModCompatLoading>
-  <MpModCompatLoadingFailed>Loading failed.</MpModCompatLoadingFailed>
-  <MpModCompatActiveMods>Active</MpModCompatActiveMods>
-  <MpModCompatInstalledMods>Installed</MpModCompatInstalledMods>
-  <MpModCompatOutdatedMods>Outdated</MpModCompatOutdatedMods>
-  <MpModCompatHeaderModName>Mod name</MpModCompatHeaderModName>
-  <MpModCompatHeaderStatus>Status</MpModCompatHeaderStatus>
-  <MpModCompatHeaderNotes>Notes</MpModCompatHeaderNotes>
-  <MpModCompatXmlOnlyDesc>XML-only mods provide only data and no logic and so are always compatible. Note though that they can have incompatible mods as dependencies.</MpModCompatXmlOnlyDesc>
-  <MpModCompatScore4>Everything works</MpModCompatScore4>
-  <MpModCompatScore3>Mostly works, some minor features don't work</MpModCompatScore3>
-  <MpModCompatScore2>Partially works, but major features don't work</MpModCompatScore2>
-  <MpModCompatScore1>Does not work</MpModCompatScore1>
-  <MpModCompatScoreUnk>Unknown; please report findings to #mod-report in our Discord</MpModCompatScoreUnk>
-  <MpHideTranslationMods>Hide translation mods</MpHideTranslationMods>
-  <MpHideTranslationModsDesc>Translation mods are always compatible.</MpHideTranslationModsDesc>
+  <MpModCompatButton>Сумісність з Multiplayer</MpModCompatButton>
+  <MpModCompatTitle>Сумісність з модом Multiplayer</MpModCompatTitle>
+  <MpModCompatLoading>Завантаження</MpModCompatLoading>
+  <MpModCompatLoadingFailed>Помилка завантаження.</MpModCompatLoadingFailed>
+  <MpModCompatActiveMods>Активні</MpModCompatActiveMods>
+  <MpModCompatInstalledMods>Встановлені</MpModCompatInstalledMods>
+  <MpModCompatOutdatedMods>Застарілі</MpModCompatOutdatedMods>
+  <MpModCompatHeaderModName>Ім'я моду</MpModCompatHeaderModName>
+  <MpModCompatHeaderStatus>Статус</MpModCompatHeaderStatus>
+  <MpModCompatHeaderNotes>Зауваження</MpModCompatHeaderNotes>
+  <MpModCompatXmlOnlyDesc>XML моди надають тільки дані без додаткової логіки, тому вони завжди сумісні. Зауважте, що вони можуть мати в залежностях моди, які не є сумісними.</MpModCompatXmlOnlyDesc>
+  <MpModCompatScore4>Все працює</MpModCompatScore4>
+  <MpModCompatScore3>В загальному працює, але деякі маленькі функції можуть не працювати</MpModCompatScore3>
+  <MpModCompatScore2>Частково працює, але великі функції можуть не працювати</MpModCompatScore2>
+  <MpModCompatScore1>Не працює</MpModCompatScore1>
+  <MpModCompatScoreUnk>Невідомо; будь ласка напишіть відгук в #mod-report в наш Discord</MpModCompatScoreUnk>
+  <MpHideTranslationMods>Приховати моди локалізацій</MpHideTranslationMods>
+  <MpHideTranslationModsDesc>Моди локалізацій завжди сумісні.</MpHideTranslationModsDesc>
 
 </LanguageData>
