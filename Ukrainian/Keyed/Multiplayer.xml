@@ -236,57 +236,57 @@
   <MpFileRename>Перейменувати файл на</MpFileRename>
   
   <!-- Mismatch screen -->
-  <MpDataMismatch>Data mismatch</MpDataMismatch>
-  <MpConnectAnyway>Connect anyway</MpConnectAnyway>
-  <MpFixAndRestart>Fix and restart</MpFixAndRestart>
-  <MpMismatchQuit>Quit</MpMismatchQuit>
-  <MpMismatchDefsDiff>Mod data definitions differ. They need to match before joining.</MpMismatchDefsDiff>
-  <MpRestartNeeded>The game needs to be restarted for mod list, file and config changes to take effect.</MpRestartNeeded>
-  <MpApplyConfigs>Apply server's configs</MpApplyConfigs>
-  <MpApplyConfigsTip>The application of configs is temporary and lasts until the next game restart. None of your files will be overriden.</MpApplyConfigsTip>
-  <MpApplyModList>Apply server's mod list</MpApplyModList>
-  <MpApplyModListTip>Your current mod list will get overriden.</MpApplyModListTip>
-  <MpMismatchGeneral>General</MpMismatchGeneral>
-  <MpMismatchModList>Mod list</MpMismatchModList>
-  <MpMismatchFiles>Files</MpMismatchFiles>
-  <MpMismatchConfigs>Configs</MpMismatchConfigs>
-  <MpMismatchServerSide>Server</MpMismatchServerSide>
-  <MpMismatchClientSide>Your client</MpMismatchClientSide>
-  <MpMismatchSeeTabs>See the respective tabs for more info.</MpMismatchSeeTabs>
-  <MpMismatchRwVersion>RimWorld version</MpMismatchRwVersion>
-  <MpMismatchMpVersion>Multiplayer version</MpMismatchMpVersion>
-  <MpMismatchRestart>Restart</MpMismatchRestart>
-  <MpMismatchRestartDesc>You will be reconnected after the game finishes loading.</MpMismatchRestartDesc>
-  <MpMismatchBack>Back</MpMismatchBack>
-  <MpMismatchServerMods>Server mods</MpMismatchServerMods>
-  <MpMismatchLocalMods>Active mods</MpMismatchLocalMods>
-  <MpMismatchModListRefresh>Refresh</MpMismatchModListRefresh>
-  <MpMismatchNotInstalled>Not installed: {0}</MpMismatchNotInstalled>
-  <MpMismatchModListsMismatch>Mod lists differ. The game needs to be restarted.</MpMismatchModListsMismatch>
-  <MpMismatchWrongOrder>Mods match but their order doesn't. The game needs to be restarted.</MpMismatchWrongOrder>
-  <MpMismatchModListsMatch>Mod lists match</MpMismatchModListsMatch>
-  <MpMismatchSubscribe>Subscribe to missing</MpMismatchSubscribe>
-  <MpMismatchSubscribeMsg>Subscribed to {0} mods. Downloading in the background...</MpMismatchSubscribeMsg>
-  <MpMismatchSubscribeNoSteam>Not connected to Steam. Missing mods have to be installed manually.</MpMismatchSubscribeNoSteam>
-  <MpMismatchSubscribeNoMissing>No mods are missing.</MpMismatchSubscribeNoMissing>
-  <MpMismatchSubscribeDesc1>Subscribe to the missing mods on the Steam Workshop. Downloading will happen in the background.</MpMismatchSubscribeDesc1>
-  <MpMismatchSubscribeDesc2>Not all of the missing mods are available on Steam. The rest have to be installed manually.</MpMismatchSubscribeDesc2>
-  <MpMismatchLocalFiles>Local files</MpMismatchLocalFiles>
-  <MpMismatchLocalConfigs>Local configs</MpMismatchLocalConfigs>
-  <MpMismatchTreeRefresh>Refresh</MpMismatchTreeRefresh>
-  <MpMismatchTreeMissing>Missing</MpMismatchTreeMissing>
-  <MpMismatchTreeAdded>Added</MpMismatchTreeAdded>
-  <MpMismatchTreeModified>Modified</MpMismatchTreeModified>
-  <MpMismatchFilesInfo>Mod file differences need to be resolved manually or ignored. They are usually caused by differing versions of mods or files being left behind after an update.</MpMismatchFilesInfo>
-  <MpMismatchFilesInfoMods>You should try to update/reinstall the offending mods (or resubscribe if on Steam).</MpMismatchFilesInfoMods>
-  <MpMismatchFilesInfoCore>To resolve issues with Core and expansion files, remove their folders and revalidate game file integrity (safe to do so, user data is stored elsewhere). Hover over the topmost folders to see their paths.</MpMismatchFilesInfoCore>
-  <MpMismatchFilesInfoHost>The differences might originate on the host side and they might have to repeat the above steps.</MpMismatchFilesInfoHost>
-  <MpMismatchFileShowPath>Hold shift to show the folder path.</MpMismatchFileShowPath>
-  <MpMismatchFileOpenPath>Shift + click to open the folder.</MpMismatchFileOpenPath>
-  <MpMismatchNodeExpand>Click to expand/collapse.</MpMismatchNodeExpand>
-  <MpConfigSyncDisabled>Config sync disabled by the host</MpConfigSyncDisabled>
-  <MpFilesMatch>Files match</MpFilesMatch>
-  <MpConfigsMatch>Configs match</MpConfigsMatch>
+  <MpDataMismatch>Неспівпадіння даних</MpDataMismatch>
+  <MpConnectAnyway>Все одно приєднатися</MpConnectAnyway>
+  <MpFixAndRestart>Виправити і перезапустити</MpFixAndRestart>
+  <MpMismatchQuit>Вийти</MpMismatchQuit>
+  <MpMismatchDefsDiff>Дані модів відрізняються. Вони маюти бути ідентичними з сервером для підключення.</MpMismatchDefsDiff>
+  <MpRestartNeeded>Гра повинна перезапууститися для застосування списку модів, файлів і конфігурацій.</MpRestartNeeded>
+  <MpApplyConfigs>Застосувати конфігурацію сервера</MpApplyConfigs>
+  <MpApplyConfigsTip>Застосування конфігурації тимчасове і буде активно до перезапуску гри. Ваші файли не будуть перезаписані.</MpApplyConfigsTip>
+  <MpApplyModList>Застосувати список модів сервера</MpApplyModList>
+  <MpApplyModListTip>Ваш поточний список модів буде перезаписано.</MpApplyModListTip>
+  <MpMismatchGeneral>Загальні</MpMismatchGeneral>
+  <MpMismatchModList>Список модів</MpMismatchModList>
+  <MpMismatchFiles>Файли</MpMismatchFiles>
+  <MpMismatchConfigs>Когфігурації</MpMismatchConfigs>
+  <MpMismatchServerSide>Сервер</MpMismatchServerSide>
+  <MpMismatchClientSide>Ваш клієнт</MpMismatchClientSide>
+  <MpMismatchSeeTabs>Дивіться відповідні вкладки для детальнішої інформації.</MpMismatchSeeTabs>
+  <MpMismatchRwVersion>Версія RimWorld</MpMismatchRwVersion>
+  <MpMismatchMpVersion>Версія Multiplayer</MpMismatchMpVersion>
+  <MpMismatchRestart>Перезапустити</MpMismatchRestart>
+  <MpMismatchRestartDesc>Вас буде з'єднано знову після завантаження гри.</MpMismatchRestartDesc>
+  <MpMismatchBack>Назад</MpMismatchBack>
+  <MpMismatchServerMods>Моди сервера</MpMismatchServerMods>
+  <MpMismatchLocalMods>Активні моди</MpMismatchLocalMods>
+  <MpMismatchModListRefresh>Оновити</MpMismatchModListRefresh>
+  <MpMismatchNotInstalled>Не встановлено: {0}</MpMismatchNotInstalled>
+  <MpMismatchModListsMismatch>Список модів відрізняється. Гру потрібно перезапустити.</MpMismatchModListsMismatch>
+  <MpMismatchWrongOrder>Моди співпадають, але порядок невірний. Гру потрібно перезапустити.</MpMismatchWrongOrder>
+  <MpMismatchModListsMatch>Список модів співпадає</MpMismatchModListsMatch>
+  <MpMismatchSubscribe>Підписатися на моди</MpMismatchSubscribe>
+  <MpMismatchSubscribeMsg>Підписатися на {0} модів. Завантаження в фоні...</MpMismatchSubscribeMsg>
+  <MpMismatchSubscribeNoSteam>Не підключено до Steam. Пропущені моди потрібно встановити вручну.</MpMismatchSubscribeNoSteam>
+  <MpMismatchSubscribeNoMissing>Немає пропущених модів.</MpMismatchSubscribeNoMissing>
+  <MpMismatchSubscribeDesc1>Підписатися на пропущені моди в Steam Workshop. Завантаження відбудеться в фоні.</MpMismatchSubscribeDesc1>
+  <MpMismatchSubscribeDesc2>Не всі пропущені моди доступні в Steam. Решту потрібно встановити вручну.</MpMismatchSubscribeDesc2>
+  <MpMismatchLocalFiles>Локальні файли</MpMismatchLocalFiles>
+  <MpMismatchLocalConfigs>Локальні конфігурації</MpMismatchLocalConfigs>
+  <MpMismatchTreeRefresh>Оновити</MpMismatchTreeRefresh>
+  <MpMismatchTreeMissing>Відсутні</MpMismatchTreeMissing>
+  <MpMismatchTreeAdded>Додати</MpMismatchTreeAdded>
+  <MpMismatchTreeModified>Модифіковані</MpMismatchTreeModified>
+  <MpMismatchFilesInfo>Файли модів відрізняються і мають бути виправлені вручну або проігноровані. Зазвичай таке трапляється коли версії модів відрізняються або є застарілі файли після оновлення модів.</MpMismatchFilesInfo>
+  <MpMismatchFilesInfoMods>Ви маєте спробувати оновити/перевстановити ці моди (або перепідписатися на них в Steam).</MpMismatchFilesInfoMods>
+  <MpMismatchFilesInfoCore>Щоб виправити проблеми з Core та розширеннями, видаліть їх папки та запустіть перевірку цілісності файлів гри. Наведіть курсор на папки вище, щоб побачити їх розташування.</MpMismatchFilesInfoCore>
+  <MpMismatchFilesInfoHost>Проблема також може бути на стороні хоста. Йому можливо потрібно зробити кроки описані вище.</MpMismatchFilesInfoHost>
+  <MpMismatchFileShowPath>Утримуйте shift, щоб показати шлях до папки.</MpMismatchFileShowPath>
+  <MpMismatchFileOpenPath>Shift + клік, щоб відкрити папку.</MpMismatchFileOpenPath>
+  <MpMismatchNodeExpand>Клікніть, розгорнути/згорнути.</MpMismatchNodeExpand>
+  <MpConfigSyncDisabled>Синхронізація конфігурацій вимкнена хостом</MpConfigSyncDisabled>
+  <MpFilesMatch>Файли співпадають</MpFilesMatch>
+  <MpConfigsMatch>Конфігурації співпадають</MpConfigsMatch>
 
   <!-- Mod compatibility window -->
   <MpModCompatButton>Multiplayer compatibility</MpModCompatButton>
