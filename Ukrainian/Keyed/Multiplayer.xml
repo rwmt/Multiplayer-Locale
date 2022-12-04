@@ -70,8 +70,8 @@
   <MpConvertToSpWarnHost>Ви впевнені, що хочете перетворити в одиночну гру? Ця дія закриє сервер.</MpConvertToSpWarnHost>
   <MpConvertToSpWarn>Ви впевнені, що хочете перетворити в одиночну гру? Ви покинете мультиплеєрну гру.</MpConvertToSpWarn>
   <MpConvertingToSp>Перетворення</MpConvertingToSp>
-  <MpSaveGameAs>Збережти гру як</MpSaveGameAs>
-  <MpWillOverwrite>Файл існує. Його буде переписаноe</MpWillOverwrite>
+  <MpSaveGameAs>Зберегти гру як</MpSaveGameAs>
+  <MpWillOverwrite>Файл існує. Його буде переписано</MpWillOverwrite>
   <MpGameSaved>Гру збережено як {0}</MpGameSaved>
   <MpGameSaveFailed>Помилка збереження гри. Читайте журнал помилок для більш детальної інформації.</MpGameSaveFailed>
 
@@ -91,9 +91,9 @@
   <MpEnablePingsSetting>Активувати сигнали для локацій</MpEnablePingsSetting>
   <MpPingLocButtonSetting>Кнопка сигналу для локацій</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>Перейти до кнопки сигналу для локацій</MpJumpToPingButtonSetting>
-  <MpShowMainMenuAnimation>Показувати анімації в головному меню</MpShowMainMenuAnimation>
+  <MpShowMainMenuAnimation>Показувати анімації в гол. меню</MpShowMainMenuAnimation>
   <MpPlayerCursorTransparency>Прозорість курсору гравця</MpPlayerCursorTransparency>
-  <MpSettingsPageGeneral>Загальні налаштування</MpSettingsPageGeneral>
+  <MpSettingsPageGeneral>Заг. налаштування</MpSettingsPageGeneral>
   <MpSettingsPageColor>Кольори гравців</MpSettingsPageColor>
   <MpSettingsPageColorDesc>Виберіть кольори гравців коли вони під'єднуються до гри, де ви хост. Це налаштування зачіпає, наприклад, курсори гравців.</MpSettingsPageColorDesc>
   <MpResetColors>Скинути кольори</MpResetColors>
@@ -144,8 +144,8 @@
   <MpInvalidGameName>Неправильна назва гри</MpInvalidGameName>
   <MpInvalidGamePassword>Неправильний пароль гри</MpInvalidGamePassword>
   <MpGameName>Назва гри</MpGameName>
-  <MpMaxPlayers>Максимально гравців</MpMaxPlayers>
-  <MpAutosaves>Автозбереження</MpAutosaves>
+  <MpMaxPlayers>Макс. гравців</MpMaxPlayers>
+  <MpAutosaves>Автозбере-ня</MpAutosaves>
   <MpAutosavesEvery>Кожні</MpAutosavesEvery>
   <MpAutosavesMinutes>хвилин</MpAutosavesMinutes>
   <MpAutosavesDays>днів</MpAutosavesDays>
@@ -156,7 +156,7 @@
   <MpLanDesc2>Отримано LAN адресу: {0}</MpLanDesc2>
   <MpRunArbiter>Запустити Arbiter</MpRunArbiter>
   <MpArbiterDesc>Фоновий екземпляр гри, який допомагає запобігати/вирішувати десинхронізацію.</MpArbiterDesc>
-  <MpAsyncTime>Асинхронний час</MpAsyncTime>
+  <MpAsyncTime>Async time</MpAsyncTime> <!-- довжина рядка макс 13. TODO: можна запропонувати інший варіант  -->
   <MpAsyncTimeDesc>Розділити контроль часу для кожної карти та планети.</MpAsyncTimeDesc>
   <MpHostingDevMode>Режим розробника</MpHostingDevMode>
   <MpHostingDevModeDesc1>Активує доступ до інструментів режиму розробника RimWorld.</MpHostingDevModeDesc1>
@@ -167,11 +167,11 @@
   <MpLogDesyncTracesDesc1>Писати додаткові логи для відлагоджування десинхронізації.</MpLogDesyncTracesDesc1>
   <MpLogDesyncTracesDesc2>Не працює на 32 bit та ARM (Apple Silicon) процесорах.</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Експериментальні можливості</MpExperimentalFeature>
-  <MpSyncConfigs>Синхронізувати налаштуванн</MpSyncConfigs>
+  <MpSyncConfigs>Синхронізувати налаштування</MpSyncConfigs>
   <MpSyncConfigsDescNew1>Чи дозволяти новим гравцям завантажувати вашу конфігурацію модів.</MpSyncConfigsDescNew1>
   <MpSyncConfigsDescNew2>Включення опції може зменшити к-ть десинхронізацій.</MpSyncConfigsDescNew2>
   <MpSyncConfigsDescNew3>Зауважте, що деякі моди можуть містити конфіденційну інформацію (наприклад Twitch API токени, які використовуються деякими модами для стрімерів).</MpSyncConfigsDescNew3>
-  <MpAutoJoinPoints>Авто точки-приєднання</MpAutoJoinPoints>
+  <MpAutoJoinPoints>Auto join-points</MpAutoJoinPoints>
   <MpAutoJoinPointsDesc1>Чи автоматично створювати точки-приєднання.</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>Створення точок-приєднання повільніше ніж збереження, але дозволяє значно пришвидшити приєдання гравців без симулювання гри.</MpAutoJoinPointsDesc2>
   <MpAutoJoinPointsDesc3>Ви завжди можете створити точку-приєднання написавши /joinpoint в чат.</MpAutoJoinPointsDesc3>
@@ -180,13 +180,13 @@
   <MpAutoJoinPointsAutosave>При автозбереженні</MpAutoJoinPointsAutosave>
   <MpHostGamePassword>Пароль</MpHostGamePassword>
   <MpPauseOn>Пауза при</MpPauseOn>
-  <MpPauseOnJoin>Приєдання</MpPauseOnJoin>
-  <MpPauseOnDesync>Десинхронізація</MpPauseOnDesync>
+  <MpPauseOnJoin>Приєданні</MpPauseOnJoin>
+  <MpPauseOnDesync>Десинхронізації</MpPauseOnDesync>
   <MpTimeControl>Контроль часу</MpTimeControl>
   <MpTimeControlEveryoneControls>Контроль всіх</MpTimeControlEveryoneControls>
   <MpTimeControlLowestWins>Найменше перемог</MpTimeControlLowestWins>
   <MpTimeControlHostOnly>Тільки хост</MpTimeControlHostOnly>
-  <MpPauseOnLetter>Паузи при листи</MpPauseOnLetter>
+  <MpPauseOnLetter>Паузи при листах</MpPauseOnLetter>
   <MpPauseOnLetterNever>Ніколи</MpPauseOnLetterNever>
   <MpPauseOnLetterMajorThreat>Висока загроза</MpPauseOnLetterMajorThreat>
   <MpPauseOnLetterAnyThreat>Будь-яка загроза</MpPauseOnLetterAnyThreat>
@@ -215,25 +215,25 @@
   <MpLanSearching>Пошук</MpLanSearching>
 
   <!-- Server browser Steam tab -->
-  <MpNotConnectedToSteam>Not connected to Steam</MpNotConnectedToSteam>
-  <MpNoFriendsPlaying>No friends currently playing RimWorld</MpNoFriendsPlaying>
-  <MpPlayingRimWorld>Playing RimWorld</MpPlayingRimWorld>
-  <MpNotInMultiplayer>Not in multiplayer</MpNotInMultiplayer>
+  <MpNotConnectedToSteam>Не підключено до Steam</MpNotConnectedToSteam>
+  <MpNoFriendsPlaying>Немає друзів, які грають в RimWorld</MpNoFriendsPlaying>
+  <MpPlayingRimWorld>Грають в RimWorld</MpPlayingRimWorld>
+  <MpNotInMultiplayer>Не в мультиплеєрі</MpNotInMultiplayer>
 
   <!-- Save list -->
-  <MpMultiplayerSaves>Multiplayer</MpMultiplayerSaves>
-  <MpSingleplayerSaves>Singleplayer</MpSingleplayerSaves>
-  <MpSaveOutdated>(Outdated)</MpSaveOutdated>
-  <MpSaveOutdatedDesc>This savefile was made with RimWorld {0} but you are running version {1}.</MpSaveOutdatedDesc>
-  <MpHostButton>Host</MpHostButton>
-  <MpWatchReplay>Watch</MpWatchReplay>
-  <MpNothingSelected>Nothing selected</MpNothingSelected>
-  <MpNoSaves>Multiplayer can only be played from already existing saves</MpNoSaves>
-  <MpSeeModList>See mod list</MpSeeModList>
-  <MpOpenSaveFolder>Open containing folder</MpOpenSaveFolder>
-  <MpContinueAnyway>Continue anyway</MpContinueAnyway>
-  <MpFileRenameButton>Rename</MpFileRenameButton>
-  <MpFileRename>Rename file to</MpFileRename>
+  <MpMultiplayerSaves>Мультиплеєр</MpMultiplayerSaves>
+  <MpSingleplayerSaves>Одиночна гра</MpSingleplayerSaves>
+  <MpSaveOutdated>(Застаріле)</MpSaveOutdated>
+  <MpSaveOutdatedDesc>Це збереження було зроблено в RimWorld {0}, але ваша версія гри {1}.</MpSaveOutdatedDesc>
+  <MpHostButton>Захостити</MpHostButton>
+  <MpWatchReplay>Дивитися</MpWatchReplay>
+  <MpNothingSelected>Нічого вибирати</MpNothingSelected>
+  <MpNoSaves>Мультиплеєр можна почати грати тільки з існуючих збережень</MpNoSaves>
+  <MpSeeModList>Список модів</MpSeeModList>
+  <MpOpenSaveFolder>Відкрити папку збережень</MpOpenSaveFolder>
+  <MpContinueAnyway>Все одно продовжити</MpContinueAnyway>
+  <MpFileRenameButton>Перейменувати</MpFileRenameButton>
+  <MpFileRename>Перейменувати файл на</MpFileRename>
   
   <!-- Mismatch screen -->
   <MpDataMismatch>Data mismatch</MpDataMismatch>
