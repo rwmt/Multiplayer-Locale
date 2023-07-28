@@ -96,7 +96,6 @@
   <MpAlertPingDesc2>Нажмите с зажатой клавишей Shift чтобы убрать.</MpAlertPingDesc2>
 
   <!-- Pausing sessions -->
-  <!-- Need testing Не уверен в слове "сессия", необходимо проверить как это выглядит в игре, и скорректировать перевод -->
   <MpDialogsButton>Диалог</MpDialogsButton>
   <MpTradingSession>Торговля</MpTradingSession>
   <MpRitualSession>Подготовка ритуала</MpRitualSession>
