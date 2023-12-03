@@ -111,7 +111,8 @@
   <MpCaravanFormingSession>Sesja formowania karawany</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Sesja dzielenia karawany</MpCaravanSplittingSession>
   <MpAnotherRitualInProgress>Trwa już inna sesja przygotowania rytuału.</MpAnotherRitualInProgress>
-
+  <MpSwitchToMap>Przełącz do mapy</MpSwitchToMap>
+  
   <!-- Connecting -->
   <MpConnecting>Łączenie</MpConnecting>
   <MpConnectingTo>Łączenie do {0}:{1}</MpConnectingTo>
