@@ -111,6 +111,7 @@
   <MpCaravanFormingSession>Karawanenbildungs-Sitzung</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Karawanenaufteilungs-Sitzung</MpCaravanSplittingSession>
   <MpAnotherRitualInProgress>Eine andere Ritual-Einrichtungs-Sitzung läuft bereits.</MpAnotherRitualInProgress>
+  <MpSwitchToMap>Zur Karte wechseln</MpSwitchToMap>
 
   <!-- Connecting -->
   <MpConnecting>Verbinden</MpConnecting>
