@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Main menu -->
+  <MpMultiplayerButton>Multijugador</MpMultiplayerButton>
+  <MpLoadingError1>Ha ocurrido un error con Multiplayer al cargar.</MpLoadingError1>
+  <MpLoadingError2>Esto puede causar que los juegos se desincronizen.</MpLoadingError2>
+  <MpLoadingError3>Esto es posible porque la versión del mod no está hecho para tu versión de RimWorld.</MpLoadingError3>
+  <MpLoadingError4>Actualiza/Desactualiza Multiplayer o Rimworld.</MpLoadingError4>
+  <MpLoadingError5>NOTA: el juego podria haberse actualizado muy recientemente y puede que no haya una nueva versión de multijugador aún.</MpLoadingError5>
+
+  <!-- Ingame -->
+  <MpSimulating>Simulando</MpSimulating>
+  <MpSimulatingServer>Simulando el Servidor</MpSimulatingServer>
+  <MpLoading>Cargando</MpLoading>
+  <MpSaving>Guardando</MpSaving>
+  <MpCreatingJoinPoint>Creando un punto de unión</MpCreatingJoinPoint>
+  <MpServerCloseConfirmationNoTime>¿Estás seguro de que quieres cerrar el servidor?</MpServerCloseConfirmationNoTime>
+  <MpServerCloseConfirmationTime>¿Estás seguro de que quieres cerrar el servidor? Se guardó por última vez hace {0}.</MpServerCloseConfirmationTime>
+  <MpTraderLeavesIn>Se va en {0}</MpTraderLeavesIn>
+  <MpNotAvailable>No disponible en multijugador.</MpNotAvailable>
+  <MpCallingFactionNotAvailable>Llamar a otras facciones no está disponible en multijugador actualmente.</MpCallingFactionNotAvailable>
+  <MpLowestWinsButtonsDesc1>Votos del tiempo actual, el menor gana.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>Shift+Espacio para reiniciar tu voto.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>El host puede hacer Shift+Click aquí para reiniciar todos los votos.</MpLowestWinsButtonsDesc3>
+
+  <!-- Ticks behind indicator -->
+  <MpTicksBehind>Estás {0} ticks por detrás.</MpTicksBehind>
+  <MpLowerGameSpeed>Considera reducir la velocidad del juego.</MpLowerGameSpeed>
+  <MpForceCatchUp>Click para forzar el avance.</MpForceCatchUp>
+
+  <!-- Disconnected -->
+  <MpWrongProtocol>Versión incorrecta de protocolo</MpWrongProtocol>
+  <MpWrongMultiplayerVersionDesc>El servidor está hecho en Multiplayer {0} (protocolo {1}). Tu versión: {2} (protocolo {3})</MpWrongMultiplayerVersionDesc>
+  <MpWrongVersionUpdateInfo>Actualiza el mod (Resuscríbete si es de Steam).</MpWrongVersionUpdateInfo>
+  <MpWrongVersionUpdateInfoHost>El host debería actualizar el mod (Resuscribir si es de Steam).</MpWrongVersionUpdateInfoHost>
+  <MpServerClosed>Servidor cerrado</MpServerClosed>
+  <MpServerFull>El servidor está lleno</MpServerFull>
+  <MpDisconnectServerStarting>El servidor se está iniciando</MpDisconnectServerStarting>
+  <MpKicked>Has sido expulsado</MpKicked>
+  <MpDisconnected>Desconectado</MpDisconnected>
+  <MpDisconnectedWithInfo>Desconectado ({0})</MpDisconnectedWithInfo>
+  <MpSteamTimedOut>Se agotó el tiempo de conexión</MpSteamTimedOut>
+  <MpSteamGenericError>Error de conexión</MpSteamGenericError>
+  <MpPacketErrorLocal>Error de lectura de paquetes locales. Revisa el registro para más información.</MpPacketErrorLocal>
+  <MpPacketErrorRemote>Error de lectura de paquetes remoto. El host puede revisar el registro para más información.</MpPacketErrorRemote>
+  <MpConnectionFailed>Conexión fallida</MpConnectionFailed>
+  <MpConnectionFailedWithInfo>Conexión fallida ({0})</MpConnectionFailedWithInfo>
+  <MpInvalidUsernameAlreadyPlaying>Nombre de usuario ya en línea</MpInvalidUsernameAlreadyPlaying>
+  <MpInvalidUsernameChars>El nombre de usuario tiene caracteres inválidos</MpInvalidUsernameChars>
+  <MpInvalidUsernameLength>El nombre de usuario tiene una longitud inválida</MpInvalidUsernameLength>
+  <MpChangeUsernameInfo>Puedes cambiar tu nombre de usuario en las opciones del mod.</MpChangeUsernameInfo>
+  <MpConnectAsUsername>Conectar como {0}</MpConnectAsUsername>
+  <MpBadGamePassword>Contraseña del juego incorrecta</MpBadGamePassword>
+
+  <!-- Chat -->
+  <MpChatButton>Chat</MpChatButton>
+  <MpChatHotkeyInfo>Tecla del chat:</MpChatHotkeyInfo>
+  <MpPlayerConnected>{0} se ha unido</MpPlayerConnected>
+  <MpPlayerDisconnected>{0} se ha ido</MpPlayerDisconnected>
+  <MpChatPlayers>Jugadores ({0}):</MpChatPlayers>
+  <MpChatSend>Enviar</MpChatSend>
+  <MpSteamAcceptTitle>Aceptar jugadores de Steam</MpSteamAcceptTitle>
+  <MpSteamAcceptDesc>Click para aceptar</MpSteamAcceptDesc>
+  <MpSteamAccepted>Jugador ha sido aceptado</MpSteamAccepted>
+
+  <!-- Ingame ESC screen -->
+  <MpHostServer>Crear un servidor</MpHostServer>
+  <MpConvertToSp>Convertir a un solo jugador</MpConvertToSp>
+  <MpConvertToSpWarnHost>¿Estás seguro de que quieres convertir a un solo jugador? Esto cerrará el servidor.</MpConvertToSpWarnHost>
+  <MpConvertToSpWarn>¿Estás seguro de que quieres convertir a un solo jugador? Saldrás de la partida multijugador.</MpConvertToSpWarn>
+  <MpConvertingToSp>Convirtiendo</MpConvertingToSp>
+  <MpSaveGameAs>Guardar partida como</MpSaveGameAs>
+  <MpWillOverwrite>Archivo existe, será sobreescrito</MpWillOverwrite>
+  <MpGameSaved>Partida guardada como {0}</MpGameSaved>
+  <MpGameSaveFailed>Fallo al guardar la partida. Revisa el registro para más información.</MpGameSaveFailed>
+
+  <!-- Settings -->
+  <MpUsernameSetting>Nombre de usuario</MpUsernameSetting>
+  <MpShowPlayerCursors>Mostrar cursores de jugadores</MpShowPlayerCursors>
+  <MpAutoAcceptSteam>Auto-aceptar Steam</MpAutoAcceptSteam>
+  <MpAutoAcceptSteamDesc>Acepta automáticamente cualquier petición de conexión de Steam entrante.</MpAutoAcceptSteamDesc>
+  <MpTransparentChat>Chat transparente</MpTransparentChat>
+  <MpAutosaveSlots>Ranuras de autoguardado</MpAutosaveSlots>
+  <MpAutosaveSlotsDesc>Cuántos archivos de autoguardado a mantener.</MpAutosaveSlotsDesc>
+  <MpAggressiveTicking>Ticking agresivo</MpAggressiveTicking>
+  <MpAggressiveTickingDesc>Siempre intentará automáticamente de alcanzar el servidor en ticks por el costo de FPS.</MpAggressiveTickingDesc>
+  <MpAppendNameToAutosave>Añadir nombre al autoguardado</MpAppendNameToAutosave>
+  <MpShowModCompat>Mostrar información de la compatibilidad obtenida de la comunidad</MpShowModCompat>
+  <MpShowModCompatDesc>Permite descargar y mostrar la información de compatibilidad proveída por la comunidad.</MpShowModCompatDesc>
+  <MpEnablePingsSetting>Activar marcado de ubicación</MpEnablePingsSetting>
+  <MpPingLocButtonSetting>Botón de marcado</MpPingLocButtonSetting>
+  <MpJumpToPingButtonSetting>Botón de ir hacia el punto marcado</MpJumpToPingButtonSetting>
+  <MpShowMainMenuAnimation>Mostrar animación del menú principal</MpShowMainMenuAnimation>
+  <MpPlayerCursorTransparency>Cursores de jugadores transparentes</MpPlayerCursorTransparency>
+  <MpSettingsPageGeneral>Configuraciones generales</MpSettingsPageGeneral>
+  <MpSettingsPageColor>Colores de jugador</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>Selecciona qué colores el jugador consigue cuando se conecta a un juego que crees. Afecta, por ejemplo, al color del cursor de jugador.</MpSettingsPageColorDesc>
+  <MpResetColors>Reiniciar los colores</MpResetColors>
+  
+  <!-- Ping alert -->
+  <MpAlertPing>Marcado Multijugador</MpAlertPing>
+  <MpAlertPingDesc1>Click para centrar la cámara en ubicaciones marcadas por: {0}</MpAlertPingDesc1>
+  <MpAlertPingDesc2>Shift + click para desaparecer.</MpAlertPingDesc2>
+
+  <!-- Pausing sessions -->
+  <MpDialogsButton>Diálogos</MpDialogsButton>
+  <MpTradingSession>Sesión de intercambio</MpTradingSession>
+  <MpRitualSession>Sesión de arreglo de ritual</MpRitualSession>
+  <MpTransportLoadingSession>Sesión de cargado de cápsulas de transporte</MpTransportLoadingSession>
+  <MpCaravanFormingSession>Sesión de formación de caravana</MpCaravanFormingSession>
+  <MpCaravanSplittingSession>Sesión de división de caravana</MpCaravanSplittingSession>
+  <MpAnotherRitualInProgress>Otra sesión de ritual ya está en progreso.</MpAnotherRitualInProgress>
+
+  <!-- Connecting -->
+  <MpConnecting>Conectando</MpConnecting>
+  <MpConnectingTo>Conectando a {0}:{1}</MpConnectingTo>
+  <MpConnected>Conectado.</MpConnected>
+  <MpJoining>Uniéndose</MpJoining>
+  <MpDownloading>Descargando ({0}%)</MpDownloading>
+  <MpSteamConnectingTo>Conectando a un juego creado por {0}</MpSteamConnectingTo>
+  <MpSteamConnectingWaiting>Esperando a que el host acepte</MpSteamConnectingWaiting>
+  <MpWaitingForGameData>Esperando los datos del juego</MpWaitingForGameData>
+  <MpInvalidAddress>Dirección inválida</MpInvalidAddress>
+  <MpGamePassword>Contraseña del juego</MpGamePassword>
+
+  <!-- Desynced -->
+  <MpDesynced>El estado del juego se ha desincronizado.</MpDesynced>
+  <MpTryResync>Intentar resincronizar</MpTryResync>
+  <MpOpenDesyncFolder>Abrir carpeta de información</MpOpenDesyncFolder>
+  <MpDesyncedWaiting>Esperando los datos del host</MpDesyncedWaiting>
+
+  <!-- Hosting -->
+  <MpHostTabConnecting>Conectando</MpHostTabConnecting>
+  <MpHostTabGameplay>Juego</MpHostTabGameplay>
+  <MpHostDirect>Directo</MpHostDirect>
+  <MpHostDirectDesc1>Escuchar los jugadores entrantes en puntos de final especificados.</MpHostDirectDesc1>
+  <MpHostDirectDesc2>Usualmente, dejar este espacio en 0.0.0.0 es suficiente (Significa escuchar en todas las interfaces de red). Ten en cuenta que es probable que debas abrir los puertos.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>Para escuchar a múltiples puntos finales, sepáralos con &. Las direcciones IPv6 están soportadas.</MpHostDirectDesc3>
+  <MpHostDirectDesc4>Cuando no se provee ningún puerto, 30502 será usado.</MpHostDirectDesc4>
+  <MpHostIngame>Crear desde este juego</MpHostIngame>
+  <MpHostSavefile>Crear desde un archivo de guardado</MpHostSavefile>
+  <MpInvalidEndpoint>Punto final inválido: {0}</MpInvalidEndpoint>
+  <MpInvalidGameName>Nombre de juego inválido</MpInvalidGameName>
+  <MpInvalidGamePassword>Contraseña del juego inválida</MpInvalidGamePassword>
+  <MpGameName>Nombre de juego</MpGameName>
+  <MpMaxPlayers>Jugadores máximos</MpMaxPlayers>
+  <MpAutosaves>Autoguardados</MpAutosaves>
+  <MpAutosavesEvery>Cada</MpAutosavesEvery>
+  <MpAutosavesMinutes>minutos</MpAutosavesMinutes>
+  <MpAutosavesDays>días</MpAutosavesDays>
+  <MpAutosavesDesc1>El intervalo entre autoguardados.</MpAutosavesDesc1>
+  <MpAutosavesDesc2>Click en la unidad para cambiar entre dias en el juego o minutos en tiempo real.</MpAutosavesDesc2>
+  <MpAutosavesDesc3>Un día en velocidad normal es alrededor 16.6 minutos (rápido: 5.5 minutos, superrápido: 2.7 minutos)</MpAutosavesDesc3>
+  <MpLanDesc1>Transmitir el juego a tu red local.</MpLanDesc1>
+  <MpLanDesc2>Dirección LAN resuelta: {0}</MpLanDesc2>
+  <MpRunArbiter>Usar Arbiter</MpRunArbiter>
+  <MpArbiterDesc>Una instancia del juego de fondo que ayuda con la detección/solución de las desincronizaciones.</MpArbiterDesc>
+  <MpAsyncTime>Asincronizar tiempo</MpAsyncTime>
+  <MpAsyncTimeDesc>Controles separados del tiempo para cada mapa y el planeta.</MpAsyncTimeDesc>
+  <MpHostingDevMode>Modo de desarrollador</MpHostingDevMode>
+  <MpHostingDevModeDesc1>Habilita el acceso a las herramientas del modo de desarrollador de RimWorld.</MpHostingDevModeDesc1>
+  <MpHostingDevModeDesc2>Nota: no todas las herramientas de desarrollador son utilizables y no se provee soporte por ellas.</MpHostingDevModeDesc2>
+  <MpHostingDevModeHostOnly>Solo host</MpHostingDevModeHostOnly>
+  <MpHostingDevModeEveryone>Todos</MpHostingDevModeEveryone>
+  <MpLogDesyncTraces>Rastros de desincronización</MpLogDesyncTraces>
+  <MpLogDesyncTracesDesc1>Registra stacktraces adicionales para la solución de desincronizaciones.</MpLogDesyncTracesDesc1>
+  <MpLogDesyncTracesDesc2>No funciona en procesadores de 32 bits y ARM (Apple Silicon).</MpLogDesyncTracesDesc2>
+  <MpExperimentalFeature>Función experimental</MpExperimentalFeature>
+  <MpSyncConfigs>Sincronizar configuraciones</MpSyncConfigs>
+  <MpSyncConfigsDescNew1>Alterna si los jugadores entrantes pueden descargar las configuraciones de tus mods.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew2>Activar esto puede reducir la cantidad de desincronizaciones.</MpSyncConfigsDescNew2>
+  <MpSyncConfigsDescNew3>Ten en cuenta que algunas configuraciones de mods pueden contener información sensible (Como los tokens de la API de Twitch usados por mods de streamers).</MpSyncConfigsDescNew3>
+  <MpAutoJoinPoints>Puntos de unión automáticos</MpAutoJoinPoints>
+  <MpAutoJoinPointsDesc1>Alterna la creación automática de puntos de unión.</MpAutoJoinPointsDesc1>
+  <MpAutoJoinPointsDesc2>La creación de puntos de unión es más lenta que guardar pero acelera significativamente la unión al no requerir la simulación del juego de los jugadores.</MpAutoJoinPointsDesc2>
+  <MpAutoJoinPointsDesc3>Siempre podrás crear un punto de unión manualmente escribiendo /joinpoint en el chat.</MpAutoJoinPointsDesc3>
+  <MpAutoJoinPointsJoin>En unión</MpAutoJoinPointsJoin>
+  <MpAutoJoinPointsDesync>Al desincronizar</MpAutoJoinPointsDesync>
+  <MpAutoJoinPointsAutosave>Al autoguardar</MpAutoJoinPointsAutosave>
+  <MpHostGamePassword>Contraseña</MpHostGamePassword>
+  <MpPauseOn>Pausar al</MpPauseOn>
+  <MpPauseOnJoin>Unión</MpPauseOnJoin>
+  <MpPauseOnDesync>Desincronización</MpPauseOnDesync>
+  <MpTimeControl>Control del tiempo</MpTimeControl>
+  <MpTimeControlEveryoneControls>Todos controlan</MpTimeControlEveryoneControls>
+  <MpTimeControlLowestWins>El menor gana</MpTimeControlLowestWins>
+  <MpTimeControlHostOnly>Solo host</MpTimeControlHostOnly>
+  <MpPauseOnLetter>Pausar en alerta</MpPauseOnLetter>
+  <MpPauseOnLetterNever>Nunca</MpPauseOnLetterNever>
+  <MpPauseOnLetterMajorThreat>Peligros mayores</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterAnyThreat>Cualquier peligro</MpPauseOnLetterAnyThreat>
+  <MpPauseOnLetterAnyLetter>Cualquier alerta</MpPauseOnLetterAnyLetter>
+
+  <!-- Server browser info buttons -->
+  <MpWebsiteButton>Sitio Web</MpWebsiteButton>
+  <MpDiscordButton>Discord</MpDiscordButton>
+  <MpLinkButtonDesc>Click para abrir:</MpLinkButtonDesc>
+  <MpCompatibilityButton>Compatibilidad</MpCompatibilityButton>
+  <MpCompatibilityButtonDesc1>Abre la ventana de la información de compatibilidad.</MpCompatibilityButtonDesc1>
+  <MpCompatibilityButtonDesc2>También disponible en la lista de mods.</MpCompatibilityButtonDesc2>
+  <MpActiveConfigsButton>Activar configuraciones</MpActiveConfigsButton>
+  <MpActiveConfigsButtonDesc1>Esta instancia de RimWorld ha sido iniciada con los archivos de configuración del juego: {0}</MpActiveConfigsButtonDesc1>
+  <MpActiveConfigsButtonDesc2>Reiniciar para restaurar tus configuraciones previas.</MpActiveConfigsButtonDesc2>
+
+  <!-- Server browser tabs -->
+  <MpLan>LAN</MpLan>
+  <MpDirect>Directo</MpDirect>
+  <MpSteam>Steam</MpSteam>
+  <MpHostTab>Crear</MpHostTab>
+
+  <!-- Server browser LAN and Direct tabs -->
+  <MpJoinButton>Unirse</MpJoinButton>
+  <MpConnectButton>Conectar</MpConnectButton>
+  <MpLanSearching>Buscando</MpLanSearching>
+
+  <!-- Server browser Steam tab -->
+  <MpNotConnectedToSteam>No conectado a Steam</MpNotConnectedToSteam>
+  <MpNoFriendsPlaying>Ningún amigo está jugando RimWorld actualmente</MpNoFriendsPlaying>
+  <MpPlayingRimWorld>Jugando RimWorld</MpPlayingRimWorld>
+  <MpNotInMultiplayer>No en multijugador</MpNotInMultiplayer>
+
+  <!-- Save list -->
+  <MpMultiplayerSaves>Multijugador</MpMultiplayerSaves>
+  <MpSingleplayerSaves>Un solo jugador</MpSingleplayerSaves>
+  <MpSaveOutdated>(Desactualizado)</MpSaveOutdated>
+  <MpSaveOutdatedDesc>Este archivo de guardado fue hecho con RimWorld {0} pero estás usando la versión {1}.</MpSaveOutdatedDesc>
+  <MpHostButton>Crear</MpHostButton>
+  <MpWatchReplay>Mirar</MpWatchReplay>
+  <MpNothingSelected>Nada seleccionado</MpNothingSelected>
+  <MpNoSaves>Multiplayer solo puede ser jugado en guardados ya existentes</MpNoSaves>
+  <MpSeeModList>Ver lista de mods</MpSeeModList>
+  <MpOpenSaveFolder>Abrir ubicación del archivo</MpOpenSaveFolder>
+  <MpContinueAnyway>Continuar de todos modos</MpContinueAnyway>
+  <MpFileRenameButton>Renombrar</MpFileRenameButton>
+  <MpFileRename>Renombrar archivo a</MpFileRename>
+  
+  <!-- Mismatch screen -->
+  <MpDataMismatch>Datos disparejos</MpDataMismatch>
+  <MpConnectAnyway>Conectar de todos modos</MpConnectAnyway>
+  <MpFixAndRestart>Arreglar y reiniciar</MpFixAndRestart>
+  <MpMismatchQuit>Salir</MpMismatchQuit>
+  <MpMismatchDefsDiff>Los datos de las definiciones de mod son diferentes. Necesitan estar parejos antes de unirse.</MpMismatchDefsDiff>
+  <MpRestartNeeded>El juego necesita ser reiniciado para que los cambios en la lista de mods, configuraciones y archivos tengan efecto.</MpRestartNeeded>
+  <MpApplyConfigs>Aplicar configuraciones del servidor</MpApplyConfigs>
+  <MpApplyConfigsTip>La aplicación de las configuraciones es temporal y dura hasta que el próximo juego se reinicie. Ninguno de tus archivos será sobreescrito.</MpApplyConfigsTip>
+  <MpApplyModList>Aplicar lista de mods del server</MpApplyModList>
+  <MpApplyModListTip>Tu lista actual de mods será sobreescrita.</MpApplyModListTip>
+  <MpMismatchGeneral>General</MpMismatchGeneral>
+  <MpMismatchModList>Lista de mods</MpMismatchModList>
+  <MpMismatchFiles>Archivos</MpMismatchFiles>
+  <MpMismatchConfigs>Configuraciones</MpMismatchConfigs>
+  <MpMismatchServerSide>Servidor</MpMismatchServerSide>
+  <MpMismatchClientSide>Tu cliente</MpMismatchClientSide>
+  <MpMismatchSeeTabs>Ver las respectivas pestañas para más información.</MpMismatchSeeTabs>
+  <MpMismatchRwVersion>Versión de RimWorld</MpMismatchRwVersion>
+  <MpMismatchMpVersion>Versión de Multiplayer</MpMismatchMpVersion>
+  <MpMismatchRestart>Reiniciar</MpMismatchRestart>
+  <MpMismatchRestartDesc>Serás reconectado luego de que el juego termine de cargar.</MpMismatchRestartDesc>
+  <MpMismatchBack>Regresar</MpMismatchBack>
+  <MpMismatchServerMods>Mods del servidor</MpMismatchServerMods>
+  <MpMismatchLocalMods>Mods activos</MpMismatchLocalMods>
+  <MpMismatchModListRefresh>Recargar</MpMismatchModListRefresh>
+  <MpMismatchNotInstalled>No instalado: {0}</MpMismatchNotInstalled>
+  <MpMismatchModListsMismatch>La listas de mods son diferentes. El juego necesita reiniciarse.</MpMismatchModListsMismatch>
+  <MpMismatchWrongOrder>Los mods coinciden pero su orden no. El juego necesita reiniciarse.</MpMismatchWrongOrder>
+  <MpMismatchModListsMatch>Las listas de mods coinciden</MpMismatchModListsMatch>
+  <MpMismatchSubscribe>Suscribir a los faltantes</MpMismatchSubscribe>
+  <MpMismatchSubscribeMsg>Suscrito a {0} mods. Descargando en segundo plano...</MpMismatchSubscribeMsg>
+  <MpMismatchSubscribeNoSteam>No conectado a Steam. Los mods faltantes deberán ser instalados manualmente.</MpMismatchSubscribeNoSteam>
+  <MpMismatchSubscribeNoMissing>No hay mods faltantes.</MpMismatchSubscribeNoMissing>
+  <MpMismatchSubscribeDesc1>Suscribirse a los mods faltantes en la Workshop de Steam. La descarga se realizará en segundo plano.</MpMismatchSubscribeDesc1>
+  <MpMismatchSubscribeDesc2>No todos de los mods faltantes están disponibles en Steam. El resto deberá ser instalado manualmente.</MpMismatchSubscribeDesc2>
+  <MpMismatchLocalFiles>Archivos locales</MpMismatchLocalFiles>
+  <MpMismatchLocalConfigs>Configuraciones locales</MpMismatchLocalConfigs>
+  <MpMismatchTreeRefresh>Recargar</MpMismatchTreeRefresh>
+  <MpMismatchTreeMissing>Faltante</MpMismatchTreeMissing>
+  <MpMismatchTreeAdded>Añadido</MpMismatchTreeAdded>
+  <MpMismatchTreeModified>Modificado</MpMismatchTreeModified>
+  <MpMismatchFilesInfo>Los archivos de los mods son diferentes y tienen que ser resueltos manualmente o ignorados. Son usualmente cusados por versiones de mods diferentes o archivos siendo dejados atrás después de una actualización.</MpMismatchFilesInfo>
+  <MpMismatchFilesInfoMods>Deberías intentar actualizar/reinstalar los mods afectados (o resuscribirse si es de Steam).</MpMismatchFilesInfoMods>
+  <MpMismatchFilesInfoCore>Para resolver problemas con el juego principal (Core) y archivos de expansión (DLCs), remueve sus archivos y valida la integridad de los archivos del juego (seguro de realizarse, los datos de usuario se guardan en otro lado). Desliza el cursor encima de las carpetas de más arriba para ver sus ubicaciones.</MpMismatchFilesInfoCore>
+  <MpMismatchFilesInfoHost>Las diferencias pueden originarse en el lado del host y puede que tenga que repetir los pasos de arriba.</MpMismatchFilesInfoHost>
+  <MpMismatchFileShowPath>Mantén shift para mostrar la ubicación.</MpMismatchFileShowPath>
+  <MpMismatchFileOpenPath>Shift + click para abrir la carpeta.</MpMismatchFileOpenPath>
+  <MpMismatchNodeExpand>Click para expandir/contraer.</MpMismatchNodeExpand>
+  <MpConfigSyncDisabled>Sincronización de configuración desactivada por el host</MpConfigSyncDisabled>
+  <MpFilesMatch>Los archivos coinciden</MpFilesMatch>
+  <MpConfigsMatch>Las configuraciones coinciden</MpConfigsMatch>
+
+  <!-- Mod compatibility window -->
+  <MpModCompatButton>Compatibilidad de Multijugador</MpModCompatButton>
+  <MpModCompatTitle>Compatibilidad del mod de Multiplayer</MpModCompatTitle>
+  <MpModCompatLoading>Cargando</MpModCompatLoading>
+  <MpModCompatLoadingFailed>Carga fallida.</MpModCompatLoadingFailed>
+  <MpModCompatActiveMods>Activo</MpModCompatActiveMods>
+  <MpModCompatInstalledMods>Instalado</MpModCompatInstalledMods>
+  <MpModCompatOutdatedMods>Desactualizado</MpModCompatOutdatedMods>
+  <MpModCompatHeaderModName>Nombre del mod</MpModCompatHeaderModName>
+  <MpModCompatHeaderStatus>Estado</MpModCompatHeaderStatus>
+  <MpModCompatHeaderNotes>Notas</MpModCompatHeaderNotes>
+  <MpModCompatXmlOnlyDesc>Los mods de solo XML proveen solo datos y no lógica, por lo tanto son siempre compatibles. Ten en cuenta que pueden tener mods incompatibles como dependencias.</MpModCompatXmlOnlyDesc>
+  <MpModCompatScore4>Todo funciona</MpModCompatScore4>
+  <MpModCompatScore3>Mayormente funciona, algunas funciones menores no funcionan</MpModCompatScore3>
+  <MpModCompatScore2>Parcialmente funciona, pero funciones mayores no</MpModCompatScore2>
+  <MpModCompatScore1>No funciona</MpModCompatScore1>
+  <MpModCompatScoreUnk>Desconocido; Por favor reportar hallazgos a #mod-report en nuestro Discord</MpModCompatScoreUnk>
+  <MpHideTranslationMods>Esconder mods de traducción</MpHideTranslationMods>
+  <MpHideTranslationModsDesc>Los mods de traducción son siempre compatibles.</MpHideTranslationModsDesc>
+
+</LanguageData>
