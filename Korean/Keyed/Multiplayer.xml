@@ -23,7 +23,7 @@
   <MpLowerGameSpeed>게임 속도를 낮추는 걸 고려해보세요.</MpLowerGameSpeed>
   <MpForceCatchUp>클릭해서 강제로 따라잡기</MpForceCatchUp>
   <MpWrongProtocol>잘못된 프로토콜 버전</MpWrongProtocol>
-  <MpWrongMultiplayerVersionDesc>서버가 멀티플레이어 {0}으로 호스트 중 (프로토콜 {1}). 당신의 버전: {2} (프로토콜 {3})</MpWrongMultiplayerVersionDesc>
+  <MpWrongMultiplayerVersionDesc>서버가 멀티플레이어 {0}으로 호스트 중(버전 {1})인데 당신은 {2}이므로(버전 {3}) 서로 맞지 않습니다.</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>모드 업데이트 필요 (스팀인 경우 재구독하세요).</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>호스트의 모드 업데이트 필요 (스팀인 경우 재구독하세요).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>서버 닫힘</MpServerClosed>
@@ -133,7 +133,7 @@
   <MpRunArbiter>중재 인스턴스 실행</MpRunArbiter>
   <MpArbiterDesc>백그라운드에서 실행되는 비동기 탐지/해결 인스턴스입니다.</MpArbiterDesc>
   <MpAsyncTime>개별 동기화 적용</MpAsyncTime>
-  <MpAsyncTimeDesc>각 지도와 행성이 별도로 시간을 제어할 수 있도록 합니다.</MpAsyncTimeDesc>
+  <MpAsyncTimeDesc>각 지도와 행성이 별도로 시간을 제어할 수 있도록 합니다. 정착지는 서로 다른 날짜를 가지며 상단이 나간 경우에만 호스트의 시간에 영향을 받게 됩니다.</MpAsyncTimeDesc>
   <MpHostingDevMode>개발자 도구</MpHostingDevMode>
   <MpHostingDevModeDesc1>림월드의 개발자 도구에 접근할 수 있도록 허용합니다.</MpHostingDevModeDesc1>
   <MpHostingDevModeDesc2>참고: 모든 개발자 도구가 사용 가능한 것은 아니며, 지원이 제공되지 않습니다.</MpHostingDevModeDesc2>
@@ -190,7 +190,7 @@
   <MpMultiplayerSaves>멀티 플레이</MpMultiplayerSaves>
   <MpSingleplayerSaves>싱글 플레이</MpSingleplayerSaves>
   <MpSaveOutdated>(만료됨)</MpSaveOutdated>
-  <MpSaveOutdatedDesc>이 세이브 파일은 림월드 {0}에서 만들어졌으나 당신은 {1}을 플레이 중입니다.</MpSaveOutdatedDesc>
+  <MpSaveOutdatedDesc>이 세이브 파일은 림월드 버전 {0}에서 만들어졌으나 당신은 {1}을 플레이 중입니다.</MpSaveOutdatedDesc>
   <MpHostButton>호스트</MpHostButton>
   <MpWatchReplay>보기</MpWatchReplay>
   <MpNothingSelected>선택된 세이브 없음</MpNothingSelected>
@@ -206,9 +206,9 @@
   <MpMismatchQuit>나가기</MpMismatchQuit>
   <MpMismatchDefsDiff>모드 데이터 정의가 다릅니다. 입장하려면 일치해야 합니다.</MpMismatchDefsDiff>
   <MpRestartNeeded>모드 목록, 파일 및 설정값 변경 사항을 적용하려면 게임을 다시 시작해야 합니다.</MpRestartNeeded>
-  <MpApplyConfigs>서버의 설정값 불러오기</MpApplyConfigs>
+  <MpApplyConfigs>서버 설정값 불러오기</MpApplyConfigs>
   <MpApplyConfigsTip>설정값 변경은 전부 일시적이며 다음에 게임이 시동될 때까지만 유지됩니다. 그 어떤 설정값도 기존값을 덮어쓰지는 않습니다.</MpApplyConfigsTip>
-  <MpApplyModList>서버의 모드 목록 불러오기</MpApplyModList>
+  <MpApplyModList>서버 모드 목록 불러오기</MpApplyModList>
   <MpApplyModListTip>당신의 모드 목록을 덮어쓰게 됩니다.</MpApplyModListTip>
   <MpMismatchGeneral>기본</MpMismatchGeneral>
   <MpMismatchModList>모드 목록</MpMismatchModList>
