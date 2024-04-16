@@ -111,6 +111,7 @@
   <MpCaravanFormingSession>Caravan forming session</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Caravan splitting session</MpCaravanSplittingSession>
   <MpAnotherRitualInProgress>Another ritual setup session is already in progress.</MpAnotherRitualInProgress>
+  <MpSwitchToMap>Switch to map</MpSwitchToMap>
 
   <!-- Connecting -->
   <MpConnecting>Connecting</MpConnecting>
