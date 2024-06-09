@@ -112,6 +112,7 @@
   <MpCaravanSplittingSession>Sesja dzielenia karawany</MpCaravanSplittingSession>
   <MpAnotherRitualInProgress>Trwa już inna sesja przygotowania rytuału.</MpAnotherRitualInProgress>
   <MpSwitchToMap>Przełącz do mapy</MpSwitchToMap>
+  <MpMapPortalSession>Wchodzenie do sesji: {0}</MpMapPortalSession>
   
   <!-- Connecting -->
   <MpConnecting>Łączenie</MpConnecting>
@@ -127,20 +128,20 @@
 
   <!-- Desynced -->
   <MpDesynced>Gra została zdesynchronizowana.</MpDesynced>
-  <MpTryResync>Próbuj zsynchronizować</MpTryResync>
-  <MpOpenDesyncFolder>Otwórz folder informacji o desynchronizacji.</MpOpenDesyncFolder>
+  <MpTryResync>Spróbuj zsynchronizować</MpTryResync>
+  <MpOpenDesyncFolder>Otwórz folder informacji.</MpOpenDesyncFolder>
   <MpDesyncedWaiting>Czekam na dane od hosta</MpDesyncedWaiting>
   <MpHostTabConnecting>Połączenie</MpHostTabConnecting>
   <MpHostTabGameplay>Rozgrywka</MpHostTabGameplay>
   <MpHostDirect>Bezpośrednie połączenie</MpHostDirect>
   <MpHostDirectDesc1>Nasłuchuj dołączających graczy na określonych interfejsach.</MpHostDirectDesc1>
-  <MpHostDirectDesc2>Zazwyczaj ustawienie tego pola na 0.0.0.0 wystarczy (to oznacza nasłuchiwanie na wszystkich interfejsach). Zauważ, że prawdopodobnie będziesz musiał przekierować porty.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>Aby nasłuchiwać na wielu interfejsach, rozdziel je znakiem &#038;. Adresy IPv6 są wspierane.</MpHostDirectDesc3>
+  <MpHostDirectDesc2>Zazwyczaj pozostawienie tego pola jako 0.0.0.0 wystarczy (oznacza to nasłuchiwanie na wszystkich interfejsach sieciowych). Pamiętaj, że prawdopodobnie będziesz musiał przekierować porty.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>Aby nasłuchiwać na wielu punktach końcowych, rozdziel je znakiem &. Adresy IPv6 są obsługiwane.</MpHostDirectDesc3>
   <MpHostDirectDesc4>Jeśli nie podano portu, używany jest 30502.</MpHostDirectDesc4>
 
   <!-- Hosting -->
-  <MpHostIngame>Hostuje z tej gry</MpHostIngame>
-  <MpHostSavefile>Hostuj z zapisu gry</MpHostSavefile>
+  <MpHostIngame>Hostuj z tej gry</MpHostIngame>
+  <MpHostSavefile>Hostuj z pliku zapisu</MpHostSavefile>
   <MpInvalidEndpoint>Nieprawidłowy punkt końcowy: {0}</MpInvalidEndpoint>
   <MpInvalidGameName>Nieprawidłowa nazwa gry</MpInvalidGameName>
   <MpInvalidGamePassword>Nieprawidłowe hasło</MpInvalidGamePassword>
@@ -295,7 +296,7 @@
   <MpModCompatLoading>Ładowanie</MpModCompatLoading>
   <MpModCompatLoadingFailed>Ładowanie nie powiodło się.</MpModCompatLoadingFailed>
   <MpModCompatActiveMods>Aktywny</MpModCompatActiveMods>
-  <MpModCompatInstalledMods>zainstalowany</MpModCompatInstalledMods>
+  <MpModCompatInstalledMods>Zainstalowany</MpModCompatInstalledMods>
   <MpModCompatOutdatedMods>Nieaktualny</MpModCompatOutdatedMods>
   <MpModCompatHeaderModName>Nazwa modyfikacji</MpModCompatHeaderModName>
   <MpModCompatHeaderStatus>Status</MpModCompatHeaderStatus>
@@ -307,6 +308,6 @@
   <MpModCompatScore1>Nie działa</MpModCompatScore1>
   <MpModCompatScoreUnk>Nieznany; zgłoś raport do #mod-raport na naszym Discordzie</MpModCompatScoreUnk>
   <MpHideTranslationMods>Ukryj modyfikacje zawierające tłumaczenia</MpHideTranslationMods>
-  <MpHideTranslationModsDesc>Modyfikacje zawierające tłumaczenia zawsze sią kompatybilne.</MpHideTranslationModsDesc>
+  <MpHideTranslationModsDesc>Modyfikacje tłumaczeń są zawsze kompatybilne.</MpHideTranslationModsDesc>
 
 </LanguageData>
