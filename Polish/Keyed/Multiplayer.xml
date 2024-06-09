@@ -135,7 +135,7 @@
   <MpHostTabGameplay>Rozgrywka</MpHostTabGameplay>
   <MpHostDirect>Bezpośrednie połączenie</MpHostDirect>
   <MpHostDirectDesc1>Nasłuchuj dołączających graczy na określonych interfejsach.</MpHostDirectDesc1>
-  <MpHostDirectDesc2>azwyczaj pozostawienie tego pola jako 0.0.0.0 wystarczy (oznacza to nasłuchiwanie na wszystkich interfejsach sieciowych). Pamiętaj, że prawdopodobnie będziesz musiał przekierować porty.</MpHostDirectDesc2>
+  <MpHostDirectDesc2>Zazwyczaj pozostawienie tego pola jako 0.0.0.0 wystarczy (oznacza to nasłuchiwanie na wszystkich interfejsach sieciowych). Pamiętaj, że prawdopodobnie będziesz musiał przekierować porty.</MpHostDirectDesc2>
   <MpHostDirectDesc3>Aby nasłuchiwać na wielu punktach końcowych, rozdziel je znakiem &. Adresy IPv6 są obsługiwane.</MpHostDirectDesc3>
   <MpHostDirectDesc4>Jeśli nie podano portu, używany jest 30502.</MpHostDirectDesc4>
 
