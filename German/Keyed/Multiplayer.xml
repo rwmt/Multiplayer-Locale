@@ -21,8 +21,8 @@
   <MpNotAvailable>Im Mehrspielermodus nicht verfügbar.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Das Anrufen anderer Fraktionen ist im Mehrspielermodus derzeit nicht möglich.</MpCallingFactionNotAvailable>
   <MpLowestWinsButtonsDesc1>Aktuelle Spielgeschwindigkeitsstimmen, niedrigste Geschwindigkeit gewinnt.</MpLowestWinsButtonsDesc1>
-  <MpLowestWinsButtonsDesc2>Umschalttaste + Leertaste, um deine Stimme zurückzusetzen.</MpLowestWinsButtonsDesc2>
-  <MpLowestWinsButtonsDesc3>Der Host kann hier mit Umschalttaste + Klick alle Stimmen zurücksetzen.</MpLowestWinsButtonsDesc3>
+  <MpLowestWinsButtonsDesc2>Shift + Leertaste, um deine Stimme zurückzusetzen.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>Der Host kann hier mit Shift + Klick alle Stimmen zurücksetzen.</MpLowestWinsButtonsDesc3>
 
   <!-- Ticks behind indicator -->
   <MpTicksBehind>Du liegst {0} Ticks zurück.</MpTicksBehind>
@@ -99,19 +99,21 @@
   <MpResetColors>Zurücksetzen</MpResetColors>
 
   <!-- Ping alert -->
-  <MpAlertPing>Mehrspieler Ping</MpAlertPing>
-  <MpAlertPingDesc1>Klicke, um den Kamerafokus auf gepingte Standorte von {0} zu versetzen</MpAlertPingDesc1>
-  <MpAlertPingDesc2>Umschalttaste + Klick, um abzulehnen.</MpAlertPingDesc2>
+  <MpAlertPing>Mehrspieler-Ping</MpAlertPing>
+  <MpAlertPingDesc1>Klicke hier, um den Kamerafokus auf gepingte Standorte von {0} zu versetzen</MpAlertPingDesc1>
+  <MpAlertPingDesc2>Shift + Klick, um abzulehnen.</MpAlertPingDesc2>
 
   <!-- Pausing sessions -->
   <MpDialogsButton>Dialoge</MpDialogsButton>
   <MpTradingSession>Handelssitzung</MpTradingSession>
-  <MpRitualSession>Ritual-Einrichtungs-Sitzung</MpRitualSession>
-  <MpTransportLoadingSession>Transportkapsel-Lade-Sitzung</MpTransportLoadingSession>
-  <MpCaravanFormingSession>Karawanenbildungs-Sitzung</MpCaravanFormingSession>
-  <MpCaravanSplittingSession>Karawanenaufteilungs-Sitzung</MpCaravanSplittingSession>
-  <MpAnotherRitualInProgress>Eine andere Ritual-Einrichtungs-Sitzung läuft bereits.</MpAnotherRitualInProgress>
+  <MpRitualSession>Ritualvorbereitung</MpRitualSession>
+  <MpPsychicRitualSession>Psyritualvorbereitung</MpPsychicRitualSession>
+  <MpTransportLoadingSession>Transportkapsel-Beladung</MpTransportLoadingSession>
+  <MpCaravanFormingSession>Karawanenbildung</MpCaravanFormingSession>
+  <MpCaravanSplittingSession>Karawanenteilung</MpCaravanSplittingSession>
+  <MpAnotherRitualInProgress>Ein anderes Ritual wird bereits vorbereitet.</MpAnotherRitualInProgress>
   <MpSwitchToMap>Zur Karte wechseln</MpSwitchToMap>
+  <MpMapPortalSession>Betrete {0}-Sitzung</MpMapPortalSession>
 
   <!-- Connecting -->
   <MpConnecting>Verbinden</MpConnecting>
@@ -166,7 +168,7 @@
   <MpHostingDevModeEveryone>Alle</MpHostingDevModeEveryone>
   <MpLogDesyncTraces>Desync-Protokollierung</MpLogDesyncTraces>
   <MpLogDesyncTracesDesc1>Zusätzliche Stacktraces zur Behebung von Desynchronisierungsproblemen protokollieren.</MpLogDesyncTracesDesc1>
-  <MpLogDesyncTracesDesc2>Funktioniert nicht auf 32-Bit und ARM (Apple Silicon) Prozessoren.</MpLogDesyncTracesDesc2>
+  <MpLogDesyncTracesDesc2>Funktioniert nicht auf 32-Bit- und ARM (Apple Silicon)-Prozessoren.</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Experimentelle Funktion</MpExperimentalFeature>
   <MpSyncConfigs>Synchronisiere Mod-Konfigurationen</MpSyncConfigs>
   <MpSyncConfigsDescNew1>Schalte diese Option ein, wenn beitretende Spieler deine Mod-Konfigurationsdateien herunterladen dürfen.</MpSyncConfigsDescNew1>
@@ -282,8 +284,8 @@
   <MpMismatchFilesInfoMods>Du solltest versuchen, betroffene Mods zu aktualisieren bzw. neu zu installieren (oder neu zu abonnieren, falls auf Steam abonniert).</MpMismatchFilesInfoMods>
   <MpMismatchFilesInfoCore>Um Probleme mit Core- und Erweiterungsdateien zu beheben, entferne deren Ordner und überprüfe die Spieldateien auf Fehler via Steam (Vorgehen ist sicher, da Nutzerdaten an einem anderen Ort gespeichert werden). Bewege den Mauszeiger über die obersten Ordner, um ihre Pfade zu sehen.</MpMismatchFilesInfoCore>
   <MpMismatchFilesInfoHost>Die Unterschiede können auch auf der Seite des Hosts entstehen, der die oben genannten Schritte wiederholen muss.</MpMismatchFilesInfoHost>
-  <MpMismatchFileShowPath>Halte die Umschalttaste gedrückt, um den Ordnerpfad anzuzeigen.</MpMismatchFileShowPath>
-  <MpMismatchFileOpenPath>Umschalttaste + Klick, um den Ordner zu öffnen.</MpMismatchFileOpenPath>
+  <MpMismatchFileShowPath>Halte Shift gedrückt, um den Ordnerpfad anzuzeigen.</MpMismatchFileShowPath>
+  <MpMismatchFileOpenPath>Shift + Klick, um den Ordner zu öffnen.</MpMismatchFileOpenPath>
   <MpMismatchNodeExpand>Klicke, um auf- und einzuklappen.</MpMismatchNodeExpand>
   <MpConfigSyncDisabled>Konfigurationssynchronisierung vom Host deaktiviert</MpConfigSyncDisabled>
   <MpFilesMatch>Dateien stimmen überein</MpFilesMatch>
