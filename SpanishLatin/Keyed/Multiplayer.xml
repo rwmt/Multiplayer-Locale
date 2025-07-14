@@ -136,7 +136,7 @@
   <MpHostDirect>Directo</MpHostDirect>
   <MpHostDirectDesc1>Escuchar los jugadores entrantes en puntos de final especificados.</MpHostDirectDesc1>
   <MpHostDirectDesc2>Usualmente, dejar este espacio en 0.0.0.0 es suficiente (Significa escuchar en todas las interfaces de red). Ten en cuenta que es probable que debas abrir los puertos.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>Para escuchar a múltiples puntos finales, sepáralos con &. Las direcciones IPv6 están soportadas.</MpHostDirectDesc3>
+  <MpHostDirectDesc3>Para escuchar a múltiples puntos finales, sepáralos con el símbolo de ampersand. Las direcciones IPv6 están soportadas.</MpHostDirectDesc3>
   <MpHostDirectDesc4>Cuando no se provee ningún puerto, 30502 será usado.</MpHostDirectDesc4>
   <MpHostIngame>Crear desde este juego</MpHostIngame>
   <MpHostSavefile>Crear desde un archivo de guardado</MpHostSavefile>
