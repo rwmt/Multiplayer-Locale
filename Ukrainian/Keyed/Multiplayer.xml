@@ -5,7 +5,7 @@
   <MpMultiplayerButton>Мультиплеєр</MpMultiplayerButton>
   <MpLoadingError1>Помилка при завантаженні мультиплеєра.</MpLoadingError1>
   <MpLoadingError2>Це може викликати десинхронізацію гри.</MpLoadingError2>
-  <MpLoadingError3>Схоже на те, що ця версія моду не підтримує поточну версію RimWorld.</MpLoadingError3>
+  <MpLoadingError3>Ймовірно, ця версія моду не призначена для вашої версії RimWorld.</MpLoadingError3>
   <MpLoadingError4>Оновіть/понизьте версію Мультиплеєра або RimWorld.</MpLoadingError4>
   <MpLoadingError5>ЗАУВАЖТЕ: гра могла недавно оновитися і можливо таке, що нова версія моду Мультиплеєр поки не доступна.</MpLoadingError5>
 
@@ -19,7 +19,7 @@
   <MpServerCloseConfirmationTime>Ви впевнені, що хочете закрити сервер? Останнє збереження {0} назад.</MpServerCloseConfirmationTime>
   <MpTraderLeavesIn>Покине через {0}</MpTraderLeavesIn>
   <MpNotAvailable>Не доступно в мультиплеєрі.</MpNotAvailable>
-  <MpCallingFactionNotAvailable>Виклик інших фракцій нараз недоступний в мульплеєрі.</MpCallingFactionNotAvailable>
+  <MpCallingFactionNotAvailable>Виклик інших фракцій наразі недоступний в мультиплеєрі.</MpCallingFactionNotAvailable>
   <MpLowestWinsButtonsDesc1>Current time speed votes, lowest wins.</MpLowestWinsButtonsDesc1>  <!-- TODO: check in-game button -->
   <MpLowestWinsButtonsDesc2>Shift+Space для скасування голосу.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>Хост може натиснути Shift+Click тут для скасування голосування.</MpLowestWinsButtonsDesc3>
@@ -30,7 +30,7 @@
   <MpForceCatchUp>Натисніть, щоб примусово наздогнати.</MpForceCatchUp>
 
   <!-- Disconnected -->
-  <MpWrongProtocol>Не правильна версія протоколу</MpWrongProtocol>
+  <MpWrongProtocol>Неправильна версія протоколу</MpWrongProtocol>
   <MpWrongMultiplayerVersionDesc>Сервер хоститься в Мультиплеєрі версії {0} (протокол {1}). Ваша версія: {2} (протокол {3})</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>Оновіть мод (підпишіться знову у Steam).</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>Хост має оновити мод (підпишіться знову у Steam).</MpWrongVersionUpdateInfoHost>
@@ -86,7 +86,7 @@
   <MpAggressiveTicking>Агресивні тіки</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Завжди намагатися наздогнати сервер ціною FPS.</MpAggressiveTickingDesc>
   <MpAppendNameToAutosave>Додавати ім'я до автозбереження</MpAppendNameToAutosave>
-  <MpShowModCompat>Показувати сумісніть модів</MpShowModCompat>
+  <MpShowModCompat>Показувати сумісність модів</MpShowModCompat>
   <MpShowModCompatDesc>Активує завантаження та відображення сумісності модів.</MpShowModCompatDesc>
   <MpEnablePingsSetting>Активувати сигнали для локацій</MpEnablePingsSetting>
   <MpPingLocButtonSetting>Кнопка сигналу для локацій</MpPingLocButtonSetting>
@@ -101,7 +101,7 @@
   <!-- Ping alert -->
   <MpAlertPing>Сигнали в Мультиплеєрі</MpAlertPing>
   <MpAlertPingDesc1>Натисніть, щоб сфокусувати камеру на локаціях, де сигналізував: {0}</MpAlertPingDesc1>
-  <MpAlertPingDesc2>Shift + click, щоб відмінити.</MpAlertPingDesc2>
+  <MpAlertPingDesc2>Shift + click, щоб скасувати.</MpAlertPingDesc2>
 
   <!-- Pausing sessions -->
   <MpDialogsButton>Діалоги</MpDialogsButton>
@@ -110,7 +110,9 @@
   <MpTransportLoadingSession>Сесія завантаження транспортних капсул</MpTransportLoadingSession>
   <MpCaravanFormingSession>Сесія формування каравану</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Сесія розділення каравану</MpCaravanSplittingSession>
-  <MpAnotherRitualInProgress>Вже вікрито іншу сесію підготовки ритуалу.</MpAnotherRitualInProgress>
+  <MpAnotherRitualInProgress>Вже відкрито іншу сесію підготовки ритуалу.</MpAnotherRitualInProgress>
+  <MpSwitchToMap>Перемкнутися на карту</MpSwitchToMap>
+  <MpMapPortalSession>Вхід у сесію {0}</MpMapPortalSession>
 
   <!-- Connecting -->
   <MpConnecting>Під'єднання</MpConnecting>
@@ -125,7 +127,7 @@
   <MpGamePassword>Пароль гри</MpGamePassword>
 
   <!-- Desynced -->
-  <MpDesynced>Гру десинхровано.</MpDesynced>
+  <MpDesynced>Гра десинхронізована.</MpDesynced>
   <MpTryResync>Спробуйте ресинхронізувати</MpTryResync>
   <MpOpenDesyncFolder>Відкрити папку з інформацією</MpOpenDesyncFolder>
   <MpDesyncedWaiting>Очікування даних від хоста</MpDesyncedWaiting>
@@ -168,11 +170,11 @@
   <MpLogDesyncTracesDesc2>Не працює на 32 bit та ARM (Apple Silicon) процесорах.</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Експериментальні можливості</MpExperimentalFeature>
   <MpSyncConfigs>Синхронізувати налаштування</MpSyncConfigs>
-  <MpSyncConfigsDescNew1>Чи дозволяти новим гравцям завантажувати вашу конфігурацію модів.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew1>Чи дозволити новим гравцям завантажувати вашу конфігурацію модів.</MpSyncConfigsDescNew1>
   <MpSyncConfigsDescNew2>Включення опції може зменшити к-ть десинхронізацій.</MpSyncConfigsDescNew2>
   <MpSyncConfigsDescNew3>Зауважте, що деякі моди можуть містити конфіденційну інформацію (наприклад Twitch API токени, які використовуються деякими модами для стрімерів).</MpSyncConfigsDescNew3>
   <MpAutoJoinPoints>Auto join-points</MpAutoJoinPoints>
-  <MpAutoJoinPointsDesc1>Чи автоматично створювати точки-приєднання.</MpAutoJoinPointsDesc1>
+  <MpAutoJoinPointsDesc1>Чи створювати точки приєднання автоматично.</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>Створення точок-приєднання повільніше ніж збереження, але дозволяє значно пришвидшити приєдання гравців без симулювання гри.</MpAutoJoinPointsDesc2>
   <MpAutoJoinPointsDesc3>Ви завжди можете створити точку-приєднання написавши /joinpoint в чат.</MpAutoJoinPointsDesc3>
   <MpAutoJoinPointsJoin>При приєднанні</MpAutoJoinPointsJoin>
@@ -249,7 +251,7 @@
   <MpMismatchGeneral>Загальні</MpMismatchGeneral>
   <MpMismatchModList>Список модів</MpMismatchModList>
   <MpMismatchFiles>Файли</MpMismatchFiles>
-  <MpMismatchConfigs>Когфігурації</MpMismatchConfigs>
+  <MpMismatchConfigs>Конфігурації</MpMismatchConfigs>
   <MpMismatchServerSide>Сервер</MpMismatchServerSide>
   <MpMismatchClientSide>Ваш клієнт</MpMismatchClientSide>
   <MpMismatchSeeTabs>Дивіться відповідні вкладки для детальнішої інформації.</MpMismatchSeeTabs>
