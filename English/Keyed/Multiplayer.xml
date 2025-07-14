@@ -107,6 +107,7 @@
   <MpDialogsButton>Dialogs</MpDialogsButton>
   <MpTradingSession>Trading session</MpTradingSession>
   <MpRitualSession>Ritual setup session</MpRitualSession>
+  <MpPsychicRitualSession>Psychic ritual setup session</MpPsychicRitualSession>
   <MpTransportLoadingSession>Transport pod loading session</MpTransportLoadingSession>
   <MpCaravanFormingSession>Caravan forming session</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Caravan splitting session</MpCaravanSplittingSession>
