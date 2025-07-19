@@ -125,6 +125,9 @@
   <MpHideOtherPlayersInColonistBar>Hide other players in Colonist Bar</MpHideOtherPlayersInColonistBar>
   
   <!-- Ping alert -->
+  <MpHideOtherPlayersMessages>Hide other players messages</MpHideOtherPlayersMessages>
+
+  <!-- Ping alert -->
   <MpAlertPing>Multiplayer ping</MpAlertPing>
   <MpAlertPingDesc1>Click to focus the camera on locations pinged by: {0}</MpAlertPingDesc1>
   <MpAlertPingDesc2>Shift + click to dismiss.</MpAlertPingDesc2>
@@ -336,5 +339,15 @@
   <MpModCompatScoreUnk>Unknown; please report findings to #mod-report in our Discord</MpModCompatScoreUnk>
   <MpHideTranslationMods>Hide translation mods</MpHideTranslationMods>
   <MpHideTranslationModsDesc>Translation mods are always compatible.</MpHideTranslationModsDesc>
+	
+  <!-- Prepatcher Warning -->
+  <MpPrepatcherWarnNotFoundHeadline><![CDATA[<b>PREPATCHER NOT FOUND</b>]]></MpPrepatcherWarnNotFoundHeadline>
+  <MpPrepatcherWarnNotFoundDescription><![CDATA[Rituals will not work properly in multiplayer without the <color=#f4c542><b>Prepatcher</b></color> mod. Please <b>install</b> and <b>enable</b> it to avoid <color=red>desync issues</color>.]]></MpPrepatcherWarnNotFoundDescription>	
+  <MpPrepatcherWarnDisabledHeadline><![CDATA[<b>PREPATCHER DISABLED</b>]]></MpPrepatcherWarnDisabledHeadline>
+  <MpPrepatcherWarnDisabledDescription><![CDATA[Rituals will not work properly in multiplayer without the <color=#f4c542><b>Prepatcher</b></color> mod. Please <b>enable</b> it to avoid <color=red>desync issues</color>.]]></MpPrepatcherWarnDisabledDescription>
+  <MpPrepatcherWarnOpenSteamWorkshop><![CDATA[Open the <color=#f4c542><b>Prepatcher</b></color> mod on <color=#4484b2><b>Steam Workshop</b></color>.]]></MpPrepatcherWarnOpenSteamWorkshop>
+  <MpPrepatcherWarnOpenBrowser><![CDATA[Open the <color=#f4c542><b>Prepatcher</b></color> mod on browser.]]></MpPrepatcherWarnOpenBrowser>
+  <MpPrepatcherWarnEnableRestart><![CDATA[Enable the <color=#f4c542><b>Prepatcher</b></color> mod and restart the game.]]></MpPrepatcherWarnEnableRestart>
+  <MpPrepatcherWarnFail>Something went wrong, please try again.</MpPrepatcherWarnFail>
 
 </LanguageData>
