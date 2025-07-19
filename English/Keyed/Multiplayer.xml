@@ -341,8 +341,8 @@
   <MpHideTranslationModsDesc>Translation mods are always compatible.</MpHideTranslationModsDesc>
 	
   <!-- Prepatcher Warning -->
-  <MpPrepatcherWarnNotFoundHeadline><![CDATA[<b>PREPATCHER NOT FOUND</b>]]></MpPrepatcherWarnNotFoundHeadline>
-  <MpPrepatcherWarnNotFoundDescription><![CDATA[Rituals will not work properly in multiplayer without the <color=#f4c542><b>Prepatcher</b></color> mod. Please <b>install</b> and <b>enable</b> it to avoid <color=red>desync issues</color>.]]></MpPrepatcherWarnNotFoundDescription>	
+  <MpPrepatcherWarnNotInstalledHeadline><![CDATA[<b>PREPATCHER NOT INSTALLED</b>]]></MpPrepatcherWarnNotInstalledHeadline>
+  <MpPrepatcherWarnNotInstalledDescription><![CDATA[Rituals will not work properly in multiplayer without the <color=#f4c542><b>Prepatcher</b></color> mod. Please <b>install</b> and <b>enable</b> it to avoid <color=red>desync issues</color>.]]></MpPrepatcherWarnNotInstalledDescription>	
   <MpPrepatcherWarnDisabledHeadline><![CDATA[<b>PREPATCHER DISABLED</b>]]></MpPrepatcherWarnDisabledHeadline>
   <MpPrepatcherWarnDisabledDescription><![CDATA[Rituals will not work properly in multiplayer without the <color=#f4c542><b>Prepatcher</b></color> mod. Please <b>enable</b> it to avoid <color=red>desync issues</color>.]]></MpPrepatcherWarnDisabledDescription>
   <MpPrepatcherWarnOpenSteamWorkshop><![CDATA[Open the <color=#f4c542><b>Prepatcher</b></color> mod on <color=#4484b2><b>Steam Workshop</b></color>.]]></MpPrepatcherWarnOpenSteamWorkshop>
