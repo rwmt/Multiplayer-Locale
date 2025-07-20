@@ -146,7 +146,7 @@
   <MpConnectingTo>Connecting to {0}:{1}</MpConnectingTo>
   <MpConnected>Connected.</MpConnected>
   <MpJoining>Joining</MpJoining>
-  <MpDownloading>Downloading ({0}%)</MpDownloading>
+  <MpDownloading>Downloading</MpDownloading>
   <MpSteamConnectingTo>Connecting to a game hosted by {0}</MpSteamConnectingTo>
   <MpSteamConnectingWaiting>Waiting for host to accept</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Waiting for game data</MpWaitingForGameData>
