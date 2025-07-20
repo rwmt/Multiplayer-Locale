@@ -24,6 +24,31 @@
   <MpLowestWinsButtonsDesc2>Kliknij Shift+Space aby zresetiwać swój głos.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>Host może kliknąć Shift+Click aby zresetiwać wszystkie głosy.</MpLowestWinsButtonsDesc3>
 
+    <!-- Ingame Faction Sidebar -->
+  <MpCreateFaction>Stwórz frakcję</MpCreateFaction>
+  <MpFactionName>Nazwa frakcji</MpFactionName>
+  <MpFactionColor>Kolor frakcji</MpFactionColor>
+  <MpDefaultMapTime>Domyślny czas mapy</MpDefaultMapTime>
+  <MpDefaultMapTimeDesc1>To pole wyboru określa godzinę początkową na wygenerowanej mapie.</MpDefaultMapTimeDesc1>
+  <MpDefaultMapTimeDesc2>Zaznaczone: Używa domyślnego czasu startowego, podobnie jak na mapach dla jednego gracza.</MpDefaultMapTimeDesc2>
+  <MpDefaultMapTimeDesc3>Odznaczone: Używa obecnego czasu świata.</MpDefaultMapTimeDesc3>
+  <MpAsyncTimeDisabled>Można zmienić tylko przy aktywnej opcji asynchronicznej w menu hosta</MpAsyncTimeDisabled>
+  <MpSettleFaction>Osiedl frakcję</MpSettleFaction>  
+  <MpJoinFaction>Dołącz do frakcji</MpJoinFaction>
+  <MpLocateOnMap>Zlokalizuj na mapie świata.</MpLocateOnMap>
+  <MpJoin>Dołącz</MpJoin>
+  <MpEmptyFactionName>Nazwa frakcji nie może być pusta.</MpEmptyFactionName>
+  <MpTakenFactionName>Nazwa frakcji jest już zajęta.</MpTakenFactionName>
+  <MpSelectRandomSite>Wybierz losowe miejsce</MpSelectRandomSite>
+  <MpWorldFactions>Frakcje świata</MpWorldFactions>
+
+	<!-- Ingame Quest Tab --> 
+  <MpHideQuestsOn>Tylko moje zadania</MpHideQuestsOn>
+  <MpHideQuestsOff>Wszystkie zadania</MpHideQuestsOff>
+  <MpHideQuestsDesc>Przełączaj widok między zadaniami wszystkich graczy a zadaniami tylko twojej frakcji.</MpHideQuestsDesc>
+  <MpPublicQuest>Każdy może przyjąć to zadanie.</MpPublicQuest>
+  <MpQuestDesc>To zadanie należy do {0}{1}</MpQuestDesc>
+
   <!-- Ticks behind indicator -->
   <MpTicksBehind>Jesteś {0} ticków za serwerem.</MpTicksBehind>
   <MpLowerGameSpeed>Rozważ obniżenie prędkości gry.</MpLowerGameSpeed>
@@ -107,6 +132,7 @@
   <MpDialogsButton>Okna dialogowe</MpDialogsButton>
   <MpTradingSession>Sesja handlowa</MpTradingSession>
   <MpRitualSession>Sesja przygotowania rytuału</MpRitualSession>
+  <MpPsychicRitualSession>Sesja przygotowania rytuału psychicznego</MpPsychicRitualSession>
   <MpTransportLoadingSession>Sesja ładowania kapsuł transportowych</MpTransportLoadingSession>
   <MpCaravanFormingSession>Sesja formowania karawany</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Sesja dzielenia karawany</MpCaravanSplittingSession>
