@@ -20,34 +20,34 @@
   <MpTraderLeavesIn>Уходит через {0}</MpTraderLeavesIn>
   <MpNotAvailable>Не доступно в мультиплеере.</MpNotAvailable>
   <MpCallingFactionNotAvailable>На текущий момент вызов других фракций не доступен в мультиплеере.</MpCallingFactionNotAvailable> <!-- На момент перевода не используется -->
-  <MpLowestWinsButtonsDesc1>Current time speed votes, lowest wins.</MpLowestWinsButtonsDesc1>
-  <MpLowestWinsButtonsDesc2>Shift+Space to reset your vote.</MpLowestWinsButtonsDesc2>
-  <MpLowestWinsButtonsDesc3>The host can Shift+Click here to reset all votes.</MpLowestWinsButtonsDesc3>
+  <MpLowestWinsButtonsDesc1>Текущие голоса за скорость игры, используется наименьшая из скоростей.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>Shift+Пробел для отмены своего голоса.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>Хост может нажать тут с зажатым Shift для отмены всех голосов.</MpLowestWinsButtonsDesc3>
 
   <!-- Ingame Faction Sidebar -->
-  <MpCreateFaction>Create Faction</MpCreateFaction>
-  <MpFactionName>Faction Name</MpFactionName>
-  <MpFactionColor>Faction Color</MpFactionColor>
-  <MpDefaultMapTime>Default Map Time</MpDefaultMapTime>
-  <MpDefaultMapTimeDesc1>This checkbox controls the starting time on the generated map.</MpDefaultMapTimeDesc1>
-  <MpDefaultMapTimeDesc2>Checked: Uses the default start time, similar to singleplayer maps.</MpDefaultMapTimeDesc2>
-  <MpDefaultMapTimeDesc3>Unchecked: Uses the current world time.</MpDefaultMapTimeDesc3>
-  <MpAsyncTimeDisabled>Only changeable with async setting active in host menu</MpAsyncTimeDisabled>
-  <MpSettleFaction>Settle Faction</MpSettleFaction>  
-  <MpJoinFaction>Join Faction</MpJoinFaction>
-  <MpLocateOnMap>Locate on the world map.</MpLocateOnMap>
-  <MpJoin>Join</MpJoin>
-  <MpEmptyFactionName>The faction name can't be empty.</MpEmptyFactionName>
-  <MpTakenFactionName>The faction name is already taken.</MpTakenFactionName>
-  <MpSelectRandomSite>Select Random Site</MpSelectRandomSite>
-  <MpWorldFactions>World Factions</MpWorldFactions>
+  <MpCreateFaction>Создать Фракцию</MpCreateFaction>
+  <MpFactionName>Название Фракции</MpFactionName>
+  <MpFactionColor>Цвет Фракции</MpFactionColor>
+  <MpDefaultMapTime>Время по умолчанию</MpDefaultMapTime>
+  <MpDefaultMapTimeDesc1>Данная настройка контралирует стартовое время на генерируемой карте.</MpDefaultMapTimeDesc1>
+  <MpDefaultMapTimeDesc2>Активна: Использует время по старта игры по умолчанию, аналогично однопользовательским картам.</MpDefaultMapTimeDesc2>
+  <MpDefaultMapTimeDesc3>Не активна: Использует мировое время.</MpDefaultMapTimeDesc3>
+  <MpAsyncTimeDisabled>Возможно изменить только при активном Async time выбранном при создании игры.</MpAsyncTimeDisabled>
+  <MpSettleFaction>Основнать Фракцию</MpSettleFaction>  
+  <MpJoinFaction>Присоедениться к фракции</MpJoinFaction>
+  <MpLocateOnMap>Найти на глобальной карте.</MpLocateOnMap>
+  <MpJoin>Присоедениться</MpJoin>
+  <MpEmptyFactionName>Название фракции не может быть пустым.</MpEmptyFactionName>
+  <MpTakenFactionName>Название фракции уже занято.</MpTakenFactionName>
+  <MpSelectRandomSite>Выбрать случайное место</MpSelectRandomSite>
+  <MpWorldFactions>Мировые фракции</MpWorldFactions>
 
 	<!-- Ingame Quest Tab --> 
-  <MpHideQuestsOn>Only my quests</MpHideQuestsOn>
-  <MpHideQuestsOff>All quests</MpHideQuestsOff>
-  <MpHideQuestsDesc>Toggle between seeing all players' quests or only your faction's quests.</MpHideQuestsDesc>
-  <MpPublicQuest>Anyone can accept this quest.</MpPublicQuest>
-  <MpQuestDesc>This quest belongs to {0}{1}</MpQuestDesc>
+  <MpHideQuestsOn>Только мои задания</MpHideQuestsOn>
+  <MpHideQuestsOff>Все задания</MpHideQuestsOff>
+  <MpHideQuestsDesc>Переключение между отображением заданий всех игроков, и только вашей фракции.</MpHideQuestsDesc>
+  <MpPublicQuest>Кто угодно может принять это задание.</MpPublicQuest>
+  <MpQuestDesc>Это задание {0}{1}</MpQuestDesc>
 
   <!-- Ticks behind indicator -->
   <MpTicksBehind>Вы в {0} тиках позади.</MpTicksBehind>
@@ -56,7 +56,7 @@
 
   <!-- Disconnected -->
   <MpWrongProtocol>Неверная версия протокола</MpWrongProtocol>
-  <MpWrongMultiplayerVersionDesc>The server is hosted on Multiplayer {0} (protocol {1}). Your version: {2} (protocol {3})</MpWrongMultiplayerVersionDesc>
+  <MpWrongMultiplayerVersionDesc>Сервер использует Multiplayer {0} (протокол {1}). Ваша версия: {2} (протокол {3})</MpWrongMultiplayerVersionDesc>
   <MpWrongVersionUpdateInfo>Обновите мод (Переподпишитесь если используете Steam).</MpWrongVersionUpdateInfo>
   <MpWrongVersionUpdateInfoHost>Хост должен обновить мод (Переподписаться если использует Steam).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>Сервер выключен</MpServerClosed>
@@ -76,7 +76,7 @@
   <MpInvalidUsernameLength>Ваше имя пользователя имеет недопустимую длину</MpInvalidUsernameLength>
   <MpChangeUsernameInfo>Вы можете изменить своё имя в настройках мода.</MpChangeUsernameInfo>
   <MpConnectAsUsername>Подключится как {0}</MpConnectAsUsername>
-  <MpBadGamePassword>Wrong game password</MpBadGamePassword>
+  <MpBadGamePassword>Не верный пароль</MpBadGamePassword>
 
   <!-- Chat -->
   <MpChatButton>Чат</MpChatButton>
@@ -117,12 +117,12 @@
   <MpPingLocButtonSetting>Cоздать метку</MpPingLocButtonSetting> <!-- длинна строки макс ~13 -->
   <MpJumpToPingButtonSetting>Переместится к метке</MpJumpToPingButtonSetting> <!-- длинна строки макс ~13 но может быть перенос -->
   <MpShowMainMenuAnimation>Показывать анимацию в глав. меню</MpShowMainMenuAnimation> <!-- длинна строки макс 32 -->
-  <MpPlayerCursorTransparency>Transparent player cursors</MpPlayerCursorTransparency>
-  <MpSettingsPageGeneral>General settings</MpSettingsPageGeneral>
-  <MpSettingsPageColor>Player colors</MpSettingsPageColor>
-  <MpSettingsPageColorDesc>Select what colors player get when they connect to a game you host. Affects, for example, player cursors.</MpSettingsPageColorDesc>
-  <MpResetColors>Reset the colors</MpResetColors>
-  <MpHideOtherPlayersInColonistBar>Hide other players in Colonist Bar</MpHideOtherPlayersInColonistBar>
+  <MpPlayerCursorTransparency>Прозрачные курсоры игроков</MpPlayerCursorTransparency>
+  <MpSettingsPageGeneral>Общие настройки</MpSettingsPageGeneral>
+  <MpSettingsPageColor>Цвета игроков</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>Выберете цвета используемые другими игроками, когда они присоеденяются к Вашей игре. Влияет, напирмер на курсоры игроков.</MpSettingsPageColorDesc>
+  <MpResetColors>По умолчанию</MpResetColors> <!-- длинна строки макс 17 -->
+  <MpHideOtherPlayersInColonistBar>Скрыть других игроков в списке колонистов</MpHideOtherPlayersInColonistBar>
   
   <!-- Ping alert -->
   <MpAlertPing>Многопользовательская метка</MpAlertPing>
@@ -133,25 +133,25 @@
   <MpDialogsButton>Диалог</MpDialogsButton>
   <MpTradingSession>Торговля</MpTradingSession>
   <MpRitualSession>Подготовка ритуала</MpRitualSession>
-  <MpPsychicRitualSession>Psychic ritual setup session</MpPsychicRitualSession>
+  <MpPsychicRitualSession>Подготовка психического ритуала</MpPsychicRitualSession>
   <MpTransportLoadingSession>Загрузка транспортных капсул</MpTransportLoadingSession>
   <MpCaravanFormingSession>Формирования каравана</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Разделение каравана</MpCaravanSplittingSession>
   <MpAnotherRitualInProgress>Подготовка к ритуалу уже в процессе.</MpAnotherRitualInProgress>
-  <MpSwitchToMap>Switch to map</MpSwitchToMap>
-  <MpMapPortalSession>Entering {0} session</MpMapPortalSession>
+  <MpSwitchToMap>Свернуть диалог</MpSwitchToMap>
+  <MpMapPortalSession>Проход через {0}</MpMapPortalSession>
 
   <!-- Connecting -->
   <MpConnecting>Подключение</MpConnecting>
   <MpConnectingTo>Подключение к {0}:{1}</MpConnectingTo>
   <MpConnected>Подключен.</MpConnected>
   <MpJoining>Присоединение</MpJoining>
-  <MpDownloading>Загрузка ({0}%)</MpDownloading>
+  <MpDownloading>Загрузка</MpDownloading>
   <MpSteamConnectingTo>Подключение к игре созданной {0}</MpSteamConnectingTo>
   <MpSteamConnectingWaiting>Ожидание подтверждения хоста</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Ожидание данных игры</MpWaitingForGameData>
   <MpInvalidAddress>Недопустимый адрес</MpInvalidAddress>
-  <MpGamePassword>Game password</MpGamePassword>
+  <MpGamePassword>Пароль</MpGamePassword>
 
   <!-- Desynced -->
   <MpDesynced>Игра была рассинхронизирована.</MpDesynced>
@@ -160,27 +160,27 @@
   <MpDesyncedWaiting>Ожидание данных от хоста</MpDesyncedWaiting>
 
   <!-- Hosting -->
-  <MpHostTabConnecting>Connecting</MpHostTabConnecting>
-  <MpHostTabGameplay>Gameplay</MpHostTabGameplay>
-  <MpHostDirect>Direct</MpHostDirect>
-  <MpHostDirectDesc1>Listen for joining players on specified endpoints.</MpHostDirectDesc1>
-  <MpHostDirectDesc2>Usually, leaving this field 0.0.0.0 is enough (it means listen on all network interfaces). Note that you'll likely have to do port forwarding.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>To listen on multiple endpoints, separate them with ampersands. IPv6 addresses are supported.</MpHostDirectDesc3>
-  <MpHostDirectDesc4>When no port is provided, 30502 is used.</MpHostDirectDesc4>
+  <MpHostTabConnecting>Подключение</MpHostTabConnecting>
+  <MpHostTabGameplay>Геймплей</MpHostTabGameplay>
+  <MpHostDirect>Прямое</MpHostDirect>
+  <MpHostDirectDesc1>Прослушивает подключения игроков на определенных адресах.</MpHostDirectDesc1>
+  <MpHostDirectDesc2>Обычно, достаточно адреса 0.0.0.0 (Что означает слушать на всех адресах). Обратите внимание, что Вам также может потребуется перенаправить порты.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>Для прослушивания нескольких адресов, разделите их амперсандом . IPv6 адреса так же поддерживаются.</MpHostDirectDesc3>
+  <MpHostDirectDesc4>Если порт не указан то используется порт 30502.</MpHostDirectDesc4>
   <MpHostIngame>Запустить сервер с этой игрой</MpHostIngame>
   <MpHostSavefile>Запустить сервер из сохранения</MpHostSavefile>
   <MpInvalidEndpoint>Недопустимый адрес: {0}</MpInvalidEndpoint>
   <MpInvalidGameName>Недопустимое название игры</MpInvalidGameName>
-  <MpInvalidGamePassword>Invalid game password</MpInvalidGamePassword>
+  <MpInvalidGamePassword>Некорректный пароль</MpInvalidGamePassword>
   <MpGameName>Название игры</MpGameName>
   <MpMaxPlayers>Кол-во игроков</MpMaxPlayers> <!-- длинна строки макс 14  -->
-  <MpAutosaves>Autosaves</MpAutosaves>
-  <MpAutosavesEvery>Every</MpAutosavesEvery>
-  <MpAutosavesMinutes>minutes</MpAutosavesMinutes>
-  <MpAutosavesDays>days</MpAutosavesDays>
-  <MpAutosavesDesc1>The interval between autosaves.</MpAutosavesDesc1>
-  <MpAutosavesDesc2>Click the unit to switch between ingame days and realtime minutes.</MpAutosavesDesc2>
-  <MpAutosavesDesc3>A day on normal speed is about 16.6 minutes (fast: 5.5 minutes, superfast: 2.7 minutes)</MpAutosavesDesc3>
+  <MpAutosaves>Автосо-ния</MpAutosaves> <!-- длинна строки макс ~13 -->
+  <MpAutosavesEvery>Каждые</MpAutosavesEvery>
+  <MpAutosavesMinutes>минут</MpAutosavesMinutes>
+  <MpAutosavesDays>дней</MpAutosavesDays>
+  <MpAutosavesDesc1>Интервал между автосохранениями.</MpAutosavesDesc1>
+  <MpAutosavesDesc2>Нажмите чтобы переключится между игровыми днями, и реальными минутами.</MpAutosavesDesc2>
+  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минутам (быстрой: 5.5 минут, супер-быстрой: 2.7 минуты)</MpAutosavesDesc3>
   <MpLanDesc1>Транслировать информацию об игре в локальную сеть.</MpLanDesc1>
   <MpLanDesc2>Ваш LAN адрес: {0}</MpLanDesc2> <!-- Адрес интерфейса который используется при подключении к внешним ресурсам согласно локальной таблице маршуцизации -->
   <MpRunArbiter>Запустить Arbiter</MpRunArbiter>
@@ -197,9 +197,9 @@
   <MpLogDesyncTracesDesc2>Не работает на 32 битных и ARM (Apple Silicon) процессорах.</MpLogDesyncTracesDesc2>
   <MpExperimentalFeature>Экспериментальная возможность</MpExperimentalFeature>
   <MpSyncConfigs>Синхр. настр.</MpSyncConfigs> <!-- длинна строки макс 13  -->
-  <MpSyncConfigsDescNew1>Toggle whether joining players can download your mod configuration files.</MpSyncConfigsDescNew1>
-  <MpSyncConfigsDescNew2>Enabling this can reduce the number of desyncs.</MpSyncConfigsDescNew2>
-  <MpSyncConfigsDescNew3>Note that some mods' config files can contain sensitive information (like Twitch API tokens used by streamer mods).</MpSyncConfigsDescNew3>
+  <MpSyncConfigsDescNew1>Дает возможность скачать настройки ваших модов другими игроками при подключении.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew2>Включение может уменьшить количество десинхронизаций.</MpSyncConfigsDescNew2>
+  <MpSyncConfigsDescNew3>Обратите внимание, что настройки некоторых модов могут содержать конфиденциальную информацию (Например API токен Twitch используемый стриммерскими модами).</MpSyncConfigsDescNew3>
   <MpAutoJoinPoints>Auto join-points</MpAutoJoinPoints> <!-- длинна строки макс 13  -->
   <MpAutoJoinPointsDesc1>Переключает автоматическое создание точек подключения.</MpAutoJoinPointsDesc1>
   <MpAutoJoinPointsDesc2>Создание точек подключения медленнее чем просто сохранение но ускоряет процесс подключения игроков, так как им не требуется симулировать игру.</MpAutoJoinPointsDesc2>
@@ -207,19 +207,19 @@
   <MpAutoJoinPointsJoin>При подключении</MpAutoJoinPointsJoin>
   <MpAutoJoinPointsDesync>При десинхронизации</MpAutoJoinPointsDesync>
   <MpAutoJoinPointsAutosave>При автосохранении</MpAutoJoinPointsAutosave>
-  <MpHostGamePassword>Password</MpHostGamePassword>
-  <MpPauseOn>Pause on</MpPauseOn>
-  <MpPauseOnJoin>Join</MpPauseOnJoin>
-  <MpPauseOnDesync>Desync</MpPauseOnDesync>
-  <MpTimeControl>Time control</MpTimeControl>
-  <MpTimeControlEveryoneControls>Everyone controls</MpTimeControlEveryoneControls>
-  <MpTimeControlLowestWins>Lowest wins</MpTimeControlLowestWins>
-  <MpTimeControlHostOnly>Host only</MpTimeControlHostOnly>
-  <MpPauseOnLetter>Pause on letter</MpPauseOnLetter>
-  <MpPauseOnLetterNever>Never</MpPauseOnLetterNever>
-  <MpPauseOnLetterMajorThreat>Major threats</MpPauseOnLetterMajorThreat>
-  <MpPauseOnLetterAnyThreat>Any threat</MpPauseOnLetterAnyThreat>
-  <MpPauseOnLetterAnyLetter>Any letter</MpPauseOnLetterAnyLetter>
+  <MpHostGamePassword>Пароль</MpHostGamePassword>
+  <MpPauseOn>Пауза на</MpPauseOn>
+  <MpPauseOnJoin>подкл.</MpPauseOnJoin> <!-- подключение/дисинхронизация делят одну строчку на двоих, и в полном виде галка десинхронизации не помещяется. -->
+  <MpPauseOnDesync>десинх.</MpPauseOnDesync> <!-- см MpPauseOnJoin -->
+  <MpTimeControl>Контр. времени</MpTimeControl>
+  <MpTimeControlEveryoneControls>Все контролируют.</MpTimeControlEveryoneControls>
+  <MpTimeControlLowestWins>Побеждает наименьшее</MpTimeControlLowestWins>
+  <MpTimeControlHostOnly>Только хост</MpTimeControlHostOnly>
+  <MpPauseOnLetter>Пауза при соб.</MpPauseOnLetter> <!-- длинна строки макс 14?  -->
+  <MpPauseOnLetterNever>Никогда</MpPauseOnLetterNever>
+  <MpPauseOnLetterMajorThreat>Серьёзные угрозы</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterAnyThreat>Любые угрозы</MpPauseOnLetterAnyThreat>
+  <MpPauseOnLetterAnyLetter>Любые сообщения</MpPauseOnLetterAnyLetter>
 
   <!-- Server browser info buttons -->
   <MpWebsiteButton>Веб-сайт</MpWebsiteButton>
