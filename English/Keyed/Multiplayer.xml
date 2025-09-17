@@ -152,6 +152,8 @@
   <MpWaitingForGameData>Waiting for game data</MpWaitingForGameData>
   <MpInvalidAddress>Invalid address</MpInvalidAddress>
   <MpGamePassword>Game password</MpGamePassword>
+  <MpQuitBeforeAcceptInvite>To accept a Steam invite, quit the current game</MpQuitBeforeAcceptInvite>
+  <MpJoinRequestDesc>wants to join your game</MpJoinRequestDesc>
 
   <!-- Desynced -->
   <MpDesynced>The game state has desynced.</MpDesynced>
@@ -338,3 +340,4 @@
   <MpHideTranslationModsDesc>Translation mods are always compatible.</MpHideTranslationModsDesc>
 
 </LanguageData>
+
