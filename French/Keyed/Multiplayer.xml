@@ -147,4 +147,25 @@
   <MpAggressiveTickingDesc>Rattrape le retard sur le serveur au prix de quelques FPS.</MpAggressiveTickingDesc>
   <MpMultiplayerCompatibility>Compatibilité MP</MpMultiplayerCompatibility>
   
+  <!-- Welcome Message -->
+  <MpWelcomeVersion>1.6</MpWelcomeVersion>
+  <MpWelcomeTitle>Bienvenue dans le Mod Multijoueur de Zetrith {0} !</MpWelcomeTitle>
+  <MpWelcomeMessage>Nous sommes ravis de publier cette version BÊTA sur le Steam Workshop ! Veuillez noter que cette version peut encore être instable. Une liste de problèmes connus est fournie ci-dessous :</MpWelcomeMessage>
+  <MpWelcomeCompleteList>Pour une liste plus complète, veuillez consulter notre page GitHub issues.</MpWelcomeCompleteList>
+  <MpWelcomePrepatcher>Pour une meilleure expérience, veuillez utiliser le &lt;color=cyan&gt;Prepatcher mis à jour par jikulopo&lt;/color&gt; &lt;color=red&gt;&lt;b&gt;AU LIEU D’HARMONY&lt;/b&gt;&lt;/color&gt;. Cela permet de synchroniser les dialogues de rituel, de naissance et de lancement de vaisseau gravitationnel.</MpWelcomePrepatcher>
+  <MpWelcomeDiscord>Si vous rencontrez des problèmes, veuillez les signaler sur notre serveur Discord &lt;color=yellow&gt;avec les étapes de reproduction&lt;/color&gt; (c’est important). Vos retours sont essentiels pour nous aider à améliorer le mod.</MpWelcomeDiscord>
+  <MpWelcomeNeverShowButton>Ne plus afficher</MpWelcomeNeverShowButton>
+  <!-- Known Issues -->
+  <MpKnownIssue1>Certains mods courants ne sont pas compatibles. (ex. Vanilla Expanded Framework, Combat Extended)</MpKnownIssue1>
+  <MpKnownIssue2>Le spam du bouton "Monde" provoque un effet de saccade/ralentissement des balles.</MpKnownIssue2>
+  <MpKnownIssue3>Charger une sauvegarde où la caméra est déjà dans l’espace génère une erreur.</MpKnownIssue3>
+  <MpKnownIssue4>Résultats incohérents lors de l’annulation d’un atterrissage de vaisseau gravitationnel sur une carte ancrée. (Resync fonctionne bien.)</MpKnownIssue4>
+  <MpKnownIssue5>Multifaction : Commencer avec différents scénarios peut ne pas fonctionner correctement.</MpKnownIssue5>
+  <MpKnownIssue6>Multifaction : Les lettres et incidents ne correspondent pas toujours.</MpKnownIssue6>
+  <MpKnownIssue7>Multifaction : Parfois les raids semblent étranges.</MpKnownIssue7>
+  <MpKnownIssue8>Multifaction : Le vaisseau gravitationnel n’est pas complet</MpKnownIssue8>
+
+
+
+
 </LanguageData>
