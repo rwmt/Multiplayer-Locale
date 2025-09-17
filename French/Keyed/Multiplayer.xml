@@ -164,8 +164,6 @@
   <MpKnownIssue6>Multifaction : Les lettres et incidents ne correspondent pas toujours.</MpKnownIssue6>
   <MpKnownIssue7>Multifaction : Parfois les raids semblent étranges.</MpKnownIssue7>
   <MpKnownIssue8>Multifaction : Le vaisseau gravitationnel n’est pas complet</MpKnownIssue8>
-
-
-
+  <MpKnownIssue9>Multifaction : L’hôte reçoit parfois les incidents d’une autre faction et inversement.</MpKnownIssue9>
 
 </LanguageData>
