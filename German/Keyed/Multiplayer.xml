@@ -24,6 +24,31 @@
   <MpLowestWinsButtonsDesc2>Shift + Leertaste, um deine Stimme zurückzusetzen.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>Der Host kann hier mit Shift + Klick alle Stimmen zurücksetzen.</MpLowestWinsButtonsDesc3>
 
+  <!-- Ingame Faction Sidebar -->
+  <MpCreateFaction>Fraktion erstellen</MpCreateFaction>
+  <MpFactionName>Fraktionsname</MpFactionName>
+  <MpFactionColor>Fraktionsfarbe</MpFactionColor>
+  <MpDefaultMapTime>Standard-Kartenzeit</MpDefaultMapTime>
+  <MpDefaultMapTimeDesc1>Dieses Auswahlfeld steuert die Startzeit auf der generierten Karte.</MpDefaultMapTimeDesc1>
+  <MpDefaultMapTimeDesc2>Aktiviert: Verwendet die Standard-Startzeit, ähnlich wie bei Einzelspieler-Karten.</MpDefaultMapTimeDesc2>
+  <MpDefaultMapTimeDesc3>Deaktiviert: Verwendet die aktuelle Weltzeit.</MpDefaultMapTimeDesc3>
+  <MpAsyncTimeDisabled>Nur änderbar, wenn die Async-Einstellung im Host-Menü aktiv ist</MpAsyncTimeDisabled>
+  <MpSettleFaction>Fraktion gründen</MpSettleFaction>  
+  <MpJoinFaction>Fraktion beitreten</MpJoinFaction>
+  <MpLocateOnMap>Auf der Weltkarte suchen.</MpLocateOnMap>
+  <MpJoin>Beitreten</MpJoin>
+  <MpEmptyFactionName>Der Fraktionsname darf nicht leer sein.</MpEmptyFactionName>
+  <MpTakenFactionName>Der Fraktionsname ist bereits vergeben.</MpTakenFactionName>
+  <MpSelectRandomSite>Zufälligen Ort wählen</MpSelectRandomSite>
+  <MpWorldFactions>Weltfraktionen</MpWorldFactions>
+
+	<!-- Ingame Quest Tab --> 
+  <MpHideQuestsOn>Nur meine Quests</MpHideQuestsOn>
+  <MpHideQuestsOff>Alle Quests</MpHideQuestsOff>
+  <MpHideQuestsDesc>Wechsle zwischen der Anzeige aller Spielerquests oder nur der Quests deiner Fraktion.</MpHideQuestsDesc>
+  <MpPublicQuest>Jeder kann diese Quest annehmen.</MpPublicQuest>
+  <MpQuestDesc>Diese Quest gehört zu {0}{1}</MpQuestDesc>
+
   <!-- Ticks behind indicator -->
   <MpTicksBehind>Du liegst {0} Ticks zurück.</MpTicksBehind>
   <MpLowerGameSpeed>Erwäge, die Spielgeschwindigkeit zu verringern.</MpLowerGameSpeed>
@@ -97,6 +122,7 @@
   <MpSettingsPageColor>Spielerfarben</MpSettingsPageColor>
   <MpSettingsPageColorDesc>Wähle, welche Farben Spieler bekommen, wenn sie sich mit einem von dir gehosteten Spiel verbinden. Betrifft beispielsweise ihre Mauszeiger.</MpSettingsPageColorDesc>
   <MpResetColors>Zurücksetzen</MpResetColors>
+  <MpHideOtherPlayersInColonistBar>Andere Spieler in der Kolonistenleiste ausblenden</MpHideOtherPlayersInColonistBar>
 
   <!-- Ping alert -->
   <MpAlertPing>Mehrspieler-Ping</MpAlertPing>
@@ -126,6 +152,8 @@
   <MpWaitingForGameData>Warte auf Spieldaten</MpWaitingForGameData>
   <MpInvalidAddress>Ungültige Adresse</MpInvalidAddress>
   <MpGamePassword>Spielpasswort</MpGamePassword>
+  <MpQuitBeforeAcceptInvite>Um eine Steam-Einladung anzunehmen, beende das aktuelle Spiel</MpQuitBeforeAcceptInvite>
+  <MpJoinRequestDesc>möchte deinem Spiel beitreten</MpJoinRequestDesc>
 
   <!-- Desynced -->
   <MpDesynced>Der Spielzustand ist nicht mehr synchron.</MpDesynced>
@@ -241,7 +269,7 @@
   <!-- Mismatch screen -->
   <MpDataMismatch>Unstimmigkeiten bei den Daten</MpDataMismatch>
   <MpConnectAnyway>Trotzdem verbinden</MpConnectAnyway>
-  <MpFixAndRestart>Beheben und neu starten</MpFixAndRestart>
+  <MpFixAndRestart>Fix &amp; Neustart</MpFixAndRestart>
   <MpMismatchQuit>Beenden</MpMismatchQuit>
   <MpMismatchDefsDiff>Die Definitionen der Mod-Daten unterscheiden sich. Sie müssen vor dem Beitritt übereinstimmen.</MpMismatchDefsDiff>
   <MpRestartNeeded>Das Spiel muss neu gestartet werden, damit Änderungen an der Mod-Liste, den Dateien und der Konfigurationen wirksam werden.</MpRestartNeeded>
