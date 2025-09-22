@@ -152,6 +152,8 @@
   <MpWaitingForGameData>Oczekiwanie na dane gry</MpWaitingForGameData>
   <MpInvalidAddress>Nieprawidłowy adres</MpInvalidAddress>
   <MpGamePassword>Hasło do gry</MpGamePassword>
+  <MpQuitBeforeAcceptInvite>Aby zaakceptować zaproszenie Steam, wyjdź z bieżącej gry</MpQuitBeforeAcceptInvite>
+  <MpJoinRequestDesc>chce dołączyć do Twojej gry</MpJoinRequestDesc>
 
   <!-- Desynced -->
   <MpDesynced>Stan gry uległ desynchronizacji.</MpDesynced>
