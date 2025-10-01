@@ -3,6 +3,7 @@
 
   <!-- Main menu -->
   <MpMultiplayerButton>Multiplayer</MpMultiplayerButton>
+  <MpMultiplayerButtonTooltip>Shift+click to copy\nShift+right click for options</MpMultiplayerButtonTooltip>
   <MpLoadingError1>Multiplayer errored during loading.</MpLoadingError1>
   <MpLoadingError2>This might cause games to desync.</MpLoadingError2>
   <MpLoadingError3>This is likely because this version of the mod wan't made for your version of RimWorld.</MpLoadingError3>
@@ -123,7 +124,8 @@
   <MpSettingsPageColorDesc>Select what colors player get when they connect to a game you host. Affects, for example, player cursors.</MpSettingsPageColorDesc>
   <MpResetColors>Reset the colors</MpResetColors>
   <MpHideOtherPlayersInColonistBar>Hide other players in Colonist Bar</MpHideOtherPlayersInColonistBar>
-  
+  <MpGenerateDebugFile>Generate debug info</MpGenerateDebugFile>
+
   <!-- Ping alert -->
   <MpAlertPing>Multiplayer ping</MpAlertPing>
   <MpAlertPingDesc1>Click to focus the camera on locations pinged by: {0}</MpAlertPingDesc1>
