@@ -3,6 +3,7 @@
 
   <!-- Main menu -->
   <MpMultiplayerButton>Multiplayer</MpMultiplayerButton>
+  <MpMultiplayerButtonTooltip>Shift+kliknięcie, aby skopiować\nShift+prawy przycisk myszy dla opcji</MpMultiplayerButtonTooltip>
   <MpLoadingError1>Błąd gry wieloosobowej podczas ładowania.</MpLoadingError1>
   <MpLoadingError2>To może doprowadzić do desynchronizacji.</MpLoadingError2>
   <MpLoadingError3>Jest tak prawdopodobnie dlatego, że ta wersja modyfikacji nie jest przeznaczona dla twojej wersji RimWorld.</MpLoadingError3>
@@ -123,6 +124,7 @@
   <MpSettingsPageColorDesc>Wybierz, jakie kolory otrzymają gracze, gdy połączą się z hostowaną przez Ciebie grą. Wpływa to na przykład na kursory graczy.</MpSettingsPageColorDesc>
   <MpResetColors>Zresetuj kolory</MpResetColors>
   <MpHideOtherPlayersInColonistBar>Ukryj innych graczy na pasku kolonistów</MpHideOtherPlayersInColonistBar>
+  <MpGenerateDebugFile>Wygeneruj info debugowania</MpGenerateDebugFile>
   
   <!-- Ping alert -->
   <MpAlertPing>Ping</MpAlertPing>
@@ -340,3 +342,4 @@
   <MpHideTranslationModsDesc>Mody z tłumaczeniami są zawsze kompatybilne.</MpHideTranslationModsDesc>
 
 </LanguageData>
+
