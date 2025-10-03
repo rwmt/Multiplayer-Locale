@@ -3,6 +3,7 @@
 
   <!-- Main menu -->
   <MpMultiplayerButton>Mehrspieler</MpMultiplayerButton>
+  <MpMultiplayerButtonTooltip>Shift + Linksklick zum Kopieren\nShift + Rechtsklick für Optionen</MpMultiplayerButtonTooltip>
   <MpLoadingError1>Multiplayer hatte einen Fehler beim Laden.</MpLoadingError1>
   <MpLoadingError2>Dies kann dazu führen, dass Spiele desynchronisieren.</MpLoadingError2>
   <MpLoadingError3>Das liegt wahrscheinlich daran, dass diese Version der Mod nicht für deine Version von RimWorld gemacht wurde.</MpLoadingError3>
@@ -123,6 +124,7 @@
   <MpSettingsPageColorDesc>Wähle, welche Farben Spieler bekommen, wenn sie sich mit einem von dir gehosteten Spiel verbinden. Betrifft beispielsweise ihre Mauszeiger.</MpSettingsPageColorDesc>
   <MpResetColors>Zurücksetzen</MpResetColors>
   <MpHideOtherPlayersInColonistBar>Andere Spieler in der Kolonistenleiste ausblenden</MpHideOtherPlayersInColonistBar>
+  <MpGenerateDebugFile>Generiere Debug-Informationen</MpGenerateDebugFile>
 
   <!-- Ping alert -->
   <MpAlertPing>Mehrspieler-Ping</MpAlertPing>
