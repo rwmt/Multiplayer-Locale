@@ -341,5 +341,24 @@
   <MpHideTranslationMods>Hide translation mods</MpHideTranslationMods>
   <MpHideTranslationModsDesc>Translation mods are always compatible.</MpHideTranslationModsDesc>
 
+  <!-- Welcome Message -->
+  <MpWelcomeVersion>1.6</MpWelcomeVersion>
+  <MpWelcomeTitle>Welcome to Zetrith's Multiplayer Mod {0}!</MpWelcomeTitle>
+  <MpWelcomeMessage>We are thrilled to release this BETA version to the Steam Workshop! Please note this build may still be unstable. A list of known issues is provided below:</MpWelcomeMessage>
+  <MpWelcomeCompleteList>For a more complete list please see our GitHub issues page.</MpWelcomeCompleteList>
+  <MpWelcomePrepatcher>For the best experience please use the &lt;color=cyan&gt;updated Prepatcher by jikulopo&lt;/color&gt; &lt;color=red&gt;&lt;b&gt;INSTEAD OF HARMONY&lt;/b&gt;&lt;/color&gt;. This allows ritual, birth, and gravship launch dialogs to sync.</MpWelcomePrepatcher>
+  <MpWelcomeDiscord>If you encounter any issues please report them on our Discord server &lt;color=yellow&gt;with reproduction steps&lt;/color&gt; (this is important). Your feedback is crucial in helping us improve the mod.</MpWelcomeDiscord>
+
+  <!-- Known Issues -->
+  <MpKnownIssue1>Some common mods are not compatible. (i.e. Vanilla Expanded Framework, Combat Extended)</MpKnownIssue1>
+  <MpKnownIssue2>Spamming the "World" button causes bullets to appear stuttery/laggy.</MpKnownIssue2>
+  <MpKnownIssue3>Loading a save where the camera is already in space throws an error.</MpKnownIssue3>
+  <MpKnownIssue4>Inconsistent results when aborting a gravship landing to an anchored map. (Resyncs fine.)</MpKnownIssue4>
+  <MpKnownIssue5>Multifaction: Starting with different scenarios may not work correctly.</MpKnownIssue5>
+  <MpKnownIssue6>Multifaction: Letters and incidents don’t always match.</MpKnownIssue6>
+  <MpKnownIssue7>Multifaction: Sometimes raids feel off.</MpKnownIssue7>
+  <MpKnownIssue8>Multifaction: The gravship is not complete</MpKnownIssue8>
+  <MpKnownIssue9>Multifaction: Host sometimes gets another faction's incidents and vice versa.</MpKnownIssue9>
+
 </LanguageData>
 
