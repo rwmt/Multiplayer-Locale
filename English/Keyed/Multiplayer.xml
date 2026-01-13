@@ -115,6 +115,8 @@
   <MpShowModCompat>Show crowd-sourced compat info</MpShowModCompat>
   <MpShowModCompatDesc>Enables downloading and displaying of crowd-sourced mod compatibility info.</MpShowModCompatDesc>
   <MpEnablePingsSetting>Enable location pings</MpEnablePingsSetting>
+  <MpEnableCrossPlanetLayerPings>Enable pings across planet layers</MpEnableCrossPlanetLayerPings>
+  <MpEnableCrossPlanetLayerPingsDesc>Enables displaying pings from planet layers under the current one.\n\nThis may be inaccurate with certain mods, and if you encounter issues with pings displayed in wrong places - please disable this option.</MpEnableCrossPlanetLayerPingsDesc>
   <MpPingLocButtonSetting>Ping location button</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>Jump to ping button</MpJumpToPingButtonSetting>
   <MpShowMainMenuAnimation>Show main menu animation</MpShowMainMenuAnimation>
