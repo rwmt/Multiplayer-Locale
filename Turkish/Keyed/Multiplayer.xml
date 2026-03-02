@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MpMultiplayerButton>Çok Oyunculu</MpMultiplayerButton>
+  <MpMultiplayerButtonTooltip>Kopyalamak için Shift+tık\nSeçenekler için Shift+sağ tık</MpMultiplayerButtonTooltip>
+  <MpLoadingError1>Çok oyunculu yükleme sırasında hata verdi.</MpLoadingError1>
+  <MpLoadingError2>Bu, oyunlarda senkronizasyon kopmalarına (desync) neden olabilir.</MpLoadingError2>
+  <MpLoadingError3>Bunun nedeni muhtemelen modun bu sürümünün sizin RimWorld sürümünüz için yapılmamış olmasıdır.</MpLoadingError3>
+  <MpLoadingError4>Multiplayer modunu veya RimWorld'ü güncelleyin/sürümünü düşürün.</MpLoadingError4>
+  <MpLoadingError5>NOT: Oyun çok yakın zamanda güncellenmiş olabilir ve Multiplayer'ın yeni bir sürümü henüz mevcut olmayabilir.</MpLoadingError5>
+
+  <MpSimulating>Simüle ediliyor</MpSimulating>
+  <MpSimulatingServer>Sunucu simüle ediliyor</MpSimulatingServer>
+  <MpLoading>Yükleniyor</MpLoading>
+  <MpSaving>Kaydediliyor</MpSaving>
+  <MpCreatingJoinPoint>Katılım noktası oluşturuluyor</MpCreatingJoinPoint>
+  <MpServerCloseConfirmationNoTime>Sunucuyu kapatmak istediğinize emin misiniz?</MpServerCloseConfirmationNoTime>
+  <MpServerCloseConfirmationTime>Sunucuyu kapatmak istediğinize emin misiniz? Son kayıt {0} önce alındı.</MpServerCloseConfirmationTime>
+  <MpTraderLeavesIn>{0} içinde ayrılacak</MpTraderLeavesIn>
+  <MpNotAvailable>Çok oyunculu modda mevcut değil.</MpNotAvailable>
+  <MpCallingFactionNotAvailable>Diğer ulusları çağırma özelliği şu anda çok oyunculu modda mevcut değil.</MpCallingFactionNotAvailable>
+  <MpLowestWinsButtonsDesc1>Mevcut zaman hızı oylaması, en düşük kazanır.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>Oyunuzu sıfırlamak için Shift+Space.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>Sunucu sahibi tüm oyları sıfırlamak için buraya Shift+Tık yapabilir.</MpLowestWinsButtonsDesc3>
+
+  <MpCreateFaction>Ulus Oluştur</MpCreateFaction>
+  <MpFactionName>Ulus Adı</MpFactionName>
+  <MpFactionColor>Ulus Rengi</MpFactionColor>
+  <MpDefaultMapTime>Varsayılan Harita Zamanı</MpDefaultMapTime>
+  <MpDefaultMapTimeDesc1>Bu onay kutusu, oluşturulan haritadaki başlangıç zamanını kontrol eder.</MpDefaultMapTimeDesc1>
+  <MpDefaultMapTimeDesc2>İşaretli: Tek oyunculu haritalara benzer şekilde varsayılan başlangıç zamanını kullanır.</MpDefaultMapTimeDesc2>
+  <MpDefaultMapTimeDesc3>İşaretli Değil: Mevcut dünya zamanını kullanır.</MpDefaultMapTimeDesc3>
+  <MpAsyncTimeDisabled>Yalnızca sunucu menüsünde asenkron ayarı etkinken değiştirilebilir</MpAsyncTimeDisabled>
+  <MpSettleFaction>Ulus Yerleştir</MpSettleFaction>  
+  <MpJoinFaction>Ulusa Katıl</MpJoinFaction>
+  <MpLocateOnMap>Dünya haritasında bul.</MpLocateOnMap>
+  <MpJoin>Katıl</MpJoin>
+  <MpEmptyFactionName>Ulus adı boş olamaz.</MpEmptyFactionName>
+  <MpTakenFactionName>Bu ulus adı zaten alınmış.</MpTakenFactionName>
+  <MpSelectRandomSite>Rastgele Konum Seç</MpSelectRandomSite>
+  <MpWorldFactions>Dünya Ulusları</MpWorldFactions>
+
+    <MpHideQuestsOn>Sadece benim görevlerim</MpHideQuestsOn>
+  <MpHideQuestsOff>Tüm görevler</MpHideQuestsOff>
+  <MpHideQuestsDesc>Tüm oyuncuların görevlerini görmekle sadece kendi ulusunuzun görevlerini görmek arasında geçiş yapın.</MpHideQuestsDesc>
+  <MpPublicQuest>Herhangi biri bu görevi kabul edebilir.</MpPublicQuest>
+  <MpQuestDesc>Bu görev şuna ait: {0}{1}</MpQuestDesc>
+
+  <MpTicksBehind>{0} tik geridesiniz.</MpTicksBehind>
+  <MpLowerGameSpeed>Oyun hızını düşürmeyi düşünün.</MpLowerGameSpeed>
+  <MpForceCatchUp>Yakalamaya zorlamak için tıklayın.</MpForceCatchUp>
+
+  <MpWrongProtocol>Yanlış protokol sürümü</MpWrongProtocol>
+  <MpWrongMultiplayerVersionDesc>Sunucu Multiplayer {0} (protokol {1}) üzerinde barındırılıyor. Sizin sürümünüz: {2} (protokol {3})</MpWrongMultiplayerVersionDesc>
+  <MpWrongVersionUpdateInfo>Modu güncelleyin (Steam'deyseniz aboneliği yenileyin).</MpWrongVersionUpdateInfo>
+  <MpWrongVersionUpdateInfoHost>Sunucu sahibi modu güncellemelidir (Steam'deyseniz aboneliği yenileyin).</MpWrongVersionUpdateInfoHost>
+  <MpServerClosed>Sunucu kapandı</MpServerClosed>
+  <MpServerFull>Sunucu dolu</MpServerFull>
+  <MpDisconnectServerStarting>Sunucu başlatılıyor</MpDisconnectServerStarting>
+  <MpKicked>Atıldınız</MpKicked>
+  <MpDisconnected>Bağlantı kesildi</MpDisconnected>
+  <MpDisconnectedWithInfo>Bağlantı kesildi ({0})</MpDisconnectedWithInfo>
+  <MpSteamTimedOut>Bağlantı zaman aşımına uğradı</MpSteamTimedOut>
+  <MpSteamGenericError>Bağlantı hatası</MpSteamGenericError>
+  <MpPacketErrorLocal>Yerel paket okuma hatası. Daha fazla bilgi için kayıtlara bakın.</MpPacketErrorLocal>
+  <MpPacketErrorRemote>Uzak paket okuma hatası. Sunucu sahibi daha fazla bilgi için kayıtlara bakabilir.</MpPacketErrorRemote>
+  <MpConnectionFailed>Bağlantı başarısız</MpConnectionFailed>
+  <MpConnectionFailedWithInfo>Bağlantı başarısız ({0})</MpConnectionFailedWithInfo>
+  <MpInvalidUsernameAlreadyPlaying>Kullanıcı adı zaten çevrimiçi</MpInvalidUsernameAlreadyPlaying>
+  <MpInvalidUsernameChars>Kullanıcı adı geçersiz karakterler içeriyor</MpInvalidUsernameChars>
+  <MpInvalidUsernameLength>Kullanıcı adı geçersiz uzunlukta</MpInvalidUsernameLength>
+  <MpChangeUsernameInfo>Kullanıcı adınızı mod ayarlarından değiştirebilirsiniz.</MpChangeUsernameInfo>
+  <MpConnectAsUsername>{0} olarak bağlan</MpConnectAsUsername>
+  <MpBadGamePassword>Yanlış oyun şifresi</MpBadGamePassword>
+
+  <MpChatButton>Sohbet</MpChatButton>
+  <MpChatHotkeyInfo>Sohbet kısayolu:</MpChatHotkeyInfo>
+  <MpPlayerConnected>{0} katıldı</MpPlayerConnected>
+  <MpPlayerDisconnected>{0} ayrıldı</MpPlayerDisconnected>
+  <MpChatPlayers>Oyuncular ({0}):</MpChatPlayers>
+  <MpChatSend>Gönder</MpChatSend>
+  <MpSteamAcceptTitle>Steam oyuncularını kabul et</MpSteamAcceptTitle>
+  <MpSteamAcceptDesc>Kabul etmek için tıkla</MpSteamAcceptDesc>
+  <MpSteamAccepted>Oyuncu kabul edildi</MpSteamAccepted>
+
+  <MpHostServer>Sunucu barındır</MpHostServer>
+  <MpConvertToSp>Tek oyunculuya dönüştür</MpConvertToSp>
+  <MpConvertToSpWarnHost>Tek oyunculuya dönüştürmek istediğinize emin misiniz? Bu işlem sunucuyu kapatacaktır.</MpConvertToSpWarnHost>
+  <MpConvertToSpWarn>Tek oyunculuya dönüştürmek istediğinize emin misiniz? Çok oyunculu oyundan ayrılacaksınız.</MpConvertToSpWarn>
+  <MpConvertingToSp>Dönüştürülüyor</MpConvertingToSp>
+  <MpSaveGameAs>Oyunu farklı kaydet</MpSaveGameAs>
+  <MpWillOverwrite>Dosya mevcut, üzerine yazılacak</MpWillOverwrite>
+  <MpGameSaved>Oyun {0} olarak kaydedildi</MpGameSaved>
+  <MpGameSaveFailed>Oyun kaydedilemedi. Daha fazla bilgi için kayıtlara (log) bakın.</MpGameSaveFailed>
+
+  <MpUsernameSetting>Kullanıcı Adı</MpUsernameSetting>
+  <MpShowPlayerCursors>Oyuncu imleçlerini göster</MpShowPlayerCursors>
+  <MpAutoAcceptSteam>Steam'i otomatik kabul et</MpAutoAcceptSteam>
+  <MpAutoAcceptSteamDesc>Gelen Steam bağlantı isteklerini otomatik olarak kabul et.</MpAutoAcceptSteamDesc>
+  <MpTransparentChat>Şeffaf sohbet</MpTransparentChat>
+  <MpAutosaveSlots>Otomatik kayıt slotları</MpAutosaveSlots>
+  <MpAutosaveSlotsDesc>Kaç adet otomatik kayıt dosyasının tutulacağı.</MpAutosaveSlotsDesc>
+  <MpAggressiveTicking>Agresif tikleme (döngü)</MpAggressiveTicking>
+  <MpAggressiveTickingDesc>FPS pahasına her zaman sunucuyla otomatik olarak eşitlenmeye (yakalamaya) çalış.</MpAggressiveTickingDesc>
+  <MpAppendNameToAutosave>Otomatik kayıtlara isim ekle</MpAppendNameToAutosave>
+  <MpShowModCompat>Topluluk kaynaklı uyumluluk bilgisini göster</MpShowModCompat>
+  <MpShowModCompatDesc>Topluluk kaynaklı mod uyumluluk bilgilerinin indirilmesini ve görüntülenmesini sağlar.</MpShowModCompatDesc>
+  <MpEnablePingsSetting>Konum pinglerini etkinleştir</MpEnablePingsSetting>
+  <MpPingLocButtonSetting>Konum ping düğmesi</MpPingLocButtonSetting>
+  <MpJumpToPingButtonSetting>Pinge gitme düğmesi</MpJumpToPingButtonSetting>
+  <MpShowMainMenuAnimation>Ana menü animasyonunu göster</MpShowMainMenuAnimation>
+  <MpPlayerCursorTransparency>Şeffaf oyuncu imleçleri</MpPlayerCursorTransparency>
+  <MpSettingsPageGeneral>Genel ayarlar</MpSettingsPageGeneral>
+  <MpSettingsPageColor>Oyuncu renkleri</MpSettingsPageColor>
+  <MpSettingsPageColorDesc>Ev sahipliği yaptığınız bir oyuna bağlanan oyuncuların hangi renkleri alacağını seçin. Örneğin oyuncu imleçlerini etkiler.</MpSettingsPageColorDesc>
+  <MpResetColors>Renkleri sıfırla</MpResetColors>
+  <MpHideOtherPlayersInColonistBar>Diğer oyuncuları Kolonist Çubuğunda gizle</MpHideOtherPlayersInColonistBar>
+  <MpGenerateDebugFile>Hata ayıklama bilgisi oluştur</MpGenerateDebugFile>
+
+  <MpAlertPing>Çok oyunculu pingi</MpAlertPing>
+  <MpAlertPingDesc1>{0} tarafından pinglenen konumlara odaklanmak için tıklayın</MpAlertPingDesc1>
+  <MpAlertPingDesc2>Kapatmak için Shift + tık.</MpAlertPingDesc2>
+
+  <MpDialogsButton>Diyaloglar</MpDialogsButton>
+  <MpTradingSession>Ticaret oturumu</MpTradingSession>
+  <MpRitualSession>Ritüel kurulum oturumu</MpRitualSession>
+  <MpPsychicRitualSession>Psişik ritüel kurulum oturumu</MpPsychicRitualSession>
+  <MpTransportLoadingSession>Nakliye kapsülü yükleme oturumu</MpTransportLoadingSession>
+  <MpCaravanFormingSession>Kervan oluşturma oturumu</MpCaravanFormingSession>
+  <MpCaravanSplittingSession>Kervan bölme oturumu</MpCaravanSplittingSession>
+  <MpAnotherRitualInProgress>Başka bir ritüel kurulum oturumu zaten devam ediyor.</MpAnotherRitualInProgress>
+  <MpSwitchToMap>Haritaya geç</MpSwitchToMap>
+  <MpMapPortalSession>{0} oturumuna giriliyor</MpMapPortalSession>
+
+  <MpConnecting>Bağlanıyor</MpConnecting>
+  <MpConnectingTo>{0}:{1} adresine bağlanıyor</MpConnectingTo>
+  <MpConnected>Bağlandı.</MpConnected>
+  <MpJoining>Katılınıyor</MpJoining>
+  <MpDownloading>İndiriliyor</MpDownloading>
+  <MpSteamConnectingTo>{0} tarafından barındırılan oyuna bağlanılıyor</MpSteamConnectingTo>
+  <MpSteamConnectingWaiting>Sunucunun kabul etmesi bekleniyor</MpSteamConnectingWaiting>
+  <MpWaitingForGameData>Oyun verileri bekleniyor</MpWaitingForGameData>
+  <MpInvalidAddress>Geçersiz adres</MpInvalidAddress>
+  <MpGamePassword>Oyun şifresi</MpGamePassword>
+  <MpQuitBeforeAcceptInvite>Bir Steam davetini kabul etmek için mevcut oyundan çıkın</MpQuitBeforeAcceptInvite>
+  <MpJoinRequestDesc>oyununa katılmak istiyor</MpJoinRequestDesc>
+
+  <MpDesynced>Oyun durumunda senkronizasyon hatası (desync) oluştu.</MpDesynced>
+  <MpTryResync>Yeniden senkronizasyonu dene</MpTryResync>
+  <MpOpenDesyncFolder>Bilgi klasörünü aç</MpOpenDesyncFolder>
+  <MpDesyncedWaiting>Sunucudan veri bekleniyor</MpDesyncedWaiting>
+
+  <MpHostTabConnecting>Bağlanıyor</MpHostTabConnecting>
+  <MpHostTabGameplay>Oynanış</MpHostTabGameplay>
+  <MpHostDirect>Doğrudan</MpHostDirect>
+  <MpHostDirectDesc1>Belirtilen uç noktalarda katılan oyuncuları dinle.</MpHostDirectDesc1>
+  <MpHostDirectDesc2>Genellikle, bu alanı 0.0.0.0 bırakmak yeterlidir (tüm ağ arayüzlerinde dinle anlamına gelir). Port yönlendirme (port forwarding) yapmanız gerekebileceğini unutmayın.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>Birden fazla uç noktayı dinlemek için bunları ampersand (&amp;) ile ayırın. IPv6 adresleri desteklenir.</MpHostDirectDesc3>
+  <MpHostDirectDesc4>Herhangi bir port sağlanmazsa, 30502 kullanılır.</MpHostDirectDesc4>
+  <MpHostIngame>Bu oyundan barındır</MpHostIngame>
+  <MpHostSavefile>Bir kayıt dosyasından barındır</MpHostSavefile>
+  <MpInvalidEndpoint>Geçersiz uç nokta: {0}</MpInvalidEndpoint>
+  <MpInvalidGameName>Geçersiz oyun adı</MpInvalidGameName>
+  <MpInvalidGamePassword>Geçersiz oyun şifresi</MpInvalidGamePassword>
+  <MpGameName>Oyun adı</MpGameName>
+  <MpMaxPlayers>Maksimum oyuncu</MpMaxPlayers>
+  <MpAutosaves>Otomatik kayıtlar</MpAutosaves>
+  <MpAutosavesEvery>Her</MpAutosavesEvery>
+  <MpAutosavesMinutes>dakikada</MpAutosavesMinutes>
+  <MpAutosavesDays>günde</MpAutosavesDays>
+  <MpAutosavesDesc1>Otomatik kayıtlar arasındaki aralık.</MpAutosavesDesc1>
+  <MpAutosavesDesc2>Oyun içi günler ve gerçek zamanlı dakikalar arasında geçiş yapmak için birime tıklayın.</MpAutosavesDesc2>
+  <MpAutosavesDesc3>Normal hızda bir gün yaklaşık 16.6 dakikadır (hızlı: 5.5 dakika, süper hızlı: 2.7 dakika)</MpAutosavesDesc3>
+  <MpLanDesc1>Oyunu yerel ağınızda yayınlayın.</MpLanDesc1>
+  <MpLanDesc2>Çözümlenen LAN adresi: {0}</MpLanDesc2>
+  <MpRunArbiter>Arbiter'ı (Hakem) Çalıştır</MpRunArbiter>
+  <MpArbiterDesc>Desync tespiti/çözümüne yardımcı olan bir arka plan oyun örneği.</MpArbiterDesc>
+  <MpAsyncTime>Asenkron zaman</MpAsyncTime>
+  <MpAsyncTimeDesc>Her harita ve gezegen için ayrı zaman kontrolleri.</MpAsyncTimeDesc>
+  <MpHostingDevMode>Geliştirici modu</MpHostingDevMode>
+  <MpHostingDevModeDesc1>RimWorld'ün geliştirici modu araçlarına erişimi etkinleştirir.</MpHostingDevModeDesc1>
+  <MpHostingDevModeDesc2>Not: Tüm geliştirici araçları kullanılamayabilir ve bunlar için destek sağlanmaz.</MpHostingDevModeDesc2>
+  <MpHostingDevModeHostOnly>Sadece Sunucu</MpHostingDevModeHostOnly>
+  <MpHostingDevModeEveryone>Herkes</MpHostingDevModeEveryone>
+  <MpLogDesyncTraces>Desync izleri</MpLogDesyncTraces>
+  <MpLogDesyncTracesDesc1>Desync sorunlarını gidermek için ekstra yığın izlerini (stacktraces) günlüğe kaydeder.</MpLogDesyncTracesDesc1>
+  <MpLogDesyncTracesDesc2>32 bit ve ARM (Apple Silicon) işlemcilerde çalışmaz.</MpLogDesyncTracesDesc2>
+  <MpExperimentalFeature>Deneysel özellik</MpExperimentalFeature>
+  <MpSyncConfigs>Yapılandırmaları eşitle</MpSyncConfigs>
+  <MpSyncConfigsDescNew1>Katılan oyuncuların mod yapılandırma dosyalarınızı indirip indiremeyeceğini değiştirin.</MpSyncConfigsDescNew1>
+  <MpSyncConfigsDescNew2>Bunu etkinleştirmek desync sayısını azaltabilir.</MpSyncConfigsDescNew2>
+  <MpSyncConfigsDescNew3>Bazı modların yapılandırma dosyalarının hassas bilgiler (yayıncı modları tarafından kullanılan Twitch API jetonları gibi) içerebileceğini unutmayın.</MpSyncConfigsDescNew3>
+  <MpAutoJoinPoints>Otomatik katılım noktaları</MpAutoJoinPoints>
+  <MpAutoJoinPointsDesc1>Otomatik katılım noktası oluşturmayı aç/kapat.</MpAutoJoinPointsDesc1>
+  <MpAutoJoinPointsDesc2>Katılım noktası oluşturma, kaydetmekten daha yavaştır ancak oyuncuların oyunu simüle etmesini gerektirmediğinden katılmayı önemli ölçüde hızlandırır.</MpAutoJoinPointsDesc2>
+  <MpAutoJoinPointsDesc3>Sohbete /joinpoint yazarak her zaman manuel olarak bir katılım noktası oluşturabilirsiniz.</MpAutoJoinPointsDesc3>
+  <MpAutoJoinPointsJoin>Katılımda</MpAutoJoinPointsJoin>
+  <MpAutoJoinPointsDesync>Senkronizasyon hatasında</MpAutoJoinPointsDesync>
+  <MpAutoJoinPointsAutosave>Otomatik kayıtta</MpAutoJoinPointsAutosave>
+  <MpHostGamePassword>Şifre</MpHostGamePassword>
+  <MpPauseOn>Şunda duraklat</MpPauseOn>
+  <MpPauseOnJoin>Katılma</MpPauseOnJoin>
+  <MpPauseOnDesync>Senkronizasyon Hatası</MpPauseOnDesync>
+  <MpTimeControl>Zaman kontrolü</MpTimeControl>
+  <MpTimeControlEveryoneControls>Herkes kontrol eder</MpTimeControlEveryoneControls>
+  <MpTimeControlLowestWins>En düşük kazanır</MpTimeControlLowestWins>
+  <MpTimeControlHostOnly>Sadece sunucu</MpTimeControlHostOnly>
+  <MpPauseOnLetter>Mektupta duraklat</MpPauseOnLetter>
+  <MpPauseOnLetterNever>Asla</MpPauseOnLetterNever>
+  <MpPauseOnLetterMajorThreat>Büyük tehditler</MpPauseOnLetterMajorThreat>
+  <MpPauseOnLetterAnyThreat>Herhangi bir tehdit</MpPauseOnLetterAnyThreat>
+  <MpPauseOnLetterAnyLetter>Herhangi bir mektup</MpPauseOnLetterAnyLetter>
+
+  <MpWebsiteButton>Web Sitesi</MpWebsiteButton>
+  <MpDiscordButton>Discord</MpDiscordButton>
+  <MpLinkButtonDesc>Açmak için tıklayın:</MpLinkButtonDesc>
+  <MpCompatibilityButton>Uyumluluk</MpCompatibilityButton>
+  <MpCompatibilityButtonDesc1>Mod uyumluluk bilgileri penceresini aç.</MpCompatibilityButtonDesc1>
+  <MpCompatibilityButtonDesc2>Ayrıca mod listesinden de erişilebilir.</MpCompatibilityButtonDesc2>
+  <MpActiveConfigsButton>Aktif yapılandırmalar</MpActiveConfigsButton>
+  <MpActiveConfigsButtonDesc1>Bu RimWorld örneği, şu oyundan yapılandırma dosyalarıyla başlatıldı: {0}</MpActiveConfigsButtonDesc1>
+  <MpActiveConfigsButtonDesc2>Önceki yapılandırmalarınızı geri yüklemek için yeniden başlatın.</MpActiveConfigsButtonDesc2>
+
+  <MpLan>LAN</MpLan>
+  <MpDirect>Doğrudan</MpDirect>
+  <MpSteam>Steam</MpSteam>
+  <MpHostTab>Barındır</MpHostTab>
+
+  <MpJoinButton>Katıl</MpJoinButton>
+  <MpConnectButton>Bağlan</MpConnectButton>
+  <MpLanSearching>Aranıyor</MpLanSearching>
+
+  <MpNotConnectedToSteam>Steam'e bağlı değil</MpNotConnectedToSteam>
+  <MpNoFriendsPlaying>Şu anda RimWorld oynayan arkadaş yok</MpNoFriendsPlaying>
+  <MpPlayingRimWorld>RimWorld oynuyor</MpPlayingRimWorld>
+  <MpNotInMultiplayer>Çok oyunculuda değil</MpNotInMultiplayer>
+
+  <MpMultiplayerSaves>Çok Oyunculu</MpMultiplayerSaves>
+  <MpSingleplayerSaves>Tek Oyunculu</MpSingleplayerSaves>
+  <MpSaveOutdated>(Eski Sürüm)</MpSaveOutdated>
+  <MpSaveOutdatedDesc>Bu kayıt dosyası RimWorld {0} ile yapıldı ancak siz {1} sürümünü çalıştırıyorsunuz.</MpSaveOutdatedDesc>
+  <MpHostButton>Barındır</MpHostButton>
+  <MpWatchReplay>İzle</MpWatchReplay>
+  <MpNothingSelected>Hiçbir şey seçilmedi</MpNothingSelected>
+  <MpNoSaves>Multiplayer yalnızca mevcut kayıt dosyalarından oynanabilir</MpNoSaves>
+  <MpSeeModList>Mod listesini gör</MpSeeModList>
+  <MpOpenSaveFolder>İçeren klasörü aç</MpOpenSaveFolder>
+  <MpContinueAnyway>Yine de devam et</MpContinueAnyway>
+  <MpFileRenameButton>Yeniden Adlandır</MpFileRenameButton>
+  <MpFileRename>Dosyayı yeniden adlandır</MpFileRename>
+  
+  <MpDataMismatch>Veri uyuşmazlığı</MpDataMismatch>
+  <MpConnectAnyway>Yine de bağlan</MpConnectAnyway>
+  <MpFixAndRestart>Düzelt ve yeniden başlat</MpFixAndRestart>
+  <MpMismatchQuit>Çık</MpMismatchQuit>
+  <MpMismatchDefsDiff>Mod veri tanımları farklı. Katılmadan önce eşleşmeleri gerekiyor.</MpMismatchDefsDiff>
+  <MpRestartNeeded>Mod listesi, dosya ve yapılandırma değişikliklerinin etkili olması için oyunun yeniden başlatılması gerekiyor.</MpRestartNeeded>
+  <MpApplyConfigs>Sunucunun yapılandırmalarını uygula</MpApplyConfigs>
+  <MpApplyConfigsTip>Yapılandırmaların uygulanması geçicidir ve bir sonraki oyun yeniden başlatılana kadar sürer. Dosyalarınızın hiçbiri kalıcı olarak üzerine yazılmaz.</MpApplyConfigsTip>
+  <MpApplyModList>Sunucunun mod listesini uygula</MpApplyModList>
+  <MpApplyModListTip>Mevcut mod listenizin üzerine yazılacak.</MpApplyModListTip>
+  <MpMismatchGeneral>Genel</MpMismatchGeneral>
+  <MpMismatchModList>Mod listesi</MpMismatchModList>
+  <MpMismatchFiles>Dosyalar</MpMismatchFiles>
+  <MpMismatchConfigs>Yapılandırmalar</MpMismatchConfigs>
+  <MpMismatchServerSide>Sunucu</MpMismatchServerSide>
+  <MpMismatchClientSide>Sizin istemciniz</MpMismatchClientSide>
+  <MpMismatchSeeTabs>Daha fazla bilgi için ilgili sekmelere bakın.</MpMismatchSeeTabs>
+  <MpMismatchRwVersion>RimWorld sürümü</MpMismatchRwVersion>
+  <MpMismatchMpVersion>Multiplayer sürümü</MpMismatchMpVersion>
+  <MpMismatchRestart>Yeniden Başlat</MpMismatchRestart>
+  <MpMismatchRestartDesc>Oyun yüklemeyi bitirdikten sonra yeniden bağlanacaksınız.</MpMismatchRestartDesc>
+  <MpMismatchBack>Geri</MpMismatchBack>
+  <MpMismatchServerMods>Sunucu modları</MpMismatchServerMods>
+  <MpMismatchLocalMods>Aktif modlar</MpMismatchLocalMods>
+  <MpMismatchModListRefresh>Yenile</MpMismatchModListRefresh>
+  <MpMismatchNotInstalled>Yüklü değil: {0}</MpMismatchNotInstalled>
+  <MpMismatchModListsMismatch>Mod listeleri farklı. Oyunun yeniden başlatılması gerekiyor.</MpMismatchModListsMismatch>
+  <MpMismatchWrongOrder>Modlar eşleşiyor ancak sıraları farklı. Oyunun yeniden başlatılması gerekiyor.</MpMismatchWrongOrder>
+  <MpMismatchModListsMatch>Mod listeleri eşleşiyor</MpMismatchModListsMatch>
+  <MpMismatchSubscribe>Eksik olanlara abone ol</MpMismatchSubscribe>
+  <MpMismatchSubscribeMsg>{0} moda abone olundu. Arka planda indiriliyor...</MpMismatchSubscribeMsg>
+  <MpMismatchSubscribeNoSteam>Steam'e bağlı değil. Eksik modların manuel olarak yüklenmesi gerekiyor.</MpMismatchSubscribeNoSteam>
+  <MpMismatchSubscribeNoMissing>Eksik mod yok.</MpMismatchSubscribeNoMissing>
+  <MpMismatchSubscribeDesc1>Eksik modlara Steam Atölyesi üzerinden abone olun. İndirme işlemi arka planda gerçekleşecek.</MpMismatchSubscribeDesc1>
+  <MpMismatchSubscribeDesc2>Eksik modların hepsi Steam'de mevcut değil. Geri kalanların manuel olarak yüklenmesi gerekiyor.</MpMismatchSubscribeDesc2>
+  <MpMismatchLocalFiles>Yerel dosyalar</MpMismatchLocalFiles>
+  <MpMismatchLocalConfigs>Yerel yapılandırmalar</MpMismatchLocalConfigs>
+  <MpMismatchTreeRefresh>Yenile</MpMismatchTreeRefresh>
+  <MpMismatchTreeMissing>Eksik</MpMismatchTreeMissing>
+  <MpMismatchTreeAdded>Eklendi</MpMismatchTreeAdded>
+  <MpMismatchTreeModified>Değiştirildi</MpMismatchTreeModified>
+  <MpMismatchFilesInfo>Mod dosyası farklılıklarının manuel olarak çözülmesi veya yok sayılması gerekir. Bunlar genellikle farklı mod sürümleri veya güncelleme sonrası geride kalan dosyalardan kaynaklanır.</MpMismatchFilesInfo>
+  <MpMismatchFilesInfoMods>Sorunlu modları güncellemeyi/yeniden yüklemeyi denemelisiniz (veya Steam'deyseniz aboneliği yenileyin).</MpMismatchFilesInfoMods>
+  <MpMismatchFilesInfoCore>Core ve genişleme paketi dosyalarıyla ilgili sorunları çözmek için klasörlerini silin ve oyun dosyası bütünlüğünü doğrulayın (bunu yapmak güvenlidir, kullanıcı verileri başka yerde saklanır). Yollarını görmek için en üstteki klasörlerin üzerine gelin.</MpMismatchFilesInfoCore>
+  <MpMismatchFilesInfoHost>Farklılıklar sunucu tarafında olabilir ve onların da yukarıdaki adımları tekrarlaması gerekebilir.</MpMismatchFilesInfoHost>
+  <MpMismatchFileShowPath>Klasör yolunu görmek için Shift tuşuna basılı tutun.</MpMismatchFileShowPath>
+  <MpMismatchFileOpenPath>Klasörü açmak için Shift + tık.</MpMismatchFileOpenPath>
+  <MpMismatchNodeExpand>Genişletmek/daraltmak için tıklayın.</MpMismatchNodeExpand>
+  <MpConfigSyncDisabled>Yapılandırma eşitlemesi sunucu tarafından devre dışı bırakıldı</MpConfigSyncDisabled>
+  <MpFilesMatch>Dosyalar eşleşiyor</MpFilesMatch>
+  <MpConfigsMatch>Yapılandırmalar eşleşiyor</MpConfigsMatch>
+
+  <MpModCompatButton>Multiplayer uyumluluğu</MpModCompatButton>
+  <MpModCompatTitle>Multiplayer mod uyumluluğu</MpModCompatTitle>
+  <MpModCompatLoading>Yükleniyor</MpModCompatLoading>
+  <MpModCompatLoadingFailed>Yükleme başarısız.</MpModCompatLoadingFailed>
+  <MpModCompatActiveMods>Aktif</MpModCompatActiveMods>
+  <MpModCompatInstalledMods>Yüklü</MpModCompatInstalledMods>
+  <MpModCompatOutdatedMods>Eski Sürüm</MpModCompatOutdatedMods>
+  <MpModCompatHeaderModName>Mod adı</MpModCompatHeaderModName>
+  <MpModCompatHeaderStatus>Durum</MpModCompatHeaderStatus>
+  <MpModCompatHeaderNotes>Notlar</MpModCompatHeaderNotes>
+  <MpModCompatXmlOnlyDesc>Sadece XML içeren modlar yalnızca veri sağlar ve mantık (logic) içermez, bu nedenle her zaman uyumludur. Ancak uyumsuz modlara bağımlılıkları olabileceğini unutmayın.</MpModCompatXmlOnlyDesc>
+  <MpModCompatScore4>Her şey çalışıyor</MpModCompatScore4>
+  <MpModCompatScore3>Çoğunlukla çalışıyor, bazı küçük özellikler çalışmıyor</MpModCompatScore3>
+  <MpModCompatScore2>Kısmen çalışıyor, ancak ana özellikler çalışmıyor</MpModCompatScore2>
+  <MpModCompatScore1>Çalışmıyor</MpModCompatScore1>
+  <MpModCompatScoreUnk>Bilinmiyor; lütfen bulguları Discord'umuzdaki #mod-report kanalına bildirin</MpModCompatScoreUnk>
+  <MpHideTranslationMods>Çeviri modlarını gizle</MpHideTranslationMods>
+  <MpHideTranslationModsDesc>Çeviri modları her zaman uyumludur.</MpHideTranslationModsDesc>
+
+</LanguageData>
