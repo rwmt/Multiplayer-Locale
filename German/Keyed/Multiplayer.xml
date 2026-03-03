@@ -21,7 +21,7 @@
   <MpTraderLeavesIn>Verlässt in {0}</MpTraderLeavesIn>
   <MpNotAvailable>Im Mehrspielermodus nicht verfügbar.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Das Anrufen anderer Fraktionen ist im Mehrspielermodus derzeit nicht möglich.</MpCallingFactionNotAvailable>
-  <MpLowestWinsButtonsDesc1>Aktuelle Spielgeschwindigkeitsstimmen, niedrigste Geschwindigkeit gewinnt.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc1>Aktuelle Spielgeschwindigkeitsstimmen – niedrigste Geschwindigkeit gewinnt.</MpLowestWinsButtonsDesc1>
   <MpLowestWinsButtonsDesc2>Shift + Leertaste, um deine Stimme zurückzusetzen.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>Der Host kann hier mit Shift + Klick alle Stimmen zurücksetzen.</MpLowestWinsButtonsDesc3>
 
@@ -117,6 +117,8 @@
   <MpEnablePingsSetting>Aktiviere Standort-Pings</MpEnablePingsSetting>
   <MpPingLocButtonSetting>"Pinge Standort"-Button</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>"Springe zum Ping"-Button</MpJumpToPingButtonSetting>
+  <MpEnableCrossPlanetLayerPings>Pings über Planetenebenen hinweg aktivieren</MpEnableCrossPlanetLayerPings>
+  <MpEnableCrossPlanetLayerPingsDesc>Aktiviert die Anzeige von Pings aus Planetenebenen unterhalb der aktuellen Ebene.\n\nMit bestimmten Mods kann dies zu Ungenauigkeiten führen. Wenn Pings an falschen Stellen erscheinen, diese Option bitte deaktivieren.</MpEnableCrossPlanetLayerPingsDesc>
   <MpShowMainMenuAnimation>Zeige Hauptmenü-Animation</MpShowMainMenuAnimation>
   <MpPlayerCursorTransparency>Transparente Spieler-Mauszeiger</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>Allgemein</MpSettingsPageGeneral>
@@ -148,7 +150,7 @@
   <MpConnectingTo>Verbinde zu {0}:{1}</MpConnectingTo>
   <MpConnected>Verbunden.</MpConnected>
   <MpJoining>Beitreten</MpJoining>
-  <MpDownloading>Herunterladen ({0}%)</MpDownloading>
+  <MpDownloading>Herunterladen</MpDownloading>
   <MpSteamConnectingTo>Verbinde zu einem Spiel gehostet von {0}</MpSteamConnectingTo>
   <MpSteamConnectingWaiting>Warte bis der Host akzeptiert</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Warte auf Spieldaten</MpWaitingForGameData>
@@ -342,3 +344,4 @@
   <MpHideTranslationModsDesc>Übersetzungs-Mods sind immer kompatibel.</MpHideTranslationModsDesc>
   
 </LanguageData>
+
