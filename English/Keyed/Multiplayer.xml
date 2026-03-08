@@ -144,6 +144,7 @@
   <MpAnotherRitualInProgress>Another ritual setup session is already in progress.</MpAnotherRitualInProgress>
   <MpSwitchToMap>Switch to map</MpSwitchToMap>
   <MpMapPortalSession>Entering {0} session</MpMapPortalSession>
+  <MpGrowthMomentSession>{0}'s growth moment session</MpGrowthMomentSession>
 
   <!-- Connecting -->
   <MpConnecting>Connecting</MpConnecting>
@@ -344,4 +345,3 @@
   <MpHideTranslationModsDesc>Translation mods are always compatible.</MpHideTranslationModsDesc>
 
 </LanguageData>
-
