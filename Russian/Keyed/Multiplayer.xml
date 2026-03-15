@@ -3,80 +3,81 @@
 
   <!-- Main menu -->
   <MpMultiplayerButton>Мультиплеер</MpMultiplayerButton>
+  <MpMultiplayerButtonTooltip>Shift + левый клик - копировать\nShift + правый клик - параметры</MpMultiplayerButtonTooltip>
   <MpLoadingError1>Ошибка во время загрузки мода Multiplayer.</MpLoadingError1>
   <MpLoadingError2>Это может вызвать десинхронизацию при игре.</MpLoadingError2>
-  <MpLoadingError3>Скорее всего, это связанно с тем, что версия мода Multiplayer не совместима с вашей версией Rimworld.</MpLoadingError3>
-  <MpLoadingError4>Вы можете попробовать обновить/откатить версию Multiplayer или Rimworld.</MpLoadingError4>
-  <MpLoadingError5>Обратите внимание, что игра могла обновится совсем недавно и новая версия мода Multiplayer может быть ещё не обновлена.</MpLoadingError5>
+  <MpLoadingError3>Скорее всего, это связано с тем, что версия мода Multiplayer несовместима с вашей версией RimWorld.</MpLoadingError3>
+  <MpLoadingError4>Вы можете попробовать обновить/откатить версию Multiplayer или RimWorld.</MpLoadingError4>
+  <MpLoadingError5>Обратите внимание, что игра могла обновиться совсем недавно и новая версия мода Multiplayer может быть ещё недоступна.</MpLoadingError5>
 
   <!-- Ingame -->
   <MpSimulating>Симулирование мира</MpSimulating>
   <MpSimulatingServer>Симулирование мира сервером</MpSimulatingServer>
   <MpLoading>Загрузка</MpLoading>
   <MpSaving>Сохранение</MpSaving>
-  <MpCreatingJoinPoint>Создание точки подключения</MpCreatingJoinPoint> <!-- join-point = точка подключения -->
+  <MpCreatingJoinPoint>Создание точки подключения</MpCreatingJoinPoint>
   <MpServerCloseConfirmationNoTime>Вы уверены, что хотите выключить сервер?</MpServerCloseConfirmationNoTime>
-  <MpServerCloseConfirmationTime>Вы уверены, что хотите выключить сервер? Последние сохранение было {0} назад.</MpServerCloseConfirmationTime>
+  <MpServerCloseConfirmationTime>Вы уверены, что хотите выключить сервер? Последнее сохранение было {0} назад.</MpServerCloseConfirmationTime>
   <MpTraderLeavesIn>Уходит через {0}</MpTraderLeavesIn>
-  <MpNotAvailable>Не доступно в мультиплеере.</MpNotAvailable>
-  <MpCallingFactionNotAvailable>На текущий момент вызов других фракций не доступен в мультиплеере.</MpCallingFactionNotAvailable> <!-- На момент перевода не используется -->
-  <MpLowestWinsButtonsDesc1>Текущие голоса за скорость игры, используется наименьшая из скоростей.</MpLowestWinsButtonsDesc1>
-  <MpLowestWinsButtonsDesc2>Shift+Пробел для отмены своего голоса.</MpLowestWinsButtonsDesc2>
-  <MpLowestWinsButtonsDesc3>Хост может нажать тут с зажатым Shift для отмены всех голосов.</MpLowestWinsButtonsDesc3>
+  <MpNotAvailable>Недоступно в мультиплеере.</MpNotAvailable>
+  <MpCallingFactionNotAvailable>На текущий момент вызов других фракций недоступен в мультиплеере.</MpCallingFactionNotAvailable> <!-- На данный момент не используется -->
+  <MpLowestWinsButtonsDesc1>Голосование за скорость игры. Выбирается наименьшая из предложенных скоростей.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc2>Shift + Пробел для отмены своего голоса.</MpLowestWinsButtonsDesc2>
+  <MpLowestWinsButtonsDesc3>Чтобы сбросить голоса всех игроков, хост должен зажать Shift и кликнуть сюда.</MpLowestWinsButtonsDesc3>
 
   <!-- Ingame Faction Sidebar -->
-  <MpCreateFaction>Создать Фракцию</MpCreateFaction>
-  <MpFactionName>Название Фракции</MpFactionName>
-  <MpFactionColor>Цвет Фракции</MpFactionColor>
+  <MpCreateFaction>Создать фракцию</MpCreateFaction>
+  <MpFactionName>Название фракции</MpFactionName>
+  <MpFactionColor>Цвет фракции</MpFactionColor>
   <MpDefaultMapTime>Время по умолчанию</MpDefaultMapTime>
-  <MpDefaultMapTimeDesc1>Данная настройка контралирует стартовое время на генерируемой карте.</MpDefaultMapTimeDesc1>
-  <MpDefaultMapTimeDesc2>Активна: Использует время по старта игры по умолчанию, аналогично однопользовательским картам.</MpDefaultMapTimeDesc2>
-  <MpDefaultMapTimeDesc3>Не активна: Использует мировое время.</MpDefaultMapTimeDesc3>
-  <MpAsyncTimeDisabled>Возможно изменить только при активном Async time выбранном при создании игры.</MpAsyncTimeDisabled>
-  <MpSettleFaction>Основнать Фракцию</MpSettleFaction>  
-  <MpJoinFaction>Присоедениться к фракции</MpJoinFaction>
-  <MpLocateOnMap>Найти на глобальной карте.</MpLocateOnMap>
-  <MpJoin>Присоедениться</MpJoin>
+  <MpDefaultMapTimeDesc1>Данная настройка контролирует стартовое время на генерируемой карте.</MpDefaultMapTimeDesc1>
+  <MpDefaultMapTimeDesc2>Включено: использует время начала игры по умолчанию, аналогично однопользовательским картам.</MpDefaultMapTimeDesc2>
+  <MpDefaultMapTimeDesc3>Выключено: использует мировое время.</MpDefaultMapTimeDesc3>
+  <MpAsyncTimeDisabled>Изменение доступно только при включённой опции «Асинхронное время», выбранной при создании игры.\n\n</MpAsyncTimeDisabled>
+  <MpSettleFaction>Основать фракцию</MpSettleFaction>
+  <MpJoinFaction>Вступить во фракцию</MpJoinFaction>
+  <MpLocateOnMap>Найти на глобальной карте</MpLocateOnMap>
+  <MpJoin>Войти</MpJoin>
   <MpEmptyFactionName>Название фракции не может быть пустым.</MpEmptyFactionName>
   <MpTakenFactionName>Название фракции уже занято.</MpTakenFactionName>
   <MpSelectRandomSite>Выбрать случайное место</MpSelectRandomSite>
   <MpWorldFactions>Мировые фракции</MpWorldFactions>
 
-	<!-- Ingame Quest Tab --> 
+	<!-- Ingame Quest Tab -->
   <MpHideQuestsOn>Только мои задания</MpHideQuestsOn>
   <MpHideQuestsOff>Все задания</MpHideQuestsOff>
-  <MpHideQuestsDesc>Переключение между отображением заданий всех игроков, и только вашей фракции.</MpHideQuestsDesc>
+  <MpHideQuestsDesc>Переключение между отображением заданий всех игроков и только вашей фракции.</MpHideQuestsDesc>
   <MpPublicQuest>Кто угодно может принять это задание.</MpPublicQuest>
-  <MpQuestDesc>Это задание {0}{1}</MpQuestDesc>
+  <MpQuestDesc>Это задание принадлежит {0}{1}</MpQuestDesc>
 
   <!-- Ticks behind indicator -->
   <MpTicksBehind>Вы в {0} тиках позади.</MpTicksBehind>
   <MpLowerGameSpeed>Рекомендуется снизить скорость игры.</MpLowerGameSpeed>
-  <MpForceCatchUp>Нажмите чтобы перейти в режим догоняющего.</MpForceCatchUp>
+  <MpForceCatchUp>Нажмите, чтобы перейти в режим догоняющего.</MpForceCatchUp>
 
   <!-- Disconnected -->
   <MpWrongProtocol>Неверная версия протокола</MpWrongProtocol>
   <MpWrongMultiplayerVersionDesc>Сервер использует Multiplayer {0} (протокол {1}). Ваша версия: {2} (протокол {3})</MpWrongMultiplayerVersionDesc>
-  <MpWrongVersionUpdateInfo>Обновите мод (Переподпишитесь если используете Steam).</MpWrongVersionUpdateInfo>
-  <MpWrongVersionUpdateInfoHost>Хост должен обновить мод (Переподписаться если использует Steam).</MpWrongVersionUpdateInfoHost>
+  <MpWrongVersionUpdateInfo>Обновите мод (переподпишитесь, если используете Steam).</MpWrongVersionUpdateInfo>
+  <MpWrongVersionUpdateInfoHost>Хост должен обновить мод (переподписаться, если использует Steam).</MpWrongVersionUpdateInfoHost>
   <MpServerClosed>Сервер выключен</MpServerClosed>
   <MpServerFull>Сервер полон</MpServerFull>
   <MpDisconnectServerStarting>Сервер запускается</MpDisconnectServerStarting>
   <MpKicked>Вы были исключены из игры</MpKicked>
-  <MpDisconnected>Отключен</MpDisconnected>
-  <MpDisconnectedWithInfo>Отключен ({0})</MpDisconnectedWithInfo>
+  <MpDisconnected>Отключён</MpDisconnected>
+  <MpDisconnectedWithInfo>Отключён ({0})</MpDisconnectedWithInfo>
   <MpSteamTimedOut>Время ожидания соединения истекло</MpSteamTimedOut>
   <MpSteamGenericError>Ошибка подключения</MpSteamGenericError>
   <MpPacketErrorLocal>Ошибка чтения пакетов. Вы можете изучить лог ошибок для дополнительной информации.</MpPacketErrorLocal>
-  <MpPacketErrorRemote>Удаленная ошибка чтения пакетов. Хост может изучить лог ошибок для дополнительной информации.</MpPacketErrorRemote>
+  <MpPacketErrorRemote>Удалённая ошибка чтения пакетов. Хост может изучить лог ошибок для дополнительной информации.</MpPacketErrorRemote>
   <MpConnectionFailed>Подключение не удалось</MpConnectionFailed>
   <MpConnectionFailedWithInfo>Подключение не удалось ({0})</MpConnectionFailedWithInfo>
   <MpInvalidUsernameAlreadyPlaying>Ваше имя пользователя уже используется</MpInvalidUsernameAlreadyPlaying>
   <MpInvalidUsernameChars>Ваше имя пользователя содержит недопустимые символы</MpInvalidUsernameChars>
   <MpInvalidUsernameLength>Ваше имя пользователя имеет недопустимую длину</MpInvalidUsernameLength>
   <MpChangeUsernameInfo>Вы можете изменить своё имя в настройках мода.</MpChangeUsernameInfo>
-  <MpConnectAsUsername>Подключится как {0}</MpConnectAsUsername>
-  <MpBadGamePassword>Не верный пароль</MpBadGamePassword>
+  <MpConnectAsUsername>Подключиться как {0}</MpConnectAsUsername>
+  <MpBadGamePassword>Неверный пароль</MpBadGamePassword>
 
   <!-- Chat -->
   <MpChatButton>Чат</MpChatButton>
@@ -86,7 +87,7 @@
   <MpChatPlayers>Игроки ({0}):</MpChatPlayers>
   <MpChatSend>⏎</MpChatSend> <!-- длинна строки макс 6 -->
   <MpSteamAcceptTitle>Принять игроков из Steam</MpSteamAcceptTitle>
-  <MpSteamAcceptDesc>Нажмите чтобы принять</MpSteamAcceptDesc>
+  <MpSteamAcceptDesc>Нажмите, чтобы принять</MpSteamAcceptDesc>
   <MpSteamAccepted>Игрок был принят</MpSteamAccepted>
 
   <!-- Ingame ESC screen -->
@@ -103,31 +104,35 @@
   <!-- Settings -->
   <MpUsernameSetting>Имя пользователя</MpUsernameSetting> <!-- длинна строки макс 16 -->
   <MpShowPlayerCursors>Показывать курсоры игроков</MpShowPlayerCursors>
-  <MpAutoAcceptSteam>Авто-принятие игроков Steam</MpAutoAcceptSteam>
+  <MpAutoAcceptSteam>Автопринятие игроков Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Автоматически принимать любые входящие запросы на подключение от игроков в Steam.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Прозрачное окно чата</MpTransparentChat>
-  <MpAutosaveSlots>Слоты автосо-ния</MpAutosaveSlots> <!-- длинна строки макс 16 -->
+  <MpAutosaveSlots>Автосохранения</MpAutosaveSlots> <!-- длинна строки макс 16 -->
   <MpAutosaveSlotsDesc>Количество файлов автосохранения.</MpAutosaveSlotsDesc>
   <MpAggressiveTicking>Агрессивные тики</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Всегда пытаться автоматически догонять сервер ценой FPS.</MpAggressiveTickingDesc>
   <MpAppendNameToAutosave>Добавлять имя к автосохранению</MpAppendNameToAutosave>
   <MpShowModCompat>Показывать совместимость модов</MpShowModCompat>
-  <MpShowModCompatDesc>Активирует загрузку и отображение рейтинга совместимости для модов на основе отзывов других игроков</MpShowModCompatDesc>
+  <MpShowModCompatDesc>Активирует загрузку и отображение рейтинга совместимости для модов на основе отзывов других игроков.</MpShowModCompatDesc>
   <MpEnablePingsSetting>Включить метки игроков</MpEnablePingsSetting> <!-- Метки = ping -->
-  <MpPingLocButtonSetting>Cоздать метку</MpPingLocButtonSetting> <!-- длинна строки макс ~13 -->
-  <MpJumpToPingButtonSetting>Переместится к метке</MpJumpToPingButtonSetting> <!-- длинна строки макс ~13 но может быть перенос -->
-  <MpShowMainMenuAnimation>Показывать анимацию в глав. меню</MpShowMainMenuAnimation> <!-- длинна строки макс 32 -->
+  <MpPingLocButtonSetting>Создать метку</MpPingLocButtonSetting> <!-- длинна строки макс ~13 -->
+  <MpJumpToPingButtonSetting>Переместиться к метке</MpJumpToPingButtonSetting> <!-- длинна строки макс ~13 -->
+  <MpEnableCrossPlanetLayerPings>Включить отображение меток между слоями планеты</MpEnableCrossPlanetLayerPings>
+  <MpEnableCrossPlanetLayerPingsDesc>Включает отображение меток с других слоёв планеты поверх текущего.\n\nС некоторыми модами это может работать некорректно; если вы столкнётесь с метками, отображающимися не в тех местах, отключите эту опцию.</MpEnableCrossPlanetLayerPingsDesc>
+  <MpShowMainMenuAnimation>Показывать фоновую анимацию в главном меню</MpShowMainMenuAnimation>
   <MpPlayerCursorTransparency>Прозрачные курсоры игроков</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>Общие настройки</MpSettingsPageGeneral>
   <MpSettingsPageColor>Цвета игроков</MpSettingsPageColor>
-  <MpSettingsPageColorDesc>Выберете цвета используемые другими игроками, когда они присоеденяются к Вашей игре. Влияет, напирмер на курсоры игроков.</MpSettingsPageColorDesc>
+  <MpSettingsPageColorDesc>Выберите цвета, используемые другими игроками, когда они присоединяются к вашей игре. Влияет, например, на курсоры игроков.</MpSettingsPageColorDesc>
   <MpResetColors>По умолчанию</MpResetColors> <!-- длинна строки макс 17 -->
   <MpHideOtherPlayersInColonistBar>Скрыть других игроков в списке колонистов</MpHideOtherPlayersInColonistBar>
-  
+  <MpGenerateDebugFile>Создать отладочную информацию</MpGenerateDebugFile>
+  <MpIncludeReplayInDesync>Включить запись повтора при десинхронизации</MpIncludeReplayInDesync>
+
   <!-- Ping alert -->
   <MpAlertPing>Многопользовательская метка</MpAlertPing>
-  <MpAlertPingDesc1>Нажмите чтобы переместится к отмеченной локации: {0}</MpAlertPingDesc1>
-  <MpAlertPingDesc2>Нажмите с зажатой клавишей Shift чтобы убрать.</MpAlertPingDesc2>
+  <MpAlertPingDesc1>Нажмите, чтобы переместиться к отмеченной локации: {0}</MpAlertPingDesc1>
+  <MpAlertPingDesc2>Нажмите с зажатой клавишей Shift, чтобы убрать.</MpAlertPingDesc2>
 
   <!-- Pausing sessions -->
   <MpDialogsButton>Диалог</MpDialogsButton>
@@ -135,27 +140,30 @@
   <MpRitualSession>Подготовка ритуала</MpRitualSession>
   <MpPsychicRitualSession>Подготовка психического ритуала</MpPsychicRitualSession>
   <MpTransportLoadingSession>Загрузка транспортных капсул</MpTransportLoadingSession>
-  <MpCaravanFormingSession>Формирования каравана</MpCaravanFormingSession>
+  <MpCaravanFormingSession>Формирование каравана</MpCaravanFormingSession>
   <MpCaravanSplittingSession>Разделение каравана</MpCaravanSplittingSession>
   <MpAnotherRitualInProgress>Подготовка к ритуалу уже в процессе.</MpAnotherRitualInProgress>
   <MpSwitchToMap>Свернуть диалог</MpSwitchToMap>
   <MpMapPortalSession>Проход через {0}</MpMapPortalSession>
+  <MpGrowthMomentSession>Сеанс роста {0}</MpGrowthMomentSession>
 
   <!-- Connecting -->
   <MpConnecting>Подключение</MpConnecting>
   <MpConnectingTo>Подключение к {0}:{1}</MpConnectingTo>
-  <MpConnected>Подключен.</MpConnected>
+  <MpConnected>Подключён</MpConnected>
   <MpJoining>Присоединение</MpJoining>
   <MpDownloading>Загрузка</MpDownloading>
-  <MpSteamConnectingTo>Подключение к игре созданной {0}</MpSteamConnectingTo>
+  <MpSteamConnectingTo>Подключение к игре, созданной {0}</MpSteamConnectingTo>
   <MpSteamConnectingWaiting>Ожидание подтверждения хоста</MpSteamConnectingWaiting>
   <MpWaitingForGameData>Ожидание данных игры</MpWaitingForGameData>
   <MpInvalidAddress>Недопустимый адрес</MpInvalidAddress>
   <MpGamePassword>Пароль</MpGamePassword>
+  <MpQuitBeforeAcceptInvite>Чтобы принять приглашение Steam, выйдите из текущей игры</MpQuitBeforeAcceptInvite>
+  <MpJoinRequestDesc>хочет присоединиться к вашей игре</MpJoinRequestDesc>
 
   <!-- Desynced -->
   <MpDesynced>Игра была рассинхронизирована.</MpDesynced>
-  <MpTryResync>Попробовать ресинхронизироваться</MpTryResync>
+  <MpTryResync>Синхр. заново</MpTryResync>
   <MpOpenDesyncFolder>Открыть папку с информацией</MpOpenDesyncFolder>
   <MpDesyncedWaiting>Ожидание данных от хоста</MpDesyncedWaiting>
 
@@ -164,9 +172,9 @@
   <MpHostTabGameplay>Геймплей</MpHostTabGameplay>
   <MpHostDirect>Прямое</MpHostDirect>
   <MpHostDirectDesc1>Прослушивает подключения игроков на определенных адресах.</MpHostDirectDesc1>
-  <MpHostDirectDesc2>Обычно, достаточно адреса 0.0.0.0 (Что означает слушать на всех адресах). Обратите внимание, что Вам также может потребуется перенаправить порты.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>Для прослушивания нескольких адресов, разделите их амперсандом . IPv6 адреса так же поддерживаются.</MpHostDirectDesc3>
-  <MpHostDirectDesc4>Если порт не указан то используется порт 30502.</MpHostDirectDesc4>
+  <MpHostDirectDesc2>Обычно достаточно адреса 0.0.0.0 (что означает слушать на всех адресах). Обратите внимание, что вам также может потребоваться перенаправить порты.</MpHostDirectDesc2>
+  <MpHostDirectDesc3>Для прослушивания нескольких адресов разделите их амперсандом. IPv6-адреса также поддерживаются.</MpHostDirectDesc3>
+  <MpHostDirectDesc4>Если порт не указан, то используется порт 30502.</MpHostDirectDesc4>
   <MpHostIngame>Запустить сервер с этой игрой</MpHostIngame>
   <MpHostSavefile>Запустить сервер из сохранения</MpHostSavefile>
   <MpInvalidEndpoint>Недопустимый адрес: {0}</MpInvalidEndpoint>
@@ -174,62 +182,63 @@
   <MpInvalidGamePassword>Некорректный пароль</MpInvalidGamePassword>
   <MpGameName>Название игры</MpGameName>
   <MpMaxPlayers>Кол-во игроков</MpMaxPlayers> <!-- длинна строки макс 14  -->
-  <MpAutosaves>Автосо-ния</MpAutosaves> <!-- длинна строки макс ~13 -->
+  <MpAutosaves>Автосохранен.</MpAutosaves> <!-- длинна строки макс ~13 -->
   <MpAutosavesEvery>Каждые</MpAutosavesEvery>
   <MpAutosavesMinutes>минут</MpAutosavesMinutes>
   <MpAutosavesDays>дней</MpAutosavesDays>
   <MpAutosavesDesc1>Интервал между автосохранениями.</MpAutosavesDesc1>
-  <MpAutosavesDesc2>Нажмите чтобы переключится между игровыми днями, и реальными минутами.</MpAutosavesDesc2>
-  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минутам (быстрой: 5.5 минут, супер-быстрой: 2.7 минуты)</MpAutosavesDesc3>
+  <MpAutosavesDesc2>Нажмите, чтобы переключиться между игровыми днями и реальными минутами.</MpAutosavesDesc2>
+  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минуты (быстрой: 5.5 минуты, супер-быстрой: 2.7 минуты).</MpAutosavesDesc3>
   <MpLanDesc1>Транслировать информацию об игре в локальную сеть.</MpLanDesc1>
-  <MpLanDesc2>Ваш LAN адрес: {0}</MpLanDesc2> <!-- Адрес интерфейса который используется при подключении к внешним ресурсам согласно локальной таблице маршуцизации -->
-  <MpRunArbiter>Запустить Arbiter</MpRunArbiter>
-  <MpArbiterDesc>Копия игры, которая запускается в фоне и помогает в обнаружении/решении проблем с десинхронизацией.</MpArbiterDesc>
-  <MpAsyncTime>Async time</MpAsyncTime> <!-- длинна строки макс 13  -->
-  <MpAsyncTimeDesc>Индивидуальное течение времени для каждой карты и планеты.</MpAsyncTimeDesc>
-  <MpHostingDevMode>Dev mode</MpHostingDevMode> <!-- длинна строки макс 13  -->
+  <MpLanDesc2>Ваш LAN-адрес: {0}</MpLanDesc2> <!-- Адрес интерфейса который используется при подключении к внешним ресурсам согласно локальной таблице маршуцизации -->
+  <MpRunArbiter>Запуск арбитра</MpRunArbiter>
+  <MpArbiterDesc>Копия игры, которая запускается в фоне и помогает в обнаружении проблем с десинхронизацией.</MpArbiterDesc>
+  <MpAsyncTime>Асинх. время</MpAsyncTime> <!-- длинна строки макс 13  -->
+  <MpAsyncTimeDesc>Асинхронное время.\nИндивидуальное течение времени для каждой карты и планеты.</MpAsyncTimeDesc>
+  <MpHostingDevMode>Режим отладки</MpHostingDevMode> <!-- длинна строки макс 13  -->
   <MpHostingDevModeDesc1>Включает доступ к инструментам режима разработчика RimWorld.</MpHostingDevModeDesc1>
-  <MpHostingDevModeDesc2>Обратите внимание, что доступны не все функции инструментов разработчика. Поддержка связанная с неработающими функциями не оказывается.</MpHostingDevModeDesc2> <!-- Перефразировать? => Чуть лучше но все равно еще можно подумать -->
+  <MpHostingDevModeDesc2>Обратите внимание, что доступны не все функции инструментов разработчика. Поддержка, связанная с неработающими функциями, не оказывается.</MpHostingDevModeDesc2>
   <MpHostingDevModeHostOnly>Только хост</MpHostingDevModeHostOnly>
   <MpHostingDevModeEveryone>Все</MpHostingDevModeEveryone>
-  <MpLogDesyncTraces>Desync traces</MpLogDesyncTraces> <!-- длинна строки макс 13  -->
-  <MpLogDesyncTracesDesc1>Дополнительно логировать стеки вызов для отладки десинхронизации.</MpLogDesyncTracesDesc1>
-  <MpLogDesyncTracesDesc2>Не работает на 32 битных и ARM (Apple Silicon) процессорах.</MpLogDesyncTracesDesc2>
-  <MpExperimentalFeature>Экспериментальная возможность</MpExperimentalFeature>
-  <MpSyncConfigs>Синхр. настр.</MpSyncConfigs> <!-- длинна строки макс 13  -->
-  <MpSyncConfigsDescNew1>Дает возможность скачать настройки ваших модов другими игроками при подключении.</MpSyncConfigsDescNew1>
+  <MpLogDesyncTraces>Трассировка</MpLogDesyncTraces> <!-- длинна строки макс 13  -->
+  <MpLogDesyncTracesDesc1>Дополнительно логировать стеки вызовов для отладки десинхронизации.</MpLogDesyncTracesDesc1>
+  <MpLogDesyncTracesDesc2>Не работает на 32-битных и ARM (Apple Silicon) процессорах.</MpLogDesyncTracesDesc2>
+  <MpExperimentalFeature>Экспериментальная возможность.</MpExperimentalFeature>
+  <MpSyncConfigs>Синхронизация настроек</MpSyncConfigs>
+  <MpSyncConfigsDescNew1>Позволяет подключающимся игрокам скачивать ваши файлы конфигурации модов.</MpSyncConfigsDescNew1>
   <MpSyncConfigsDescNew2>Включение может уменьшить количество десинхронизаций.</MpSyncConfigsDescNew2>
-  <MpSyncConfigsDescNew3>Обратите внимание, что настройки некоторых модов могут содержать конфиденциальную информацию (Например API токен Twitch используемый стриммерскими модами).</MpSyncConfigsDescNew3>
-  <MpAutoJoinPoints>Auto join-points</MpAutoJoinPoints> <!-- длинна строки макс 13  -->
+  <MpSyncConfigsDescNew3>Обратите внимание, что настройки некоторых модов могут содержать конфиденциальную информацию (например, API-токен Twitch, используемый стримерскими модами).</MpSyncConfigsDescNew3>
+  <MpAutoJoinPoints>Автоточки</MpAutoJoinPoints> <!-- длинна строки макс 13  -->
   <MpAutoJoinPointsDesc1>Переключает автоматическое создание точек подключения.</MpAutoJoinPointsDesc1>
-  <MpAutoJoinPointsDesc2>Создание точек подключения медленнее чем просто сохранение но ускоряет процесс подключения игроков, так как им не требуется симулировать игру.</MpAutoJoinPointsDesc2>
+  <MpAutoJoinPointsDesc2>Создание точек подключения медленнее, чем просто сохранение, но ускоряет процесс подключения игроков, так как им не требуется симулировать игру.</MpAutoJoinPointsDesc2>
   <MpAutoJoinPointsDesc3>Вы также можете самостоятельно создать точку подключения, написав /joinpoint в чат.</MpAutoJoinPointsDesc3>
   <MpAutoJoinPointsJoin>При подключении</MpAutoJoinPointsJoin>
   <MpAutoJoinPointsDesync>При десинхронизации</MpAutoJoinPointsDesync>
   <MpAutoJoinPointsAutosave>При автосохранении</MpAutoJoinPointsAutosave>
   <MpHostGamePassword>Пароль</MpHostGamePassword>
-  <MpPauseOn>Пауза на</MpPauseOn>
+  <MpPauseOn>Пауза при</MpPauseOn>
   <MpPauseOnJoin>подкл.</MpPauseOnJoin> <!-- подключение/дисинхронизация делят одну строчку на двоих, и в полном виде галка десинхронизации не помещяется. -->
   <MpPauseOnDesync>десинх.</MpPauseOnDesync> <!-- см MpPauseOnJoin -->
-  <MpTimeControl>Контр. времени</MpTimeControl>
-  <MpTimeControlEveryoneControls>Все контролируют.</MpTimeControlEveryoneControls>
+  <MpTimeControl>Упр. временем</MpTimeControl>
+  <MpTimeControlEveryoneControls>Все контролируют</MpTimeControlEveryoneControls>
   <MpTimeControlLowestWins>Побеждает наименьшее</MpTimeControlLowestWins>
   <MpTimeControlHostOnly>Только хост</MpTimeControlHostOnly>
-  <MpPauseOnLetter>Пауза при соб.</MpPauseOnLetter> <!-- длинна строки макс 14?  -->
+  <MpPauseOnLetter>Автопауза</MpPauseOnLetter> <!-- длинна строки макс 14?  -->
   <MpPauseOnLetterNever>Никогда</MpPauseOnLetterNever>
   <MpPauseOnLetterMajorThreat>Серьёзные угрозы</MpPauseOnLetterMajorThreat>
   <MpPauseOnLetterAnyThreat>Любые угрозы</MpPauseOnLetterAnyThreat>
   <MpPauseOnLetterAnyLetter>Любые сообщения</MpPauseOnLetterAnyLetter>
+  <MpSteamNotAvailable>Steam недоступен.</MpSteamNotAvailable>
 
   <!-- Server browser info buttons -->
   <MpWebsiteButton>Веб-сайт</MpWebsiteButton>
   <MpDiscordButton>Discord</MpDiscordButton>
-  <MpLinkButtonDesc>Нажмите чтобы открыть:</MpLinkButtonDesc>
+  <MpLinkButtonDesc>Нажмите, чтобы открыть:</MpLinkButtonDesc>
   <MpCompatibilityButton>Совместимость модов</MpCompatibilityButton>
   <MpCompatibilityButtonDesc1>Открывает окно с информацией о совместимости с модами.</MpCompatibilityButtonDesc1>
-  <MpCompatibilityButtonDesc2>Также доступна в списке модов.</MpCompatibilityButtonDesc2>
+  <MpCompatibilityButtonDesc2>Также доступно в списке модов.</MpCompatibilityButtonDesc2>
   <MpActiveConfigsButton>Активные настройки</MpActiveConfigsButton>
-  <MpActiveConfigsButtonDesc1>Эта копия RimWorld запущенна с настройками из игры: {0}</MpActiveConfigsButtonDesc1>
+  <MpActiveConfigsButtonDesc1>Эта копия RimWorld запущена с настройками из игры: {0}</MpActiveConfigsButtonDesc1>
   <MpActiveConfigsButtonDesc2>Перезапустите игру, чтобы восстановить предыдущие настройки.</MpActiveConfigsButtonDesc2>
 
   <!-- Server browser tabs -->
@@ -244,8 +253,8 @@
   <MpLanSearching>Поиск</MpLanSearching> <!-- Lan window -->
 
   <!-- Server browser Steam tab -->
-  <MpNotConnectedToSteam>Не подключен к Steam</MpNotConnectedToSteam>
-  <MpNoFriendsPlaying>Нет друзей играющих в RimWorld</MpNoFriendsPlaying>
+  <MpNotConnectedToSteam>Нет подключения к Steam</MpNotConnectedToSteam>
+  <MpNoFriendsPlaying>Нет друзей, играющих в RimWorld</MpNoFriendsPlaying>
   <MpPlayingRimWorld>Играет RimWorld</MpPlayingRimWorld>
   <MpNotInMultiplayer>Не в мультиплеере</MpNotInMultiplayer>
 
@@ -253,24 +262,24 @@
   <MpMultiplayerSaves>Мультиплеер</MpMultiplayerSaves>
   <MpSingleplayerSaves>Одиночная игра</MpSingleplayerSaves>
   <MpSaveOutdated>(Устарело)</MpSaveOutdated>
-  <MpSaveOutdatedDesc>Это сохранение было сделано в RimWorld {0} но у вас запущенна версия {1}.</MpSaveOutdatedDesc>
+  <MpSaveOutdatedDesc>Это сохранение было сделано в RimWorld {0}, но у вас запущена версия {1}.</MpSaveOutdatedDesc>
   <MpHostButton>Создать</MpHostButton>
-  <MpWatchReplay>Смотреть</MpWatchReplay> <!-- Need testing Как текст отражает суть-->
+  <MpWatchReplay>Смотреть</MpWatchReplay>
   <MpNothingSelected>Не выбрано сохранение</MpNothingSelected>
   <MpNoSaves>Мультиплеер может быть запущен только из существующих сохранений</MpNoSaves>
   <MpSeeModList>Открыть список модов</MpSeeModList>
   <MpOpenSaveFolder>Открыть папку с сохранениями</MpOpenSaveFolder>
-  <MpContinueAnyway>Все равно продолжить</MpContinueAnyway>
+  <MpContinueAnyway>Всё равно продолжить</MpContinueAnyway>
   <MpFileRenameButton>Переименовать</MpFileRenameButton>
   <MpFileRename>Переименовать файл в</MpFileRename>
-  
+
   <!-- Mismatch screen -->
   <MpDataMismatch>Несовпадение данных</MpDataMismatch>
-  <MpConnectAnyway>Все равно подключится</MpConnectAnyway>
+  <MpConnectAnyway>Всё равно подключиться</MpConnectAnyway>
   <MpFixAndRestart>Исправить и перезапустить</MpFixAndRestart>
   <MpMismatchQuit>Выйти</MpMismatchQuit>
-  <MpMismatchDefsDiff>Данные определений модов отличаются. Они должны совпадать с сервером для подключения.</MpMismatchDefsDiff> <!-- Перефразировать? -->
-  <MpRestartNeeded>Для применения изменений: списка модов, файлов, и настроек, игру необходимо перезапустить.</MpRestartNeeded>
+  <MpMismatchDefsDiff>Наборы данных модов не совпадают. Для подключения к серверу они должны быть идентичны.</MpMismatchDefsDiff>
+  <MpRestartNeeded>Для применения изменений: списка модов, файлов и настроек, игру необходимо перезапустить.</MpRestartNeeded>
   <MpApplyConfigs>Использовать настройки сервера</MpApplyConfigs>
   <MpApplyConfigsTip>Временное использование настроек сервера, ваши настройки будут возвращены при перезапуске игры. Ваши файлы настроек перезаписаны не будут.</MpApplyConfigsTip>
   <MpApplyModList>Использовать список модов сервера</MpApplyModList>
@@ -292,7 +301,7 @@
   <MpMismatchModListRefresh>Обновить</MpMismatchModListRefresh>
   <MpMismatchNotInstalled>Не установлены: {0}</MpMismatchNotInstalled>
   <MpMismatchModListsMismatch>Списки модов отличаются. Игра должна быть перезапущена.</MpMismatchModListsMismatch>
-  <MpMismatchWrongOrder>Списки модов совпадают но их порядок отличается. Игра должна быть перезапущена.</MpMismatchWrongOrder>
+  <MpMismatchWrongOrder>Списки модов совпадают, но их порядок отличается. Игра должна быть перезапущена.</MpMismatchWrongOrder>
   <MpMismatchModListsMatch>Списки модов совпадают</MpMismatchModListsMatch>
   <MpMismatchSubscribe>Подписаться на недостающие моды</MpMismatchSubscribe>
   <MpMismatchSubscribeMsg>Подписан на {0} мод(а/ов). Загрузка в фоновом режиме...</MpMismatchSubscribeMsg>
@@ -305,14 +314,14 @@
   <MpMismatchTreeRefresh>Обновить</MpMismatchTreeRefresh>
   <MpMismatchTreeMissing>Отсутствует</MpMismatchTreeMissing>
   <MpMismatchTreeAdded>Добавлен</MpMismatchTreeAdded>
-  <MpMismatchTreeModified>Изменен</MpMismatchTreeModified>
-  <MpMismatchFilesInfo>Проблема с различиями в файлах модов должна быть решена самостоятельно или проигнорирована. Она обычно вызвана различиями в версиях модов или файлами которые остались после обновления.</MpMismatchFilesInfo>
-  <MpMismatchFilesInfoMods>Вы можете попробовать обновить/переустановить эти моды (или переподписаться если они доступны в Steam).</MpMismatchFilesInfoMods>
-  <MpMismatchFilesInfoCore>Для решения проблем с Core и дополнениями, удалите их папки и проверьте целостность игровых файлов в Steam (Совершенно безопасно, пользовательские данные находятся в другом месте). Наведите курсор на папку выше, чтобы увидеть их нахождение.</MpMismatchFilesInfoCore>
+  <MpMismatchTreeModified>Изменён</MpMismatchTreeModified>
+  <MpMismatchFilesInfo>Проблема с различиями в файлах модов должна быть решена самостоятельно или проигнорирована. Она обычно вызвана различиями в версиях модов или файлами, которые остались после обновления.</MpMismatchFilesInfo>
+  <MpMismatchFilesInfoMods>Вы можете попробовать обновить/переустановить эти моды (или переподписаться, если они доступны в Steam).</MpMismatchFilesInfoMods>
+  <MpMismatchFilesInfoCore>Для решения проблем с Core и дополнениями, удалите их папки и проверьте целостность игровых файлов в Steam (совершенно безопасно, пользовательские данные находятся в другом месте). Наведите курсор на папку выше, чтобы увидеть их расположение.</MpMismatchFilesInfoCore>
   <MpMismatchFilesInfoHost>Проблема также может быть на стороне хоста, и ему может быть необходимо повторить шаги выше.</MpMismatchFilesInfoHost>
-  <MpMismatchFileShowPath>Зажмите shift чтобы показать путь до файлов.</MpMismatchFileShowPath>
-  <MpMismatchFileOpenPath>Нажмите с зажатым shift чтобы перейти в папку.</MpMismatchFileOpenPath>
-  <MpMismatchNodeExpand>Нажмите чтобы свернуть/развернуть.</MpMismatchNodeExpand>
+  <MpMismatchFileShowPath>Зажмите Shift, чтобы показать путь к файлам.</MpMismatchFileShowPath>
+  <MpMismatchFileOpenPath>Нажмите с зажатым Shift, чтобы перейти в папку.</MpMismatchFileOpenPath>
+  <MpMismatchNodeExpand>Нажмите, чтобы свернуть/развернуть.</MpMismatchNodeExpand>
   <MpConfigSyncDisabled>Хост отключил синхронизацию настроек.</MpConfigSyncDisabled>
   <MpFilesMatch>Файлы совпадают</MpFilesMatch>
   <MpConfigsMatch>Настройки совпадают</MpConfigsMatch>
@@ -328,13 +337,13 @@
   <MpModCompatHeaderModName>Имя мода</MpModCompatHeaderModName>
   <MpModCompatHeaderStatus>Статус</MpModCompatHeaderStatus>
   <MpModCompatHeaderNotes>Примечание</MpModCompatHeaderNotes>
-  <MpModCompatXmlOnlyDesc>Моды состоящие только из XML файлов, без дополнительной логики, всегда совместимы. Обратите внимание, они могут использовать несовместимые моды как зависимости.</MpModCompatXmlOnlyDesc>
+  <MpModCompatXmlOnlyDesc>Моды, состоящие только из XML-файлов, без дополнительной логики, всегда совместимы. Обратите внимание, они могут использовать несовместимые моды в качестве зависимостей.</MpModCompatXmlOnlyDesc>
   <MpModCompatScore4>Мод совместим</MpModCompatScore4>
   <MpModCompatScore3>Хорошая совместимость. Некоторые незначительные функции не работают или вызывают десинхронизацию.</MpModCompatScore3>
   <MpModCompatScore2>Плохая совместимость. Некоторые основные и важные функции не работают или вызывают десинхронизацию.</MpModCompatScore2>
-  <MpModCompatScore1>Не совместим</MpModCompatScore1>
-  <MpModCompatScoreUnk>Неизвестно; пожалуйста поделитесь своими находками в канале #mod-report нашего Discord сервера</MpModCompatScoreUnk>
+  <MpModCompatScore1>Несовместим</MpModCompatScore1>
+  <MpModCompatScoreUnk>Неизвестно; пожалуйста, поделитесь своими находками в канале #mod-report нашего Discord сервера.</MpModCompatScoreUnk>
   <MpHideTranslationMods>Скрыть локализационные моды</MpHideTranslationMods>
-  <MpHideTranslationModsDesc>Моды реализующие только локализацию всегда совместимы.</MpHideTranslationModsDesc>
+  <MpHideTranslationModsDesc>Моды, реализующие только локализацию, всегда совместимы.</MpHideTranslationModsDesc>
 
 </LanguageData>
