@@ -6,7 +6,7 @@
   <MpMultiplayerButtonTooltip>Shift + левый клик - копировать\nShift + правый клик - параметры</MpMultiplayerButtonTooltip>
   <MpLoadingError1>Ошибка во время загрузки мода Multiplayer.</MpLoadingError1>
   <MpLoadingError2>Это может вызвать десинхронизацию при игре.</MpLoadingError2>
-  <MpLoadingError3>Скорее всего, это связано с тем, что версия мода Multiplayer не совместима с вашей версией RimWorld.</MpLoadingError3>
+  <MpLoadingError3>Скорее всего, это связано с тем, что версия мода Multiplayer несовместима с вашей версией RimWorld.</MpLoadingError3>
   <MpLoadingError4>Вы можете попробовать обновить/откатить версию Multiplayer или RimWorld.</MpLoadingError4>
   <MpLoadingError5>Обратите внимание, что игра могла обновиться совсем недавно и новая версия мода Multiplayer может быть ещё недоступна.</MpLoadingError5>
 
@@ -21,7 +21,7 @@
   <MpTraderLeavesIn>Уходит через {0}</MpTraderLeavesIn>
   <MpNotAvailable>Недоступно в мультиплеере.</MpNotAvailable>
   <MpCallingFactionNotAvailable>На текущий момент вызов других фракций недоступен в мультиплеере.</MpCallingFactionNotAvailable> <!-- На данный момент не используется -->
-  <MpLowestWinsButtonsDesc1>Текущие голоса за скорость игры, используется наименьшая из скоростей.</MpLowestWinsButtonsDesc1>
+  <MpLowestWinsButtonsDesc1>Голосование за скорость игры. Выбирается наименьшая из предложенных скоростей.</MpLowestWinsButtonsDesc1>
   <MpLowestWinsButtonsDesc2>Shift + Пробел для отмены своего голоса.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>Чтобы сбросить голоса всех игроков, хост должен зажать Shift и кликнуть сюда.</MpLowestWinsButtonsDesc3>
 
@@ -36,7 +36,7 @@
   <MpAsyncTimeDisabled>Изменение доступно только при включённой опции «Асинхронное время», выбранной при создании игры.\n\n</MpAsyncTimeDisabled>
   <MpSettleFaction>Основать фракцию</MpSettleFaction>
   <MpJoinFaction>Вступить во фракцию</MpJoinFaction>
-  <MpLocateOnMap>Найти на глобальной карте.</MpLocateOnMap>
+  <MpLocateOnMap>Найти на глобальной карте</MpLocateOnMap>
   <MpJoin>Войти</MpJoin>
   <MpEmptyFactionName>Название фракции не может быть пустым.</MpEmptyFactionName>
   <MpTakenFactionName>Название фракции уже занято.</MpTakenFactionName>
@@ -69,7 +69,7 @@
   <MpSteamTimedOut>Время ожидания соединения истекло</MpSteamTimedOut>
   <MpSteamGenericError>Ошибка подключения</MpSteamGenericError>
   <MpPacketErrorLocal>Ошибка чтения пакетов. Вы можете изучить лог ошибок для дополнительной информации.</MpPacketErrorLocal>
-  <MpPacketErrorRemote>Удаленная ошибка чтения пакетов. Хост может изучить лог ошибок для дополнительной информации.</MpPacketErrorRemote>
+  <MpPacketErrorRemote>Удалённая ошибка чтения пакетов. Хост может изучить лог ошибок для дополнительной информации.</MpPacketErrorRemote>
   <MpConnectionFailed>Подключение не удалось</MpConnectionFailed>
   <MpConnectionFailedWithInfo>Подключение не удалось ({0})</MpConnectionFailedWithInfo>
   <MpInvalidUsernameAlreadyPlaying>Ваше имя пользователя уже используется</MpInvalidUsernameAlreadyPlaying>
@@ -118,7 +118,7 @@
   <MpPingLocButtonSetting>Создать метку</MpPingLocButtonSetting> <!-- длинна строки макс ~13 -->
   <MpJumpToPingButtonSetting>Переместиться к метке</MpJumpToPingButtonSetting> <!-- длинна строки макс ~13 -->
   <MpEnableCrossPlanetLayerPings>Включить отображение меток между слоями планеты</MpEnableCrossPlanetLayerPings>
-  <MpEnableCrossPlanetLayerPingsDesc>Включает отображение меток с других слоёв планеты поверх текущего.\n\nС некоторыми модами это может работать некорректно; если вы столкнётесь с метками, отображающимися не в тех местах - отключите эту опцию.</MpEnableCrossPlanetLayerPingsDesc>
+  <MpEnableCrossPlanetLayerPingsDesc>Включает отображение меток с других слоёв планеты поверх текущего.\n\nС некоторыми модами это может работать некорректно; если вы столкнётесь с метками, отображающимися не в тех местах, отключите эту опцию.</MpEnableCrossPlanetLayerPingsDesc>
   <MpShowMainMenuAnimation>Показывать фоновую анимацию в главном меню</MpShowMainMenuAnimation>
   <MpPlayerCursorTransparency>Прозрачные курсоры игроков</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>Общие настройки</MpSettingsPageGeneral>
@@ -188,7 +188,7 @@
   <MpAutosavesDays>дней</MpAutosavesDays>
   <MpAutosavesDesc1>Интервал между автосохранениями.</MpAutosavesDesc1>
   <MpAutosavesDesc2>Нажмите, чтобы переключиться между игровыми днями и реальными минутами.</MpAutosavesDesc2>
-  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минутам (быстрой: 5.5 минут, супер-быстрой: 2.7 минуты)</MpAutosavesDesc3>
+  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минуты (быстрой: 5.5 минут, супер-быстрой: 2.7 минуты)</MpAutosavesDesc3>
   <MpLanDesc1>Транслировать информацию об игре в локальную сеть.</MpLanDesc1>
   <MpLanDesc2>Ваш LAN-адрес: {0}</MpLanDesc2> <!-- Адрес интерфейса который используется при подключении к внешним ресурсам согласно локальной таблице маршуцизации -->
   <MpRunArbiter>Запуск арбитра</MpRunArbiter>
@@ -314,7 +314,7 @@
   <MpMismatchTreeRefresh>Обновить</MpMismatchTreeRefresh>
   <MpMismatchTreeMissing>Отсутствует</MpMismatchTreeMissing>
   <MpMismatchTreeAdded>Добавлен</MpMismatchTreeAdded>
-  <MpMismatchTreeModified>Изменен</MpMismatchTreeModified>
+  <MpMismatchTreeModified>Изменён</MpMismatchTreeModified>
   <MpMismatchFilesInfo>Проблема с различиями в файлах модов должна быть решена самостоятельно или проигнорирована. Она обычно вызвана различиями в версиях модов или файлами, которые остались после обновления.</MpMismatchFilesInfo>
   <MpMismatchFilesInfoMods>Вы можете попробовать обновить/переустановить эти моды (или переподписаться, если они доступны в Steam).</MpMismatchFilesInfoMods>
   <MpMismatchFilesInfoCore>Для решения проблем с Core и дополнениями, удалите их папки и проверьте целостность игровых файлов в Steam (совершенно безопасно, пользовательские данные находятся в другом месте). Наведите курсор на папку выше, чтобы увидеть их расположение.</MpMismatchFilesInfoCore>
@@ -342,7 +342,7 @@
   <MpModCompatScore3>Хорошая совместимость. Некоторые незначительные функции не работают или вызывают десинхронизацию.</MpModCompatScore3>
   <MpModCompatScore2>Плохая совместимость. Некоторые основные и важные функции не работают или вызывают десинхронизацию.</MpModCompatScore2>
   <MpModCompatScore1>Несовместим</MpModCompatScore1>
-  <MpModCompatScoreUnk>Неизвестно; пожалуйста, поделитесь своими находками в канале #mod-report нашего Discord сервера</MpModCompatScoreUnk>
+  <MpModCompatScoreUnk>Неизвестно; пожалуйста, поделитесь своими находками в нашем Discord сервере.</MpModCompatScoreUnk>
   <MpHideTranslationMods>Скрыть локализационные моды</MpHideTranslationMods>
   <MpHideTranslationModsDesc>Моды, реализующие только локализацию, всегда совместимы.</MpHideTranslationModsDesc>
 
