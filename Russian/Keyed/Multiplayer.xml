@@ -342,7 +342,7 @@
   <MpModCompatScore3>Хорошая совместимость. Некоторые незначительные функции не работают или вызывают десинхронизацию.</MpModCompatScore3>
   <MpModCompatScore2>Плохая совместимость. Некоторые основные и важные функции не работают или вызывают десинхронизацию.</MpModCompatScore2>
   <MpModCompatScore1>Несовместим</MpModCompatScore1>
-  <MpModCompatScoreUnk>Неизвестно; пожалуйста, поделитесь своими находками в нашем Discord сервере.</MpModCompatScoreUnk>
+  <MpModCompatScoreUnk>Неизвестно; пожалуйста, поделитесь своими находками в канале #mod-report нашего Discord сервера.</MpModCompatScoreUnk>
   <MpHideTranslationMods>Скрыть локализационные моды</MpHideTranslationMods>
   <MpHideTranslationModsDesc>Моды, реализующие только локализацию, всегда совместимы.</MpHideTranslationModsDesc>
 
