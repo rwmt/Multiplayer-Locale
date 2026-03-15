@@ -188,7 +188,7 @@
   <MpAutosavesDays>дней</MpAutosavesDays>
   <MpAutosavesDesc1>Интервал между автосохранениями.</MpAutosavesDesc1>
   <MpAutosavesDesc2>Нажмите, чтобы переключиться между игровыми днями и реальными минутами.</MpAutosavesDesc2>
-  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минуты (быстрой: 5.5 минут, супер-быстрой: 2.7 минуты)</MpAutosavesDesc3>
+  <MpAutosavesDesc3>Один игровой день на нормальной скорости равен примерно 16.6 минуты (быстрой: 5.5 минуты, супер-быстрой: 2.7 минуты).</MpAutosavesDesc3>
   <MpLanDesc1>Транслировать информацию об игре в локальную сеть.</MpLanDesc1>
   <MpLanDesc2>Ваш LAN-адрес: {0}</MpLanDesc2> <!-- Адрес интерфейса который используется при подключении к внешним ресурсам согласно локальной таблице маршуцизации -->
   <MpRunArbiter>Запуск арбитра</MpRunArbiter>
@@ -203,7 +203,7 @@
   <MpLogDesyncTraces>Трассировка</MpLogDesyncTraces> <!-- длинна строки макс 13  -->
   <MpLogDesyncTracesDesc1>Дополнительно логировать стеки вызовов для отладки десинхронизации.</MpLogDesyncTracesDesc1>
   <MpLogDesyncTracesDesc2>Не работает на 32-битных и ARM (Apple Silicon) процессорах.</MpLogDesyncTracesDesc2>
-  <MpExperimentalFeature>Экспериментальная возможность</MpExperimentalFeature>
+  <MpExperimentalFeature>Экспериментальная возможность.</MpExperimentalFeature>
   <MpSyncConfigs>Синхронизация настроек</MpSyncConfigs>
   <MpSyncConfigsDescNew1>Позволяет подключающимся игрокам скачивать ваши файлы конфигурации модов.</MpSyncConfigsDescNew1>
   <MpSyncConfigsDescNew2>Включение может уменьшить количество десинхронизаций.</MpSyncConfigsDescNew2>
