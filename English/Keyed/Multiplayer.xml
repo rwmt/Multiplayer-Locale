@@ -162,6 +162,7 @@
 
   <!-- Desynced -->
   <MpDesynced>The game state has desynced.</MpDesynced>
+  <MpDesyncedSubtitle>Detailed technical information is included in the desync file</MpDesyncedSubtitle>
   <MpTryResync>Try resync</MpTryResync>
   <MpOpenDesyncFolder>Open info folder</MpOpenDesyncFolder>
   <MpDesyncedWaiting>Waiting for data from the host</MpDesyncedWaiting>
