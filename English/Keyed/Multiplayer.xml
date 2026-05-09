@@ -69,6 +69,7 @@
   <MpSteamTimedOut>Connection timed out</MpSteamTimedOut>
   <MpSteamGenericError>Connection error</MpSteamGenericError>
   <MpPacketErrorLocal>Local packet read error. See the log for more info.</MpPacketErrorLocal>
+  <MpPacketErrorLocalBadId>You are probably using a different Multiplayer version than the host!</MpPacketErrorLocalBadId>
   <MpPacketErrorRemote>Remote packet read error. The host can view the log for more info.</MpPacketErrorRemote>
   <MpConnectionFailed>Connection failed</MpConnectionFailed>
   <MpConnectionFailedWithInfo>Connection failed ({0})</MpConnectionFailedWithInfo>
