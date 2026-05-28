@@ -69,6 +69,7 @@
   <MpSteamTimedOut>Przekroczono limit czasu połączenia</MpSteamTimedOut>
   <MpSteamGenericError>Błąd połączenia</MpSteamGenericError>
   <MpPacketErrorLocal>Błąd odczytu pakietu lokalnego. Zobacz log, aby uzyskać więcej informacji.</MpPacketErrorLocal>
+  <MpPacketErrorLocalBadId>Prawdopodobnie używasz innej wersji Multiplayer niż host!</MpPacketErrorLocalBadId>
   <MpPacketErrorRemote>Błąd odczytu pakietu zdalnego. Host może sprawdzić log, aby uzyskać więcej informacji.</MpPacketErrorRemote>
   <MpConnectionFailed>Połączenie nieudane</MpConnectionFailed>
   <MpConnectionFailedWithInfo>Połączenie nieudane ({0})</MpConnectionFailedWithInfo>
@@ -117,6 +118,8 @@
   <MpEnablePingsSetting>Włącz pingowanie lokalizacji</MpEnablePingsSetting>
   <MpPingLocButtonSetting>Przycisk pingowania lokalizacji</MpPingLocButtonSetting>
   <MpJumpToPingButtonSetting>Przycisk skoku do pinga</MpJumpToPingButtonSetting>
+  <MpEnableCrossPlanetLayerPings>Włącz pingowanie między warstwami planety</MpEnableCrossPlanetLayerPings>
+  <MpEnableCrossPlanetLayerPingsDesc>Umożliwia wyświetlanie pingów z warstw planety znajdujących się pod obecnie wyświetlaną.\n\nMoże to działać niedokładnie przy niektórych modyfikacjach. Jeśli napotkasz problemy z pingami pokazującymi się w błędnych miejscach, wyłącz tę opcję.</MpEnableCrossPlanetLayerPingsDesc>
   <MpShowMainMenuAnimation>Pokaż animację w menu głównym</MpShowMainMenuAnimation>
   <MpPlayerCursorTransparency>Przezroczystość kursorów graczy</MpPlayerCursorTransparency>
   <MpSettingsPageGeneral>Ustawienia ogólne</MpSettingsPageGeneral>
@@ -142,6 +145,7 @@
   <MpAnotherRitualInProgress>Inna sesja przygotowania rytuału jest już w toku.</MpAnotherRitualInProgress>
   <MpSwitchToMap>Przełącz na mapę</MpSwitchToMap>
   <MpMapPortalSession>Wchodzenie do sesji: {0}</MpMapPortalSession>
+  <MpGrowthMomentSession>Sesja momentu wzrostu: {0}</MpGrowthMomentSession>
 
   <!-- Connecting -->
   <MpConnecting>Łączenie</MpConnecting>
@@ -159,6 +163,7 @@
 
   <!-- Desynced -->
   <MpDesynced>Stan gry uległ desynchronizacji.</MpDesynced>
+  <MpDesyncedSubtitle>Szczegółowe informacje techniczne znajdują się w pliku desynchronizacji</MpDesyncedSubtitle>
   <MpTryResync>Spróbuj zresynchronizować</MpTryResync>
   <MpOpenDesyncFolder>Otwórz folder z informacjami</MpOpenDesyncFolder>
   <MpDesyncedWaiting>Oczekiwanie na dane od hosta</MpDesyncedWaiting>
