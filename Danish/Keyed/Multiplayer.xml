@@ -49,6 +49,8 @@
   <MpAutoAcceptSteam>Auto-accepter Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Accepter automatisk alle indgående Steam anmodninger om at oprette forbindelse til spillet.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Gennemsigtig chat</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Vis kun tilgængelige chatkommandoer</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Når det er slået til, viser /help kun de kommandoer, spilleren kan bruge.</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>Slots for auto-saves</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Hvor mange auto-saves der skal beholdes ad gangen.</MpAutosaveSlotsDesc>

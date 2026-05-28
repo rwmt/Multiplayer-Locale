@@ -49,6 +49,8 @@
   <MpAutoAcceptSteam>Hyväksy Steam automaattisesti</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Hyväksy kaikki Steam yhteyspyynnöt automaattisesti.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Läpinäkyvä chat-ikkuna</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Näytä vain käytettävissä olevat chat-komennot</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Kun asetus on käytössä, /help näyttää vain komennot, joita pelaaja voi käyttää.</MpHelpOnlyUsableCommandsDesc>
 
   <MpAutosaveSlots>Automaattiset tallennuspaikat</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Kuinka monta automaattista tallennustiedostoa säilytetään.</MpAutosaveSlotsDesc>

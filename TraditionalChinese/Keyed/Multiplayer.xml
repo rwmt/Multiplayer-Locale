@@ -49,6 +49,8 @@
   <MpAutoAcceptSteam>自動接受 Steam 加入請求</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>自動接受任何 Steam 加入請求</MpAutoAcceptSteamDesc>
   <MpTransparentChat>聊天視窗透明化</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>只顯示可用的聊天指令</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>啟用後，/help 只顯示該玩家可用的指令。</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>自動儲存的列表</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>留存的自動儲存數量</MpAutosaveSlotsDesc>

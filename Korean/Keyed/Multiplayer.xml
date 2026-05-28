@@ -67,6 +67,8 @@
   <MpAutoAcceptSteam>스팀 접속 모두 허용</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>스팀에서의 모든 접속을 자동으로 허용합니다.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>반투명한 채팅창</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>사용 가능한 채팅 명령어만 표시</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>활성화하면 /help에는 플레이어가 사용할 수 있는 명령어만 표시됩니다.</MpHelpOnlyUsableCommandsDesc>
   <MpAutosaveSlots>자동저장 슬롯</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>자동저장 파일을 얼마나 보관할 것인지 정합니다.</MpAutosaveSlotsDesc>
   <MpAggressiveTicking>공격적인 틱 계산</MpAggressiveTicking>

@@ -57,6 +57,8 @@
   <MpAutoAcceptSteam>Automaticky přijímat Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Automaticky přijímat všechny příchozí Steam žádosti o připojení.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Průhledné okno chatu</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Zobrazit jen dostupné příkazy chatu</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Po zapnutí /help vypíše jen příkazy, které může hráč použít.</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>Počet slotů pro automatické ukládání</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Kolik souborů automatického uložení bude zachováno.</MpAutosaveSlotsDesc>

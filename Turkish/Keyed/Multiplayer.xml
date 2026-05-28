@@ -98,6 +98,8 @@
   <MpAutoAcceptSteam>Steam'i otomatik kabul et</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Gelen Steam bağlantı isteklerini otomatik olarak kabul et.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Şeffaf sohbet</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Yalnızca kullanılabilir sohbet komutlarını göster</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Etkinleştirildiğinde /help yalnızca oyuncunun kullanabileceği komutları gösterir.</MpHelpOnlyUsableCommandsDesc>
   <MpAutosaveSlots>Otomatik kayıt slotları</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Kaç adet otomatik kayıt dosyasının tutulacağı.</MpAutosaveSlotsDesc>
   <MpAggressiveTicking>Agresif tikleme (döngü)</MpAggressiveTicking>

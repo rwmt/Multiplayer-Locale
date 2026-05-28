@@ -107,6 +107,8 @@
   <MpAutoAcceptSteam>Автопринятие игроков Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Автоматически принимать любые входящие запросы на подключение от игроков в Steam.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Прозрачное окно чата</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Показывать только доступные команды чата</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Если включено, /help показывает только команды, доступные игроку.</MpHelpOnlyUsableCommandsDesc>
   <MpAutosaveSlots>Автосохранения</MpAutosaveSlots> <!-- длинна строки макс 16 -->
   <MpAutosaveSlotsDesc>Количество файлов автосохранения.</MpAutosaveSlotsDesc>
   <MpAggressiveTicking>Агрессивные тики</MpAggressiveTicking>

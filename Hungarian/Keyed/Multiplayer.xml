@@ -49,6 +49,8 @@
   <MpAutoAcceptSteam>Steam csatlakozás automatikus elfogadása</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Minden steam csatlakozás automatikusan el lesz fogadva.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Átlátszó üzenetablak</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Csak elérhető chatparancsok mutatása</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Bekapcsolva a /help csak azokat a parancsokat mutatja, amelyeket a játékos használhat.</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>Automatikus mentések száma</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Mennyi automatikus mentés legyen elmentve, mielőtt a legrégebbi törlésre kerül.</MpAutosaveSlotsDesc>
