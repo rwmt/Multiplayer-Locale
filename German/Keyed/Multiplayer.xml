@@ -108,7 +108,7 @@
   <MpAutoAcceptSteamDesc>Eingehende Anfragen von Verbindungen über Steam automatisch akzeptieren.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Transparenter Chat</MpTransparentChat>
   <MpHelpOnlyUsableCommands>Nur verfügbare Chatbefehle anzeigen</MpHelpOnlyUsableCommands>
-  <MpHelpOnlyUsableCommandsDesc>Wenn aktiviert, listet /help nur Befehle an, die der Spieler verwenden kann.</MpHelpOnlyUsableCommandsDesc>
+  <MpHelpOnlyUsableCommandsDesc>Wenn aktiviert, listet /help nur Befehle auf, die der Spieler verwenden kann.</MpHelpOnlyUsableCommandsDesc>
   <MpAutosaveSlots>Anzahl Autosaves</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Anzahl der Autosave-Spielstände, die behalten werden sollen.</MpAutosaveSlotsDesc>
   <MpAggressiveTicking>Aggressives Ticking</MpAggressiveTicking>
