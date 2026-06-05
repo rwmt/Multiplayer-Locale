@@ -50,6 +50,8 @@
   <MpAutoAcceptSteam>Samodejno sprejmi Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Samodejno sprejmi katerokoli prihajajočo Steam prošnjo za povezavo</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Transparentni pogovor</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Pokaži samo razpoložljive ukaze za klepet</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Ko je omogočeno, /help prikaže samo ukaze, ki jih igralec lahko uporabi.</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>Reža za samodejno</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Koliko samodejnih shranjevanj naj ohranim?</MpAutosaveSlotsDesc>

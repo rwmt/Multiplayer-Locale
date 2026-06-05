@@ -49,6 +49,8 @@
   <MpAutoAcceptSteam>Auto-aceitar Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Aceitar automaticamente qualquer solicitação de conexão do Steam.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Chat transparente</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Mostrar apenas comandos de chat disponíveis</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>Quando ativado, /help mostra apenas os comandos disponíveis para o jogador.</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>Slots para salvamento automático</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Quantos arquivos de salvamento automático devem ser mantidos.</MpAutosaveSlotsDesc>

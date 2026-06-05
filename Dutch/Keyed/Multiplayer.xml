@@ -50,6 +50,8 @@
   <MpAutoAcceptSteam>Automatisch accepteren Steam</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>Accepteer automatisch alle inkomende aanvragen voor een Steamverbinding.</MpAutoAcceptSteamDesc>
   <MpTransparentChat>Transparante chat</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>Alleen bruikbare chatcommando&apos;s tonen</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>/help toont alleen de ingeschakelde commando&apos;s die de aanvragende speler kan gebruiken.</MpHelpOnlyUsableCommandsDesc>
   
   <MpAutosaveSlots>Autosave slots</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>Hoeveel autosave-bestanden bewaard mogen worden.</MpAutosaveSlotsDesc>

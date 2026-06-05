@@ -81,6 +81,8 @@
   <MpAutoAcceptSteam>自动接受Steam请求</MpAutoAcceptSteam>
   <MpAutoAcceptSteamDesc>自动接受来自Steam的连接请求</MpAutoAcceptSteamDesc>
   <MpTransparentChat>聊天窗口透明</MpTransparentChat>
+  <MpHelpOnlyUsableCommands>只显示可用聊天命令</MpHelpOnlyUsableCommands>
+  <MpHelpOnlyUsableCommandsDesc>启用后，/help 只显示该玩家可用的命令。</MpHelpOnlyUsableCommandsDesc>
   <MpAutosaveSlots>自动保存槽位</MpAutosaveSlots>
   <MpAutosaveSlotsDesc>保留的自动保存数目</MpAutosaveSlotsDesc>
   <MpAggressiveTicking>主动同步</MpAggressiveTicking>
