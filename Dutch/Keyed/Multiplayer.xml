@@ -125,6 +125,7 @@
   
   <MpNotAvailable>Niet beschikbaar in multiplayer.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Andere facties contacteren is momenteel niet mogelijk in Multiplayer.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Factiekleur wijzigen</MpChangeFactionColor>
   
   <MpAggressiveTicking>Agressief tikken</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Probeer altijd automatisch gelijk te blijven met de server ten koste van FPS.</MpAggressiveTickingDesc>

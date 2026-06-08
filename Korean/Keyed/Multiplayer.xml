@@ -16,6 +16,7 @@
   <MpTraderLeavesIn>{0} 떠나기</MpTraderLeavesIn>
   <MpNotAvailable>멀티플레이어 사용 불가</MpNotAvailable>
   <MpCallingFactionNotAvailable>다른 정착지</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>세력 색상 변경</MpChangeFactionColor>
   <MpLowestWinsButtonsDesc1>게임 속도 투표. 항상 가장 느린 속도가 채택됩니다.</MpLowestWinsButtonsDesc1>
   <MpLowestWinsButtonsDesc2>Shift+Space를 통해 당신의 투표를 취소할 수 있습니다.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>호스트는 이곳을 Shift+클릭하여 모든 투표를 취소할 수 있습니다.</MpLowestWinsButtonsDesc3>

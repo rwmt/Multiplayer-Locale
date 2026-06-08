@@ -20,6 +20,7 @@
   <MpTraderLeavesIn>Se va en {0}</MpTraderLeavesIn>
   <MpNotAvailable>No disponible en multijugador.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Llamar a otras facciones no está disponible en multijugador actualmente.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Cambiar color de facción</MpChangeFactionColor>
   <MpLowestWinsButtonsDesc1>Votos del tiempo actual, el menor gana.</MpLowestWinsButtonsDesc1>
   <MpLowestWinsButtonsDesc2>Shift+Espacio para reiniciar tu voto.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>El host puede hacer Shift+Click aquí para reiniciar todos los votos.</MpLowestWinsButtonsDesc3>

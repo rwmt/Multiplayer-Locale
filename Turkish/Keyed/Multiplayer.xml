@@ -26,6 +26,7 @@
   <MpCreateFaction>Ulus Oluştur</MpCreateFaction>
   <MpFactionName>Ulus Adı</MpFactionName>
   <MpFactionColor>Ulus Rengi</MpFactionColor>
+  <MpChangeFactionColor>Ulus rengini değiştir</MpChangeFactionColor>
   <MpDefaultMapTime>Varsayılan Harita Zamanı</MpDefaultMapTime>
   <MpDefaultMapTimeDesc1>Bu onay kutusu, oluşturulan haritadaki başlangıç zamanını kontrol eder.</MpDefaultMapTimeDesc1>
   <MpDefaultMapTimeDesc2>İşaretli: Tek oyunculu haritalara benzer şekilde varsayılan başlangıç zamanını kullanır.</MpDefaultMapTimeDesc2>

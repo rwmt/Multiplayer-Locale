@@ -29,6 +29,7 @@
   <MpCreateFaction>Создать фракцию</MpCreateFaction>
   <MpFactionName>Название фракции</MpFactionName>
   <MpFactionColor>Цвет фракции</MpFactionColor>
+  <MpChangeFactionColor>Изменить цвет фракции</MpChangeFactionColor>
   <MpDefaultMapTime>Время по умолчанию</MpDefaultMapTime>
   <MpDefaultMapTimeDesc1>Данная настройка контролирует стартовое время на генерируемой карте.</MpDefaultMapTimeDesc1>
   <MpDefaultMapTimeDesc2>Включено: использует время начала игры по умолчанию, аналогично однопользовательским картам.</MpDefaultMapTimeDesc2>

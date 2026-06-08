@@ -141,6 +141,7 @@
   
   <MpNotAvailable>Není k dispozici ve hře více hráčů.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Volání dalších frakcí není v současné době k dispozici ve hře pro více hráčů.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Změnit barvu frakce</MpChangeFactionColor>
   
    <MpAggressiveTicking>Agresivní tikání</MpAggressiveTicking>
    <MpAggressiveTickingDesc>Vždy se pokusit automaticky dohnat server i za cenu ztráty FPS.</MpAggressiveTickingDesc>

@@ -20,6 +20,7 @@
   <MpTraderLeavesIn>{0} 后离开</MpTraderLeavesIn>
   <MpNotAvailable>在多人游戏中无效。</MpNotAvailable>
   <MpCallingFactionNotAvailable>目前在多人游戏中不能呼叫其他派系。</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>更改派系颜色</MpChangeFactionColor>
   <MpLowestWinsButtonsDesc1>当前游戏速度投票，较慢者获胜。</MpLowestWinsButtonsDesc1>
   <MpLowestWinsButtonsDesc2>按 Shift+Space 重置您的投票。</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>主机可按Shift并单击此处重置所有投票。</MpLowestWinsButtonsDesc3>

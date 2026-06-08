@@ -29,6 +29,7 @@
   <MpCreateFaction>Create Faction</MpCreateFaction>
   <MpFactionName>Faction Name</MpFactionName>
   <MpFactionColor>Faction Color</MpFactionColor>
+  <MpChangeFactionColor>Change faction color</MpChangeFactionColor>
   <MpDefaultMapTime>Default Map Time</MpDefaultMapTime>
   <MpDefaultMapTimeDesc1>This checkbox controls the starting time on the generated map.</MpDefaultMapTimeDesc1>
   <MpDefaultMapTimeDesc2>Checked: Uses the default start time, similar to singleplayer maps.</MpDefaultMapTimeDesc2>

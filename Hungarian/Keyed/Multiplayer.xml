@@ -127,6 +127,7 @@
   
   <MpNotAvailable>Nem támogatott a többjátékos módban.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Többiek hívása nem támogatott a többjátékos módban. (Kereskedőket lehet.)</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Frakció színének módosítása</MpChangeFactionColor>
   
   <MpAggressiveTicking>Aggresszív felzárkózás</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Folyamatosan próbáljon meg a szerverhez felzárkózni a játék. (FPS csökkenhet!)</MpAggressiveTickingDesc>

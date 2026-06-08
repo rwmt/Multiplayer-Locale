@@ -29,6 +29,7 @@
   <MpCreateFaction>Stwórz frakcję</MpCreateFaction>
   <MpFactionName>Nazwa frakcji</MpFactionName>
   <MpFactionColor>Kolor frakcji</MpFactionColor>
+  <MpChangeFactionColor>Zmień kolor frakcji</MpChangeFactionColor>
   <MpDefaultMapTime>Domyślny czas mapy</MpDefaultMapTime>
   <MpDefaultMapTimeDesc1>To pole wyboru określa godzinę początkową na wygenerowanej mapie.</MpDefaultMapTimeDesc1>
   <MpDefaultMapTimeDesc2>Zaznaczone: Używa domyślnego czasu startowego, podobnie jak na mapach dla jednego gracza.</MpDefaultMapTimeDesc2>

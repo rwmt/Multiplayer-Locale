@@ -20,6 +20,7 @@
   <MpTraderLeavesIn>Покине через {0}</MpTraderLeavesIn>
   <MpNotAvailable>Не доступно в мультиплеєрі.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Виклик інших фракцій наразі недоступний в мультиплеєрі.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Змінити колір фракції</MpChangeFactionColor>
   <MpLowestWinsButtonsDesc1>Current time speed votes, lowest wins.</MpLowestWinsButtonsDesc1>  <!-- TODO: check in-game button -->
   <MpLowestWinsButtonsDesc2>Shift+Space для скасування голосу.</MpLowestWinsButtonsDesc2>
   <MpLowestWinsButtonsDesc3>Хост може натиснути Shift+Click тут для скасування голосування.</MpLowestWinsButtonsDesc3>

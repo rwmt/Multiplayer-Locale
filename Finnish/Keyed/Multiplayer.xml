@@ -131,6 +131,7 @@
 
   <MpNotAvailable>Ei saatavilla moninpelissä.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Toisille ryhmille soittaminen ei ole saatavilla moninpelissä.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Vaihda ryhmittymän väri</MpChangeFactionColor>
 
   <MpAggressiveTicking>Agressiivinen tavoittaminen</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Pyri aina automaattisesti tavoittamaan palvelin, vaikka FPS saattaa kärsiä.</MpAggressiveTickingDesc>
