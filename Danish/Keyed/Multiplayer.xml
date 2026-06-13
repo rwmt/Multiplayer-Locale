@@ -128,6 +128,7 @@
   
   <MpNotAvailable>Ikke tilgængeligt i multiplayer.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Opkald til andre fraktioner er i øjeblikket ikke tilgængeligt i multiplayer.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Skift fraktionsfarve</MpChangeFactionColor>
   
   <MpAggressiveTicking>Aggressiv ticking</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Prøv altid på at indhente serveren selv på bekostning af FPS.</MpAggressiveTickingDesc>

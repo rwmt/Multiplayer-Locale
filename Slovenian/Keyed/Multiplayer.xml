@@ -128,6 +128,7 @@
   
   <MpNotAvailable>Ni navoljo z večimi igralci.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Klicanje drugih frakcij trenutno ni navoljo z večimi igralci.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Spremeni barvo frakcije</MpChangeFactionColor>
   
   <MpAggressiveTicking>Agresivno tiktakanje</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Always try to automatically catch up with the server at the cost of FPS.</MpAggressiveTickingDesc>

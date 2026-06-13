@@ -124,6 +124,7 @@
   
   <MpNotAvailable>不支援多人遊戲</MpNotAvailable>
   <MpCallingFactionNotAvailable>多人遊戲時不支援呼叫其他勢力</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>變更派系顏色</MpChangeFactionColor>
   
   <MpAggressiveTicking>加速 Tick</MpAggressiveTicking>
   <MpAggressiveTickingDesc>嘗試和伺服器進行同步(將降低FPS)</MpAggressiveTickingDesc>

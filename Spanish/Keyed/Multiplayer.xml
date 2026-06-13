@@ -127,6 +127,7 @@
   
   <MpNotAvailable>No disponible para multijugador.</MpNotAvailable>
   <MpCallingFactionNotAvailable>Contactar a otras facciones aún no está disponible en multijugador.</MpCallingFactionNotAvailable>
+  <MpChangeFactionColor>Cambiar color de facción</MpChangeFactionColor>
   
   <MpAggressiveTicking>Ticking agresivo</MpAggressiveTicking>
   <MpAggressiveTickingDesc>Siempre intentar automáticamente alcanzar el servidor pero sacrificando FPS.</MpAggressiveTickingDesc>
