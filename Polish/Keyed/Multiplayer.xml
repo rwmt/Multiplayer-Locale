@@ -177,7 +177,7 @@
   <MpHostDirect>Bezpośrednie</MpHostDirect>
   <MpHostDirectDesc1>Nasłuchuj dołączających graczy na określonych punktach końcowych.</MpHostDirectDesc1>
   <MpHostDirectDesc2>Zazwyczaj pozostawienie tego pola jako 0.0.0.0 wystarczy (oznacza to nasłuchiwanie na wszystkich interfejsach sieciowych). Pamiętaj, że prawdopodobnie będziesz musiał wykonać przekierowanie portów.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>Aby nasłuchiwać na wielu punktach końcowych, rozdziel je znakiem ampersand (&). Adresy IPv6 są obsługiwane.</MpHostDirectDesc3>
+  <MpHostDirectDesc3>Aby nasłuchiwać na wielu punktach końcowych, rozdziel je znakiem ampersand (&amp;). Adresy IPv6 są obsługiwane.</MpHostDirectDesc3>
   <MpHostDirectDesc4>Gdy port nie jest podany, używany jest port 30502.</MpHostDirectDesc4>
   <MpHostIngame>Hostuj z tej gry</MpHostIngame>
   <MpHostSavefile>Hostuj z pliku zapisu</MpHostSavefile>
