@@ -177,7 +177,7 @@
   <MpHostDirect>Bezpośrednie</MpHostDirect>
   <MpHostDirectDesc1>Nasłuchuj dołączających graczy na określonych punktach końcowych.</MpHostDirectDesc1>
   <MpHostDirectDesc2>Zazwyczaj pozostawienie tego pola jako 0.0.0.0 wystarczy (oznacza to nasłuchiwanie na wszystkich interfejsach sieciowych). Pamiętaj, że prawdopodobnie będziesz musiał wykonać przekierowanie portów.</MpHostDirectDesc2>
-  <MpHostDirectDesc3>Aby nasłuchiwać na wielu punktach końcowych, rozdziel je znakiem ampersand (&). Adresy IPv6 są obsługiwane.</MpHostDirectDesc3>
+  <MpHostDirectDesc3>Aby nasłuchiwać na wielu punktach końcowych, rozdziel je znakiem ampersand (&amp;). Adresy IPv6 są obsługiwane.</MpHostDirectDesc3>
   <MpHostDirectDesc4>Gdy port nie jest podany, używany jest port 30502.</MpHostDirectDesc4>
   <MpHostIngame>Hostuj z tej gry</MpHostIngame>
   <MpHostSavefile>Hostuj z pliku zapisu</MpHostSavefile>
@@ -318,6 +318,7 @@
   <MpMismatchTreeMissing>Brakujące</MpMismatchTreeMissing>
   <MpMismatchTreeAdded>Dodane</MpMismatchTreeAdded>
   <MpMismatchTreeModified>Zmodyfikowane</MpMismatchTreeModified>
+  <MpMismatchModListWrongOrder>Zła kolejność</MpMismatchModListWrongOrder>
   <MpMismatchFilesInfo>Różnice w plikach modów należy rozwiązać ręcznie lub zignorować. Zwykle są one spowodowane różnymi wersjami modów lub plikami pozostawionymi po aktualizacji.</MpMismatchFilesInfo>
   <MpMismatchFilesInfoMods>Powinieneś spróbować zaktualizować/zainstalować ponownie problematyczne mody (lub ponownie zasubskrybować, jeśli używasz Steam).</MpMismatchFilesInfoMods>
   <MpMismatchFilesInfoCore>Aby rozwiązać problemy z plikami Core i dodatków, usuń ich foldery i ponownie zweryfikuj spójność plików gry w Steam (jest to bezpieczne, dane użytkownika są przechowywane gdzie indziej). Najedź kursorem na foldery najwyższego poziomu, aby zobaczyć ich ścieżki.</MpMismatchFilesInfoCore>
@@ -325,6 +326,11 @@
   <MpMismatchFileShowPath>Przytrzymaj Shift, aby wyświetlić ścieżkę folderu.</MpMismatchFileShowPath>
   <MpMismatchFileOpenPath>Shift + klik, aby otworzyć folder.</MpMismatchFileOpenPath>
   <MpMismatchNodeExpand>Kliknij, aby rozwinąć/zwinąć.</MpMismatchNodeExpand>
+  <MpMismatchFileAssemblyVersion>Wersja .NET Assembly</MpMismatchFileAssemblyVersion>
+  <MpMismatchFileVersion>Wersja pliku</MpMismatchFileVersion>
+  <MpMismatchFileProductVersion>Wersja produktu</MpMismatchFileProductVersion>
+  <MpMismatchFileModified>Zmodyfikowano</MpMismatchFileModified>
+  <MpMismatchFileUnknown>nieznana</MpMismatchFileUnknown>
   <MpConfigSyncDisabled>Synchronizacja konfiguracji wyłączona przez hosta</MpConfigSyncDisabled>
   <MpFilesMatch>Pliki są zgodne</MpFilesMatch>
   <MpConfigsMatch>Konfiguracje są zgodne</MpConfigsMatch>
