@@ -318,6 +318,7 @@
   <MpMismatchTreeMissing>Missing</MpMismatchTreeMissing>
   <MpMismatchTreeAdded>Added</MpMismatchTreeAdded>
   <MpMismatchTreeModified>Modified</MpMismatchTreeModified>
+  <MpMismatchModListWrongOrder>Wrong order</MpMismatchModListWrongOrder>
   <MpMismatchFilesInfo>Mod file differences need to be resolved manually or ignored. They are usually caused by differing versions of mods or files being left behind after an update.</MpMismatchFilesInfo>
   <MpMismatchFilesInfoMods>You should try to update/reinstall the offending mods (or resubscribe if on Steam).</MpMismatchFilesInfoMods>
   <MpMismatchFilesInfoCore>To resolve issues with Core and expansion files, remove their folders and revalidate game file integrity (safe to do so, user data is stored elsewhere). Hover over the topmost folders to see their paths.</MpMismatchFilesInfoCore>
@@ -325,6 +326,11 @@
   <MpMismatchFileShowPath>Hold shift to show the folder path.</MpMismatchFileShowPath>
   <MpMismatchFileOpenPath>Shift + click to open the folder.</MpMismatchFileOpenPath>
   <MpMismatchNodeExpand>Click to expand/collapse.</MpMismatchNodeExpand>
+  <MpMismatchFileAssemblyVersion>Assembly version</MpMismatchFileAssemblyVersion>
+  <MpMismatchFileVersion>File version</MpMismatchFileVersion>
+  <MpMismatchFileProductVersion>Product version</MpMismatchFileProductVersion>
+  <MpMismatchFileModified>Modified</MpMismatchFileModified>
+  <MpMismatchFileUnknown>unknown</MpMismatchFileUnknown>
   <MpConfigSyncDisabled>Config sync disabled by the host</MpConfigSyncDisabled>
   <MpFilesMatch>Files match</MpFilesMatch>
   <MpConfigsMatch>Configs match</MpConfigsMatch>
