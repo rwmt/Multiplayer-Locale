@@ -318,6 +318,7 @@
   <MpMismatchTreeMissing>Отсутствует</MpMismatchTreeMissing>
   <MpMismatchTreeAdded>Добавлен</MpMismatchTreeAdded>
   <MpMismatchTreeModified>Изменён</MpMismatchTreeModified>
+  <MpMismatchModListWrongOrder>Неверный порядок</MpMismatchModListWrongOrder>
   <MpMismatchFilesInfo>Проблема с различиями в файлах модов должна быть решена самостоятельно или проигнорирована. Она обычно вызвана различиями в версиях модов или файлами, которые остались после обновления.</MpMismatchFilesInfo>
   <MpMismatchFilesInfoMods>Вы можете попробовать обновить/переустановить эти моды (или переподписаться, если они доступны в Steam).</MpMismatchFilesInfoMods>
   <MpMismatchFilesInfoCore>Для решения проблем с Core и дополнениями, удалите их папки и проверьте целостность игровых файлов в Steam (совершенно безопасно, пользовательские данные находятся в другом месте). Наведите курсор на папку выше, чтобы увидеть их расположение.</MpMismatchFilesInfoCore>
@@ -325,6 +326,11 @@
   <MpMismatchFileShowPath>Зажмите Shift, чтобы показать путь к файлам.</MpMismatchFileShowPath>
   <MpMismatchFileOpenPath>Нажмите с зажатым Shift, чтобы перейти в папку.</MpMismatchFileOpenPath>
   <MpMismatchNodeExpand>Нажмите, чтобы свернуть/развернуть.</MpMismatchNodeExpand>
+  <MpMismatchFileAssemblyVersion>Версия сборки</MpMismatchFileAssemblyVersion>
+  <MpMismatchFileVersion>Версия файла</MpMismatchFileVersion>
+  <MpMismatchFileProductVersion>Версия продукта</MpMismatchFileProductVersion>
+  <MpMismatchFileModified>Изменён</MpMismatchFileModified>
+  <MpMismatchFileUnknown>неизвестно</MpMismatchFileUnknown>
   <MpConfigSyncDisabled>Хост отключил синхронизацию настроек.</MpConfigSyncDisabled>
   <MpFilesMatch>Файлы совпадают</MpFilesMatch>
   <MpConfigsMatch>Настройки совпадают</MpConfigsMatch>
